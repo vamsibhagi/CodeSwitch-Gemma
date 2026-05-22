@@ -1,3 +1,19 @@
+---
+license: apache-2.0
+base_model: google/gemma-4-e4b-it
+tags:
+- gemma
+- lora
+- peft
+- trl
+- codeswitching
+- telglish
+- telugu
+language:
+- te
+- en
+---
+
 # CodeSwitch-Gemma: Romanized Telugu (Telglish) Fine-Tuning
 
 This repository contains the dataset, evaluation pipeline, and fine-tuning scripts to train a conversational AI model (specifically **Gemma-4-e4b-it**) to speak natural, conversational **Romanized Telugu (Telglish)**.
