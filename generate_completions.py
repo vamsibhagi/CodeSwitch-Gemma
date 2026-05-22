@@ -114,9 +114,16 @@ def main():
         # Decode only the generated response
         input_len = inputs.input_ids.shape[1]
         generated_ids = outputs[0][input_len:]
-        response = tokenizer.decode(generated_ids, skip_special_tokens=True).strip()
+        response = tokenizer.decode(generated_ids, skip_special_tokens=False).strip()
         
-        # Post-process to prevent leaks of delimiters or thoughts
+        # Strip thought blocks (the tags and the thinking text inside them)
+        response = re.sub(r'<\|channel\|?>thought\n.*?<channel\|?>', '', response, flags=re.DOTALL)
+        
+        # Clean any remaining special tokens
+        for token in tokenizer.all_special_tokens:
+            response = response.replace(token, "")
+            
+        # Post-process to prevent leaks of delimiters or thoughts in plain text
         for stop_word in ["<turn|>", "<|turn>", "<|think|>", "thought\nThinking Process:", "Thinking Process:", "thought\n"]:
             if stop_word in response:
                 response = response.split(stop_word)[0].strip()
