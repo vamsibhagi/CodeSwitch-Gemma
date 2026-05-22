@@ -89,6 +89,7 @@ def main():
     parser.add_argument("--lora_alpha", type=int, default=32, help="LoRA alpha parameter")
     parser.add_argument("--max_steps", type=int, default=-1, help="If > 0, limit the number of training steps and ignore epochs")
     parser.add_argument("--dry-run", action="store_true", help="Perform a dry run smoke test with a tiny test model and small batch")
+    parser.add_argument("--hub_model_id", type=str, default="vamsibhagi/CodeSwitch-Gemma", help="Hugging Face repo ID to push adapters to")
     
     args = parser.parse_args()
 
@@ -257,6 +258,19 @@ def main():
         trainer.model.save_pretrained(args.output_dir)
         tokenizer.save_pretrained(args.output_dir)
         print(f"Fine-tuning complete. Model saved to: {args.output_dir}")
+        
+        # Automatic upload to Hugging Face Model Hub
+        hf_token = os.getenv("HF_TOKEN")
+        if hf_token:
+            try:
+                print(f"Uploading fine-tuned adapters to Hugging Face Hub: {args.hub_model_id}...")
+                trainer.model.push_to_hub(args.hub_model_id, token=hf_token)
+                tokenizer.push_to_hub(args.hub_model_id, token=hf_token)
+                print(f"Successfully uploaded adapters to Hugging Face Hub: https://huggingface.co/{args.hub_model_id}")
+            except Exception as e:
+                print(f"Warning: Failed to push to Hugging Face Hub: {e}")
+        else:
+            print("HF_TOKEN not found in environment. Skipping automatic Hugging Face upload.")
 
 if __name__ == "__main__":
     main()
