@@ -47,15 +47,17 @@ def load_local_dataset(json_path: str) -> Dataset:
         data = json.load(f)
     print(f"Loaded {len(data)} examples from {json_path}")
     
-    messages_list = []
+    prompts = []
+    completions = []
     for x in data:
-        messages = [
+        prompts.append([
             {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": x["prompt"]},
+            {"role": "user", "content": x["prompt"]}
+        ])
+        completions.append([
             {"role": "assistant", "content": x["response"]}
-        ]
-        messages_list.append(messages)
-    return Dataset.from_dict({"messages": messages_list})
+        ])
+    return Dataset.from_dict({"prompt": prompts, "completion": completions})
 
 def get_device_info() -> str:
     if torch.cuda.is_available():
@@ -80,11 +82,11 @@ def print_trainable_parameters(model):
 def main():
     parser = argparse.ArgumentParser(description="Fine-tune Gemma on Telglish (Romanized Telugu) dataset using LoRA")
     parser.add_argument("--model_id", type=str, default="google/gemma-4-e4b-it", help="Hugging Face model ID to fine-tune")
-    parser.add_argument("--dataset_path", type=str, default="tenglish_train_data_cleaned.json", help="Path to the training json dataset")
+    parser.add_argument("--dataset_path", type=str, default="data/train_sft.json", help="Path to the training json dataset")
     parser.add_argument("--output_dir", type=str, default="./gemma_lora_output", help="Directory to save the fine-tuned model and checkpoints")
     parser.add_argument("--epochs", type=int, default=3, help="Number of training epochs")
     parser.add_argument("--batch_size", type=int, default=4, help="Batch size per device")
-    parser.add_argument("--lr", type=float, default=1e-4, help="Learning rate")
+    parser.add_argument("--lr", type=float, default=5e-5, help="Learning rate")
     parser.add_argument("--lora_r", type=int, default=16, help="LoRA rank")
     parser.add_argument("--lora_alpha", type=int, default=32, help="LoRA alpha parameter")
     parser.add_argument("--max_steps", type=int, default=-1, help="If > 0, limit the number of training steps and ignore epochs")
@@ -134,15 +136,17 @@ def main():
             {"prompt": "hello how are you", "response": "nenu chala bagunnanu, nuvvu ela unnav?"},
             {"prompt": "what is your name", "response": "na peru AI assistant andi, cheppandi."}
         ]
-        messages_list = []
+        prompts = []
+        completions = []
         for x in mock_data:
-            messages = [
+            prompts.append([
                 {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": x["prompt"]},
+                {"role": "user", "content": x["prompt"]}
+            ])
+            completions.append([
                 {"role": "assistant", "content": x["response"]}
-            ]
-            messages_list.append(messages)
-        full_dataset = Dataset.from_dict({"messages": messages_list})
+            ])
+        full_dataset = Dataset.from_dict({"prompt": prompts, "completion": completions})
     else:
         print(f"Loading dataset: {args.dataset_path}")
         full_dataset = load_local_dataset(args.dataset_path)

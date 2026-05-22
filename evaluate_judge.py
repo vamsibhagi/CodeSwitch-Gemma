@@ -71,13 +71,13 @@ def run_pre_check(response: str) -> Optional[Dict[str, Any]]:
     
     return None
 
-def load_rubric(filepath: str = "eval.md") -> str:
+def load_rubric(filepath: str = "eval_rubrics.md") -> str:
     if os.path.exists(filepath):
         with open(filepath, "r", encoding="utf-8") as f:
             return f.read()
     else:
         # Fallback to string literal if not found, but it should be present in the workspace
-        return "Rubric file eval.md not found."
+        return "Rubric file eval_rubrics.md not found."
 
 # Calling Gemini API
 def call_gemini(model: str, api_key: str, system_prompt: str, user_prompt: str) -> Dict[str, Any]:
@@ -211,8 +211,8 @@ def main():
     
     import argparse
     parser = argparse.ArgumentParser(description="LLM Evaluation Judge")
-    parser.add_argument("--input", default="tenglish_eval_results.json", help="Input file path")
-    parser.add_argument("--output", default="tenglish_eval_report.json", help="Output report file path")
+    parser.add_argument("--input", default="outputs/baseline_gemma.json", help="Input file path")
+    parser.add_argument("--output", default="reports/baseline_gemma.json", help="Output report file path")
     args = parser.parse_args()
     
     try:
@@ -224,7 +224,7 @@ def main():
         return
 
     # Load Rubrics and Anchors
-    rubric_text = load_rubric("eval.md")
+    rubric_text = load_rubric("eval_rubrics.md")
     
     # Build System Prompt for the Judge
     system_prompt = f"""You are a senior LLM evaluation judge specializing in South Asian code-switching patterns (specifically Romanized Telugu/Telglish blended with English).
