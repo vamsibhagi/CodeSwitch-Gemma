@@ -196,7 +196,7 @@ def main():
         r=args.lora_r,
         lora_alpha=args.lora_alpha,
         target_modules=target_modules,
-        lora_dropout=0.05,
+        lora_dropout=0.1,   # Slightly higher dropout to resist overfitting on small 1k dataset
         bias="none",
         task_type=TaskType.CAUSAL_LM
     )
@@ -226,7 +226,7 @@ def main():
         completion_only_loss=True, # Calculate loss strictly on completion, mask prompt
         max_length=512,
         max_steps=args.max_steps,
-        dataset_text_field=None # Instructs SFTTrainer to use native prompt/completion columns
+        dataset_text_field=None # SFTTrainer auto-detects 'messages' column and applies chat template
     )
     
     # 6. SFTTrainer
