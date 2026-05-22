@@ -1,0 +1,4078 @@
+[
+  {
+    "prompt": "Ippudu konchem garam garam pakodilu thinte entho baguntundi kadha?",
+    "response": "Avunu, varsham paduthundi, pakodilu chala baguntayi ippudu."
+  },
+  {
+    "prompt": "Mana adda lo chinna tea break ki veldama?",
+    "response": "Sare, nenu kuda tea tagali anukuntunna."
+  },
+  {
+    "prompt": "Eeroju night tindi ki em plan chesukunnav?",
+    "response": "Nenu peddaga em cheyaledu, simple ga rasam annam thinadaniki."
+  },
+  {
+    "prompt": "Neeku biryani ante chala ishtam kadha?",
+    "response": "Avunu, biryani na favorite food."
+  },
+  {
+    "prompt": "Ippudu coffee tagalani undhi. Nuvvu kuda tagutava?",
+    "response": "Nenu light ga tagutanu. Nuvvu cheppu."
+  },
+  {
+    "prompt": "Eeroju intlo emanna special tindi vundha?",
+    "response": "Amma chicken curry chesindi."
+  },
+  {
+    "prompt": "Street food ante neeku ishtama, leka intlo tindi ishtama?",
+    "response": "Appudappudu street food baguntundi, kani intlo tindi best."
+  },
+  {
+    "prompt": "Manam pizza order cheddama ippudu?",
+    "response": "Avunu, nenu kuda adi anukuntunna, em topping kavali neeku?"
+  },
+  {
+    "prompt": "Chala busy ga unna, tindi cheyadaniki time ledu.",
+    "response": "Nenu konchem instant noodles cheyagalano ledo choodu."
+  },
+  {
+    "prompt": "Neeku sweet cravings vachhinappudu em chesthav?",
+    "response": "Nenu peddaga sweets thinanu, kani chocolates ishtam."
+  },
+  {
+    "prompt": "Ekkada tiffins baguntayi ikkada daggarlo?",
+    "response": "Mana college pakkane oka kotha tiffin center vachhindi, chala baguntundi."
+  },
+  {
+    "prompt": "Nenu ippude chala pedda burger thinna, inka emi thinalekapotunnanu.",
+    "response": "Avunu, adi chala peddaga untundi."
+  },
+  {
+    "prompt": "Intiki vellaka konchem majjiga tagali anukuntunna, yenda chala undhi.",
+    "response": "Manchi idea, yendaku majjiga chala manchidi."
+  },
+  {
+    "prompt": "Eeroju lunch ki emanna light ga thinte baguntundi.",
+    "response": "Nenu saladi chesanu, thinu."
+  },
+  {
+    "prompt": "Neeku pani chesetappudu snax kavala?",
+    "response": "Avunu, konchem biscuits unte ivvu."
+  },
+  {
+    "prompt": "Chala akaliga undhi, emaina tindi undha?",
+    "response": "Refriger lo fruits unnay, konchem thinu."
+  },
+  {
+    "prompt": "Maa intlo eeroju pulihora chesaru, chala bagundi.",
+    "response": "Aha, naku kuda pulihora ante ishtam."
+  },
+  {
+    "prompt": "Nuvvu weekend dinner ki em cheyagalavu?",
+    "response": "Nenu chicken biryani cheyaniki try chestanu."
+  },
+  {
+    "prompt": "Naaku ice cream tinelani undhi, em flavor ishtam neeku?",
+    "response": "Naku butterscotch ante ishtam, vanilla kuda baguntundi."
+  },
+  {
+    "prompt": "Eeroju evening oka juice tagithe manchidi.",
+    "response": "Avunu, orange juice thagudham."
+  },
+  {
+    "prompt": "Nenu oka kotha restaurant chusanu, Akkada tindi baguntundi antunaru.",
+    "response": "Manam weekend akkadi ki velli thinudham."
+  },
+  {
+    "prompt": "Eeroju breakfast skip chesanu, ippudu chala akaliga undhi.",
+    "response": "Nenu idly chesanu, thinadaniki ready ga undhi."
+  },
+  {
+    "prompt": "Tea ki sugar enduku ekkuva vesi taguthunnav?",
+    "response": "Naku konchem sweet ga unte baguntundi."
+  },
+  {
+    "prompt": "Nuvvu chicken wings ekkada kontavu?",
+    "response": "Supermarket lo baguntayi, fresh ga untayi."
+  },
+  {
+    "prompt": "Evening snax ki em cheddam?",
+    "response": "Aloo bonda cheddama?"
+  },
+  {
+    "prompt": "Ippudu coffee theesukundama, leka tea theesukundama?",
+    "response": "Coffee theesukundam, naku nidra vastundi."
+  },
+  {
+    "prompt": "Nuvvu noodles cheyagalava?",
+    "response": "Avunu, nenu baga cheyagalana."
+  },
+  {
+    "prompt": "Naaku panipuri thinelani undhi.",
+    "response": "Manam intlone cheddama, leka bayata kondama?"
+  },
+  {
+    "prompt": "Intlo palli upma chesanu, thinu.",
+    "response": "Ohh, chala rojulu ayindi palli upma thini."
+  },
+  {
+    "prompt": "Nuvvu tindi ki ekkuva importance isthava, leka pani ki?",
+    "response": "Naku tindi kuda mukhyam, pani kuda mukhyam."
+  },
+  {
+    "prompt": "Eeroju evening food ki em tinnalo teliyatledu.",
+    "response": "Nenu masala dosa chesta."
+  },
+  {
+    "prompt": "Fruits thinadam ishtama neeku?",
+    "response": "Avunu, nenu roju fruits tintanu."
+  },
+  {
+    "prompt": "Chocolate cake chala bagundi, inkonchem kavala neeku?",
+    "response": "Vaddhu, inka chalu naku."
+  },
+  {
+    "prompt": "Manam restaurant ki velli biryani thinudama?",
+    "response": "Sare, eppudu velludham?"
+  },
+  {
+    "prompt": "Na phone battery chala thwaraga drain avuthundhi. Enduku?",
+    "response": "Oh avuna? Neeku konchem background apps close cheyali emo choodu."
+  },
+  {
+    "prompt": "Wi-Fi signals asala levu, network chala slow ga undhi.",
+    "response": "Router restart chesi choodu. Appudu signal konchem better avuthundhi."
+  },
+  {
+    "prompt": "Na charger ekkada kanapadatam ledu. Nuvvu chusava?",
+    "response": "Ledu, nenu choodaledu. Ne bag lo chusava sare sari?"
+  },
+  {
+    "prompt": "Laptop screen pai chinna crack vachindhi, bayam ga undhi.",
+    "response": "Oh no, adhi problem eh. Immediate ga repair cheyinchi better."
+  },
+  {
+    "prompt": "Ninna nunchi headset connect avvatledu. Em cheyali?",
+    "response": "Bluetooth settings lo pair cheyadam try chey, leda restart chey."
+  },
+  {
+    "prompt": "Internet chala slow ga undhi, reels load avvatledu.",
+    "response": "Ne data off chesi on chey, appudu fast avuthundhi."
+  },
+  {
+    "prompt": "Na phone space chala takkuva undhi, photos save cheyali.",
+    "response": "Old files delete chey leda cloud lo upload chey."
+  },
+  {
+    "prompt": "E earphones sound quality asala bagaledu. Maridichi konaali.",
+    "response": "Avunu, vere kotha earphones konalante reviews choodu."
+  },
+  {
+    "prompt": "Smartwatch battery one roju kuda undatledu.",
+    "response": "Brightness tagginchi, unused features off chey."
+  },
+  {
+    "prompt": "Power bank work avvatledu, phone charge avvatledu.",
+    "response": "Power bank charge undho ledo choodu, leda cable maridichi choodu."
+  },
+  {
+    "prompt": "TV remote panicheyyadam ledu, battery change chesa.",
+    "response": "Remote sensor clean chey leda vere remote try chey."
+  },
+  {
+    "prompt": "Na phone speaker nunchi sound chala low ga vastundhi.",
+    "response": "Volume full ga pettaava choodu. Leda speaker clean chey."
+  },
+  {
+    "prompt": "Laptop chala heat avuthundhi, pani cheyyalekapothunna.",
+    "response": "Laptop fan clean cheyinchu, leda cooling pad use chey."
+  },
+  {
+    "prompt": "Tablet display flicker avuthundhi, irritating ga undhi.",
+    "response": "Adhi software issue avvochu, factory reset chesi choodu."
+  },
+  {
+    "prompt": "Wi-Fi password marchipoya, ela connect avvali?",
+    "response": "Router venaka choodu, akkada default password undochu."
+  },
+  {
+    "prompt": "Na mobile phone camera blurry ga vastundhi pictures.",
+    "response": "Camera lens clean chey, leda settings reset chey."
+  },
+  {
+    "prompt": "Hotspot on cheste phone chala thwaraga discharge avuthundhi.",
+    "response": "Hotspot appudappudu off chey, battery save avuthundhi."
+  },
+  {
+    "prompt": "Printer paper jam ayyindhi, print avvatledu.",
+    "response": "Printer manual choodu, paper ela teeyalo akkada untundhi."
+  },
+  {
+    "prompt": "Microphone work avvatledu calls lo, voice vinipinchadam ledu.",
+    "response": "Phone restart chey, leda microphone permission check chey."
+  },
+  {
+    "prompt": "External hard drive detect avvatledu laptop lo.",
+    "response": "Vere USB port lo try chey, leda drivers update chey."
+  },
+  {
+    "prompt": "Smart plug connect avvatledu Wi-Fi ki, frustrating ga undhi.",
+    "response": "Router degarra pettadam try chey, leda reset chey."
+  },
+  {
+    "prompt": "Power button stuck ayyindhi phone lo, on cheyyalekapothunna.",
+    "response": "Adi service center lo choodali, repair avuthundhi."
+  },
+  {
+    "prompt": "Bluetooth keyboard connect avvatledu tablet ki.",
+    "response": "Bluetooth off chesi on chey, malli pair cheyadam try chey."
+  },
+  {
+    "prompt": "GPS exact location chupinchadam ledu, rasta tappipoya.",
+    "response": "Location settings check chey, high accuracy mode lo pettu."
+  },
+  {
+    "prompt": "Laptop charger pin loose ayyindhi, charging slow ga undhi.",
+    "response": "Adi danger, kotha charger konadam better."
+  },
+  {
+    "prompt": "Phone calls lo background noise chala ekkuva vastundhi.",
+    "response": "Noise cancellation settings adjust chey, if available."
+  },
+  {
+    "prompt": "Na gaming console chala slow ga games load chestundhi.",
+    "response": "Cache clear chey, leda games uninstall chesi malli install chey."
+  },
+  {
+    "prompt": "Smart bulb respond avvatledu app ki, light on avvatledu.",
+    "response": "Bulb power off chesi on chey, malli setup chey."
+  },
+  {
+    "prompt": "Screen protector pai bubbles vachayi, choodadaniki chala bad ga undhi.",
+    "response": "Adhi teesi kotha screen protector veyinchu."
+  },
+  {
+    "prompt": "Mouse double click avuthundhi oka click ki, problem enti?",
+    "response": "Mouse settings lo sensitivity adjust chey, leda kotha mouse try chey."
+  },
+  {
+    "prompt": "Na phone battery percentage wrong chupistundhi, 50% ki off avuthundhi.",
+    "response": "Battery calibrate chey, complete ga discharge chesi full charge chey."
+  },
+  {
+    "prompt": "Headphones oka side nunchi sound vastundhi, maro side nunchi ledu.",
+    "response": "Cable loose undochu, leda headphones ki damage undochu."
+  },
+  {
+    "prompt": "Power bank nunchi phone charging chala slow ga avuthundhi.",
+    "response": "Power bank output current choodu, phone ki match avvali."
+  },
+  {
+    "prompt": "Old phone lo apps chala crash avuthunnayi, use cheyyalekapothunna.",
+    "response": "Adhi RAM takkuva undi, background apps close chey."
+  },
+  {
+    "prompt": "Nuvvu weekend cricket aadathava?",
+    "response": "Avunu, nenu eppudu friends tho cricket aadathanu."
+  },
+  {
+    "prompt": "Eeroju evening badminton ki velthunnava?",
+    "response": "Ledu, eeroju konchem pani undi, vellanu."
+  },
+  {
+    "prompt": "Match highlights chusava?",
+    "response": "Chusanu, chala exciting ga undi."
+  },
+  {
+    "prompt": "PS5 lo kothaga emi games unnayi?",
+    "response": "Konni kotha racing games vachchayi, try cheyali."
+  },
+  {
+    "prompt": "Carroms aadadhamu, vastava?",
+    "response": "Vasta, chala rojulu ayyindi adaka."
+  },
+  {
+    "prompt": "Mana team ela adindi ippati match lo?",
+    "response": "Manchi ga adindi kani gelavaledu."
+  },
+  {
+    "prompt": "Gym ki roju velthunnava?",
+    "response": "Avunu, konchem weight training chesthunnanu."
+  },
+  {
+    "prompt": "Swimming nerchukovali anukuntunnava?",
+    "response": "Avunu, ee summer lo nerchukundham ani plan."
+  },
+  {
+    "prompt": "Eeroju evening tennis aadadhamu?",
+    "response": "Sare, nenu ready ga untanu."
+  },
+  {
+    "prompt": "Cycle thovadam niku isthama?",
+    "response": "Chala istham, pedda routes lo velthanu."
+  },
+  {
+    "prompt": "Football match live chustunnava?",
+    "response": "Ledu, nenu late ga vachchanu, highlights chustanu."
+  },
+  {
+    "prompt": "Mana area lo kotha sports club open ayyindi kada?",
+    "response": "Avunu, chala facilities unnayi anta."
+  },
+  {
+    "prompt": "Nuvvu chess aadathava?",
+    "response": "Konchem konchem, professional ga adanu."
+  },
+  {
+    "prompt": "Kids parks lo aadathunnara?",
+    "response": "Avunu, varu ball tho aadukuntunnaru."
+  },
+  {
+    "prompt": "Running chesthava roju morning?",
+    "response": "Appudappudu velthanu, eppudu regular ga vellanu."
+  },
+  {
+    "prompt": "Mana college team ela perform chestundi?",
+    "response": "Ippudu chala manchi form lo undi."
+  },
+  {
+    "prompt": "Nuvvu kabbadi chusthava?",
+    "response": "Avunu, India matches chustanu."
+  },
+  {
+    "prompt": "Video games ekkuva aadathava?",
+    "response": "Ledu, appudappudu friends tho PS5 lo aadathanu."
+  },
+  {
+    "prompt": "Eeroju evening walk ki veldama?",
+    "response": "Sare, nenu ready avuthanu."
+  },
+  {
+    "prompt": "Yoga class ki velthunnava?",
+    "response": "Ledu, nenu intlone practice chesthanu."
+  },
+  {
+    "prompt": "Ee roju match lo manodu century kottada?",
+    "response": "Avunu, chala baga adadu."
+  },
+  {
+    "prompt": "Niku indoor games isthama?",
+    "response": "Avunu, carroms, chess naku chala istham."
+  },
+  {
+    "prompt": "Ee weekend trekking plan undha?",
+    "response": "Avunu, friends tho oka hill ki velthunnamu."
+  },
+  {
+    "prompt": "Mana kutumbam tho emi games aadatharu?",
+    "response": "Memu ludo, snakes and ladders aadathamu."
+  },
+  {
+    "prompt": "Nuvvu konchem kooda sport lo participate cheyava?",
+    "response": "Ledu, naku choodatam istham kani aadatam istham ledu."
+  },
+  {
+    "prompt": "Eeroju night basketball match undhi chustunnava?",
+    "response": "Avunu, nenu miss cheyyanu."
+  },
+  {
+    "prompt": "Athletics competitions chusthava?",
+    "response": "Avunu, Olympics time lo chustanu."
+  },
+  {
+    "prompt": "Kids ki emi sports nerpistunnav?",
+    "response": "Valla ki swimming and badminton nerpistunnanu."
+  },
+  {
+    "prompt": "Cricket stadium lo choodatam experience ela untundi?",
+    "response": "Chala baguntundi, atmosphere chala energetic ga untundi."
+  },
+  {
+    "prompt": "Mana intlo board games unnaya?",
+    "response": "Avunu, konni unnayi, aadadhamu."
+  },
+  {
+    "prompt": "Nuvvu table tennis aadathava?",
+    "response": "Konchem konchem, timepass kosam aadathanu."
+  },
+  {
+    "prompt": "Horse riding nerchukovali anukuntunnava?",
+    "response": "Avunu, aa experience baguntundi ani anukuntunnanu."
+  },
+  {
+    "prompt": "Ee roju evening swimming ki velthunnava?",
+    "response": "Avunu, chala rojulayindi vellaka."
+  },
+  {
+    "prompt": "Niku emi sport choodatam chala istham?",
+    "response": "Naku cricket choodatam chala istham."
+  },
+  {
+    "prompt": "Netflix lo kotha series emaina chusava?",
+    "response": "Avunu, oka kotha thriller series start chesanu, chala bagundi."
+  },
+  {
+    "prompt": "Eeroju cinema ki veldama?",
+    "response": "Sare, em cinema chudali anukuntunnavu?"
+  },
+  {
+    "prompt": "Niku favorite actor evaru?",
+    "response": "Naku Mahesh Babu chana ishtam, athani cinemalu baguntai."
+  },
+  {
+    "prompt": "Weekend lo emaina series chusava?",
+    "response": "Ledu, nenu okka cinema kuda chudaledu, pani ekkuva undi."
+  },
+  {
+    "prompt": "Pancharama Songs playlist lo kotha paatalu add chesava?",
+    "response": "Avunu, konni kotha paatalu add chesanu, nuvvu kuda vinu."
+  },
+  {
+    "prompt": "Theatre lo oka pedda release undanta, chudama?",
+    "response": "Mundhu reviews chudali, taruvatha decide cheddam."
+  },
+  {
+    "prompt": "Nuvvu Netflix chala ekkuva chusthava?",
+    "response": "Appudappudu chustanu, kani ippudu busy ga unnanu."
+  },
+  {
+    "prompt": "Ekkada unnadu mana hero?",
+    "response": "Hero mundhu fight sequence lo unnadu."
+  },
+  {
+    "prompt": "Ninna release aina cinema ela undhi?",
+    "response": "Ninna release aina cinema average ga undi antunnaru."
+  },
+  {
+    "prompt": "Eppudu kotha paatalu vinatame na pani?",
+    "response": "Avunu, naku paatalu vinadam ante chala ishtam."
+  },
+  {
+    "prompt": "Amazon Prime lo emaina kotha chudagala series undha?",
+    "response": "Oka kotha crime drama chala bagundanta, try chey."
+  },
+  {
+    "prompt": "Nuvvu horror cinemalu chusthava?",
+    "response": "Ledu, naku horror cinemalu ante chala bayam."
+  },
+  {
+    "prompt": "Eemadhyana em cinemalu baga hit avtunnai?",
+    "response": "Action cinemalu chana baga hit avtunnai."
+  },
+  {
+    "prompt": "Ne playlist lo em paatalu unnayi ippudu?",
+    "response": "Ippudu konni old melodies vintunnanu."
+  },
+  {
+    "prompt": "Kotha hero cinemalu chudatam niku ishtama?",
+    "response": "Avunu, kotha talent ni encourage cheyadam baguntundi."
+  },
+  {
+    "prompt": "Cinema lo intermission ki tindi emaina tinnava?",
+    "response": "Ledu, nenu water maatrame taganu."
+  },
+  {
+    "prompt": "Ee weekend oka film festival undhi, veldama?",
+    "response": "Adi ekkada, naku mundhu cheppu, taruvatha plan cheddam."
+  },
+  {
+    "prompt": "Thwaraga vellu, cinema start avtundi.",
+    "response": "Sare, nenu thwaraga vasthanu."
+  },
+  {
+    "prompt": "Netflix lo chana kotha content add ayindanta, chudali.",
+    "response": "Avunu, nenu kuda chudali anukuntunnanu."
+  },
+  {
+    "prompt": "Ee paata composer evaru?",
+    "response": "Ee paata Thaman compose chesadu."
+  },
+  {
+    "prompt": "Chala rojula taruvatha theatre ki vellanu.",
+    "response": "Ela undi experience? Baga unda?"
+  },
+  {
+    "prompt": "Ee cinema tickets dorakatam chala kashtam ayyindi.",
+    "response": "Avunu, adhi chala pedda hit cinema."
+  },
+  {
+    "prompt": "Nuvvu Telugu cinemalu chusthava?",
+    "response": "Avunu, nenu Telugu cinemalu chana chustanu."
+  },
+  {
+    "prompt": "Evaru ee paata padaru?",
+    "response": "Ee paata Sid Sriram padadu."
+  },
+  {
+    "prompt": "Naku kotha movies gurinchi teliyadu.",
+    "response": "Nenu reviews chusi cheptanu."
+  },
+  {
+    "prompt": "Eeroju night movie marathon plan cheddama?",
+    "response": "Sare, em cinemalu chudali anukuntunnavu?"
+  },
+  {
+    "prompt": "Cinema lo comedy bagundha?",
+    "response": "Avunu, comedy chala bagundi, nenu chana navvanu."
+  },
+  {
+    "prompt": "Nuvvu old paatalu vinadam ishtama?",
+    "response": "Avunu, old paatalu naku chala ishtam."
+  },
+  {
+    "prompt": "Ee cinema chana rojulu nunchi waiting lo undhi.",
+    "response": "Avunu, nenu kuda release kosam waiting."
+  },
+  {
+    "prompt": "Theatre lo food prices chala ekkuva unnayi.",
+    "response": "Avunu, bayata konte chana takkuva."
+  },
+  {
+    "prompt": "Web series binge watch cheyadam ishtama?",
+    "response": "Avunu, okasari start cheste aapaleanu."
+  },
+  {
+    "prompt": "Ee cinema director evaru?",
+    "response": "Ee cinema Puri Jagannadh direct chesadu."
+  },
+  {
+    "prompt": "Naku kotha paatalu kavali.",
+    "response": "Nenu niku oka kotha playlist pampisthanu."
+  },
+  {
+    "prompt": "Nuvvu cinema lo heroine ni chudaleda?",
+    "response": "Ledu, nenu concentrate cheyaledu."
+  },
+  {
+    "prompt": "Metro station ki ela vellali?",
+    "response": "Auto teesko, thwaraga vasthavu."
+  },
+  {
+    "prompt": "Ee traffic lo auto dorakadam kastam anukunta kada?",
+    "response": "Avunu, chala traffic undhi, Uber lo choodu."
+  },
+  {
+    "prompt": "Office ki late avthundi, cab book cheyala?",
+    "response": "Avunu, thwaraga book chey, inka late avthundi."
+  },
+  {
+    "prompt": "Metro lo chala mandhi unnara ippudu?",
+    "response": "Avunu, peak hours kada, chala crowd undhi."
+  },
+  {
+    "prompt": "Bus lo velladam better anukuntava?",
+    "response": "Bus ippudu chana slow ga untundi, metro is best."
+  },
+  {
+    "prompt": "Train ticket book chesava?",
+    "response": "Inka cheyaledu, night cheyali anukuntunna."
+  },
+  {
+    "prompt": "Station ki mundhe vellala?",
+    "response": "Avunu, traffic undochu, konchem mundhe vellu."
+  },
+  {
+    "prompt": "Bike lo velladam safe ah ee weather lo?",
+    "response": "Varsham padithe safe kadu, taxi teesko."
+  },
+  {
+    "prompt": "Metro card recharge chesava?",
+    "response": "Cheyaledu, station lo chesta."
+  },
+  {
+    "prompt": "Bus stop ekkada undhi?",
+    "response": "Road cross chesi, right side lo undhi."
+  },
+  {
+    "prompt": "Ee roju auto fare chala ekkuva aduguthunnaru kada?",
+    "response": "Avunu, demand ekkuva undhi kabatti."
+  },
+  {
+    "prompt": "Next train ki entha time undhi?",
+    "response": "Five minutes lo vasthundi display lo undhi."
+  },
+  {
+    "prompt": "Ninna office ki ela vellavu?",
+    "response": "Nenu metro lo vellanu, traffic ledu."
+  },
+  {
+    "prompt": "Ippudu cab dorukuthundha?",
+    "response": "Dorukuthundi kani konchem wait cheyali."
+  },
+  {
+    "prompt": "Metro timing changes emaina unnaya?",
+    "response": "Ippudu em levu anukunta, same timings."
+  },
+  {
+    "prompt": "Bike repair cheyinchava?",
+    "response": "Inka cheyinchaledu, repu cheyistha."
+  },
+  {
+    "prompt": "Station lo parking undha?",
+    "response": "Avunu, pedda parking undhi."
+  },
+  {
+    "prompt": "Cab driver route change cheyamannadu, sare annava?",
+    "response": "Enduku? Sare ani cheppa, thwaraga vellali kada."
+  },
+  {
+    "prompt": "Traffic chala undhi, late avthundi emo?",
+    "response": "Late ayina parledhu, slowly vellu."
+  },
+  {
+    "prompt": "Train journey ki bag pack chesava?",
+    "response": "Inka cheyaledu, ratri chestha."
+  },
+  {
+    "prompt": "Auto lo velladam naku nachadhu.",
+    "response": "Enduku? Cab teesko mari."
+  },
+  {
+    "prompt": "Ee area lo bus frequent ga vasthunda?",
+    "response": "Avunu, prathi 15 minutes ki bus undhi."
+  },
+  {
+    "prompt": "Metro lo WiFi undha?",
+    "response": "Ledu, WiFi facilities levu."
+  },
+  {
+    "prompt": "Office nundi entha dooram station?",
+    "response": "Chala daggare, walk cheyochu."
+  },
+  {
+    "prompt": "Bike service cheyinchali kada?",
+    "response": "Avunu, next week cheyinchali."
+  },
+  {
+    "prompt": "Uber share lo vellochu kada?",
+    "response": "Avunu, dabbulu save avthayi."
+  },
+  {
+    "prompt": "Ee roju train ki time ki vasthunda?",
+    "response": "Hope so. Late avvodhu ani korukuntunna."
+  },
+  {
+    "prompt": "Station lo tindi dorukuthundha?",
+    "response": "Avunu, chinna stalls unnayi."
+  },
+  {
+    "prompt": "Cab ki tip ichchava?",
+    "response": "Ichchanu, driver baga drive chesadu."
+  },
+  {
+    "prompt": "Metro platform number entha?",
+    "response": "Platform number two lo ki vellu."
+  },
+  {
+    "prompt": "Bike helmet marchipoya, em cheyali?",
+    "response": "Nenu techchanu, naadi vaduko."
+  },
+  {
+    "prompt": "Train ki late avthundi, parigethala?",
+    "response": "Avunu, thwaraga parigethu."
+  },
+  {
+    "prompt": "Cab cancel chesa, nenu naduchukuntu vasthanu.",
+    "response": "Sare, jagrathaga ra."
+  },
+  {
+    "prompt": "Ee route lo traffic takkuva undhi.",
+    "response": "Manchi pani, thwaraga vellochu."
+  },
+  {
+    "prompt": "Nenu ippude kitchen clean chesa, nuvvu hall clean chesthava?",
+    "response": "Sare, nenu hall clean chesthanu."
+  },
+  {
+    "prompt": "Manam ee roju dishes wash cheyyali, evaru chestharu?",
+    "response": "Nenu ippude chesthanu, nuvvu relax avvu."
+  },
+  {
+    "prompt": "Trash bin nindipoyindi, evaru bayata vesi vastharu?",
+    "response": "Nenu ippude vesi vasthanu, ikkada ivvu."
+  },
+  {
+    "prompt": "Vaaram lo laundry roju eppudu?",
+    "response": "Repu laundry ki manchi roju."
+  },
+  {
+    "prompt": "Manam ippudu room clean cheyyali, chala gandharagola ga undhi.",
+    "response": "Avunu, rendaram kalisi chestham."
+  },
+  {
+    "prompt": "Neellu konchem thakkuva unnayi, jagratthaga vaadu.",
+    "response": "Sare, nenu alage chesthanu."
+  },
+  {
+    "prompt": "Rendu rojula nunchi dishes alaage unnayi, ippudu cheddam.",
+    "response": "Nenu ippude cheyyadaniki vasthanu."
+  },
+  {
+    "prompt": "Trash bag motham nindipoyindi, kothadi pettava?",
+    "response": "Avunu, nenu ippude marusthanu."
+  },
+  {
+    "prompt": "Ivala laundry undha?",
+    "response": "Ledu, repu cheddam."
+  },
+  {
+    "prompt": "Nuvvu bedsheet marusthava, nenu floor clean chesthanu?",
+    "response": "Avunu, nenu bedsheet marusthanu."
+  },
+  {
+    "prompt": "Kitchen sink lo dishes chala unnayi, manam ippude cheddama?",
+    "response": "Sare, rendaram kalisi chestham."
+  },
+  {
+    "prompt": "Trash andi ippude vesi vachava?",
+    "response": "Ledu, marichipoya, ippude vesi vasthanu."
+  },
+  {
+    "prompt": "Manam laundry cheyyali, battalu chala unnayi.",
+    "response": "Sare, nenu machine ready chesthanu."
+  },
+  {
+    "prompt": "Nuvvu room arrange cheyyali, nenu dust clean chesthanu.",
+    "response": "Okay, nenu anni arrange chesthanu."
+  },
+  {
+    "prompt": "Dishwasher lo place undha?",
+    "response": "Avunu, inka konni dishes padathayi."
+  },
+  {
+    "prompt": "Trash box motham nindipoyindi, marudham.",
+    "response": "Nenu ippude marusthanu."
+  },
+  {
+    "prompt": "Ee vaaram laundry nuvvu chesthava?",
+    "response": "Avunu, nenu chesthanu."
+  },
+  {
+    "prompt": "Living room chala messy ga undhi, clean cheyyali.",
+    "response": "Nenu ippude start chesthanu."
+  },
+  {
+    "prompt": "Neellu chala thakkuva unnayi, battalu ippudu oddu.",
+    "response": "Sare, repu chudam."
+  },
+  {
+    "prompt": "Nenu floor sweep chesa, nuvvu mop chesthava?",
+    "response": "Sare, nenu mop chesthanu."
+  },
+  {
+    "prompt": "Dining table meeda dishes unnayi, ethuku.",
+    "response": "Avunu, nenu ippude ethukunta."
+  },
+  {
+    "prompt": "Trash box smell vasthundhi, clean cheyyali.",
+    "response": "Nenu ippude bayata padesi, clean chesthanu."
+  },
+  {
+    "prompt": "Manam battalu iron cheyyali, chala unnai.",
+    "response": "Avunu, nenu start chesthanu."
+  },
+  {
+    "prompt": "Room lo anni chitaravitara ga unnayi, set cheyyali.",
+    "response": "Nenu ippude anni set chesthanu."
+  },
+  {
+    "prompt": "Eppati nundo fridge clean cheyyaledu, ivvala cheddam.",
+    "response": "Avunu, chala rojulayyindi, cheddam."
+  },
+  {
+    "prompt": "Sink lo water slow ga pothundhi, block ayindemo choodu.",
+    "response": "Nenu ippude choodu, problem solve chesthanu."
+  },
+  {
+    "prompt": "Ee roju ki cleaning saripothundi, inka pani oddu.",
+    "response": "Avunu, nenu tired ayipoya."
+  },
+  {
+    "prompt": "Nuvvu bathroom clean cheyyali, nenu kitchen clean chesthanu.",
+    "response": "Sare, nenu bathroom clean chesthanu."
+  },
+  {
+    "prompt": "Eppati nundo windows clean cheyyaledu, dhoolu chala undhi.",
+    "response": "Nenu ippude start chesthanu."
+  },
+  {
+    "prompt": "Trash ni recycle cheyyali, separate cheddam.",
+    "response": "Avunu, nenu help chesthanu."
+  },
+  {
+    "prompt": "Laundry ki detergent undha?",
+    "response": "Avunu, undhi, chudaleda?"
+  },
+  {
+    "prompt": "Book shelf chala dhoolu pattindhi, clean cheyyali.",
+    "response": "Nenu ippude clean chesthanu."
+  },
+  {
+    "prompt": "Water heater lo emaina problem undha? Neellu chala chammaga unnayi.",
+    "response": "Nenu check chesthanu."
+  },
+  {
+    "prompt": "Ivala motham intlo pani tho nindipoyindi, chala tired ga undhi.",
+    "response": "Avunu, naku kuda chala pani ayyindi."
+  },
+  {
+    "prompt": "Chala yenda ga undhi kada bayata?",
+    "response": "Avunu, baaga yenda. Intlo undatame better."
+  },
+  {
+    "prompt": "Ee gaali chala bagundi, evening walk ki vellama?",
+    "response": "Sare, veldham. Ippudu weather chala pleasant ga undhi."
+  },
+  {
+    "prompt": "Morning walk ki climate chala perfect ga undhi.",
+    "response": "Avunu, ippudu velladam baguntundi."
+  },
+  {
+    "prompt": "Winter lo chali baaga untundi kada?",
+    "response": "Avunu, special ga morning time lo chali chana ekkuva untundi."
+  },
+  {
+    "prompt": "Varsham padutunna time lo tea tagadam baguntundi.",
+    "response": "Alage, nenu tea ready chesthanu."
+  },
+  {
+    "prompt": "Yenda kalam lo neellu ekkuva tagali.",
+    "response": "Avunu, hydration chala mukyam."
+  },
+  {
+    "prompt": "Ee varsham valla traffic kuda ekkuva ayyindi.",
+    "response": "Ledu, nenu late ga vellanu so traffic ledu."
+  },
+  {
+    "prompt": "Repu varsham vastundi ani news lo chepparu.",
+    "response": "Mari mana plans emiti?"
+  },
+  {
+    "prompt": "Chali peddaga ledu ippudu.",
+    "response": "Avunu, climate konchem comfortable ga undhi."
+  },
+  {
+    "prompt": "Yenda ki bayata tiragadam kastam.",
+    "response": "Nenu kuda intlone unnanu roju."
+  },
+  {
+    "prompt": "Ee gaali valla manasu fresh ga ayyindi.",
+    "response": "Avunu, chala relaxation ga undhi."
+  },
+  {
+    "prompt": "Varsham baga padutundi, godugu techukunnava?",
+    "response": "Ledu, techukoledu. Nee daggara undha?"
+  },
+  {
+    "prompt": "Morning walk ki pakka park ki vellama?",
+    "response": "Sare, elagu weather bagundi kada."
+  },
+  {
+    "prompt": "Winter lo sweaters avasaram kada?",
+    "response": "Avunu, chali ki Avi mukyam."
+  },
+  {
+    "prompt": "Yenda ki skin damage avuthundi kada?",
+    "response": "Avunu, sunscreen vadali."
+  },
+  {
+    "prompt": "Ivala evening chala pleasant ga undhi.",
+    "response": "Avunu, intlo kurchovatam istam ledu."
+  },
+  {
+    "prompt": "Varsham nunchi vachaka cough start ayyindi.",
+    "response": "Jagratta, mandu vesko."
+  },
+  {
+    "prompt": "Ee chali ki coffee tagadam chala baguntundi.",
+    "response": "Alage, hot coffee cheddama?"
+  },
+  {
+    "prompt": "Yenda valla poolu anni vadi poyayi.",
+    "response": "Avunu, neellu poyali."
+  },
+  {
+    "prompt": "Varsham apudu intlo paatalu vintanu.",
+    "response": "Nenu kuda ade chesthanu."
+  },
+  {
+    "prompt": "Morning walk ki neelam ga akasam chala baguntundi.",
+    "response": "Avunu, nature ni choodatam baguntundi."
+  },
+  {
+    "prompt": "Ee chali ki bath cheyadam kashtam.",
+    "response": "Avunu, hot water tho cheyali."
+  },
+  {
+    "prompt": "Yenda kalam lo fruits ekkuva tinadam manchidi.",
+    "response": "Avunu, deyyam ga untayi."
+  },
+  {
+    "prompt": "Ee varsham ki pakodi tinadam istam.",
+    "response": "Nenu kuda, chala istam."
+  },
+  {
+    "prompt": "Evening gaali kosam bayataki vellama?",
+    "response": "Velladam manchide. Refresh avutham."
+  },
+  {
+    "prompt": "Winter lo skin dry avuthundi kada?",
+    "response": "Avunu, moisturizer vadali."
+  },
+  {
+    "prompt": "Varsham agindi, ippudu vellama?",
+    "response": "Sare, ippudu climate better ga undhi."
+  },
+  {
+    "prompt": "Morning walk ki velletappudu sun rise chala baguntundi.",
+    "response": "Avunu, aa view chala peacefull ga untundi."
+  },
+  {
+    "prompt": "Yenda ki bike lo velladam kashtam.",
+    "response": "Avunu, face ki heat tagalatam kashtam."
+  },
+  {
+    "prompt": "Ee chali ki kurchoni pustakam chaduvadam baguntundi.",
+    "response": "Nenu kuda alage plan chesanu."
+  },
+  {
+    "prompt": "Varsham padutunna sound chala soothing ga untundi.",
+    "response": "Avunu, nidra povalani untundi."
+  },
+  {
+    "prompt": "Yenda kalam lo ice cream tinadam istam.",
+    "response": "Avunu, chala fresh ga untundi."
+  },
+  {
+    "prompt": "Morning walk ki velle vallu eppudu happy ga untaru.",
+    "response": "Avunu, exercise valla mood lift avuthundi."
+  },
+  {
+    "prompt": "Nenu ippudu gym ki vellali anukuntunna, nuvvu kuda vasthava?",
+    "response": "Ledu, nenu ivvala konchem alasipoyanu. Repu veldham."
+  },
+  {
+    "prompt": "Eppati nunchi gym ki velladam start chesav?",
+    "response": "Nenu oka rendu nellu mundhu start chesanu."
+  },
+  {
+    "prompt": "Workout taruvatha protein shake taguthava?",
+    "response": "Avunu, nenu regular ga taguthanu, body recovery ki baga help avthundhi."
+  },
+  {
+    "prompt": "Ivala evening park lo running cheddama?",
+    "response": "Sare, evening 6 ki kaluddam."
+  },
+  {
+    "prompt": "Naaku chala muscle soreness undhi, em cheyyali?",
+    "response": "Konchem warm water bath theesko, relief untundhi."
+  },
+  {
+    "prompt": "Nuvvu yoga kuda chesthava?",
+    "response": "Appudappudu chesthanu, manassanthi ga untundhi."
+  },
+  {
+    "prompt": "Gym lo weight lifting chesthu untava?",
+    "response": "Avunu, nenu strength training ki ekkuva importance isthanu."
+  },
+  {
+    "prompt": "Nuvvu gym lo personal trainer ni pettukunnava?",
+    "response": "Ledu, nenu YouTube videos chusi chesthanu."
+  },
+  {
+    "prompt": "Mana diet lo emaina changes cheyyala?",
+    "response": "Avunu, junk food thagginchi healthy tindi thinadam manchidi."
+  },
+  {
+    "prompt": "Nenu weight loss avvadaniki em cheyyali?",
+    "response": "Regular ga workout chesi, balanced diet follow avvu."
+  },
+  {
+    "prompt": "Gym timings emiti?",
+    "response": "Morning 6 nunchi night 10 varaku untundhi."
+  },
+  {
+    "prompt": "Neeku workout cheyadam ante ishtama?",
+    "response": "Avunu, nenu chala enjoy chesthanu."
+  },
+  {
+    "prompt": "Nuvvu walk ki velthava roju?",
+    "response": "Avunu, morning konchem sepu walk chesthanu."
+  },
+  {
+    "prompt": "Ivala leg day kada?",
+    "response": "Avunu, sare le, veldam."
+  },
+  {
+    "prompt": "Naaku gym ki velladaniki motivation ravatledu.",
+    "response": "Nuvvu oka goal pettukunte motivation vasthundhi."
+  },
+  {
+    "prompt": "Eppudu chesthav nee cardio?",
+    "response": "Nenu gym lo workout chesina taruvatha chesthanu."
+  },
+  {
+    "prompt": "Nuvvu swimming kuda chesthava?",
+    "response": "Avunu, summer lo swimming chala refresh ga untundhi."
+  },
+  {
+    "prompt": "Water bottle theesukunnava gym ki?",
+    "response": "Oh no, marchipoyanu. Nuvvu theesukunnava?"
+  },
+  {
+    "prompt": "E gym fees entha untundhi?",
+    "response": "Nela ki oka 1500 varaku untundhi."
+  },
+  {
+    "prompt": "Chettu kinda exercise chesthe baguntundhi kada?",
+    "response": "Avunu, fresh ga untundhi. Park lo alage chestharu."
+  },
+  {
+    "prompt": "Repu morning kalisi jog cheddama?",
+    "response": "Sare, 5:30 ki ready ga undu."
+  },
+  {
+    "prompt": "Naaku shoulder pain vasthundhi workout chesthe.",
+    "response": "Trainer ni adugu, correct form chupisthadu."
+  },
+  {
+    "prompt": "E body part ki ivvala workout?",
+    "response": "Ivala chest and triceps ki chesthunanu."
+  },
+  {
+    "prompt": "Nuvvu sneakers konnava gym kosam?",
+    "response": "Avunu, kotha vi konnanu, chala comfortable ga unnayi."
+  },
+  {
+    "prompt": "Mana gym lo AC undha?",
+    "response": "Avunu, AC untundhi, so chala cool ga untundhi."
+  },
+  {
+    "prompt": "Nuvvu entha calories per roju consume chesthav?",
+    "response": "Nenu oka 1800-2000 calories varaku thinanu."
+  },
+  {
+    "prompt": "Gym ki velladam valla em benefits untayi?",
+    "response": "Body fit ga untundhi, mind kuda fresh avthundhi."
+  },
+  {
+    "prompt": "Neeku gym partner unnada?",
+    "response": "Avunu, na friend tho kalisi velthanu."
+  },
+  {
+    "prompt": "Workout chese mundhu warm up chesthava?",
+    "response": "Avunu, injury avvakunda warm up cheyadam chala important."
+  },
+  {
+    "prompt": "Ivala cycling cheddama?",
+    "response": "Avunu, cycling chesthe legs strong avthayi."
+  },
+  {
+    "prompt": "Nuvvu supplements emaina vaduthava?",
+    "response": "Ledu, nenu natural ga tindi thinadanike prefer chesthanu."
+  },
+  {
+    "prompt": "Ivala chest workout ekkuva chesanu, chala pain ga undhi.",
+    "response": "Konchem rest theesko, repatiki set avthundhi."
+  },
+  {
+    "prompt": "Nuvvu yoga mat theesukunnava?",
+    "response": "Avunu, intlo yoga cheyadaniki konnanu."
+  },
+  {
+    "prompt": "Nenu kotha dress konalani anukuntunna. Ekkada choodali?",
+    "response": "Online lo chala offers unnai. Sare choodu."
+  },
+  {
+    "prompt": "Online lo shopping cheyadam safe ye na?",
+    "response": "Avunu, reviews chusi konali. Apudu safety untadi."
+  },
+  {
+    "prompt": "Eeroju mall ki velli jeans konalani anukuntunna.",
+    "response": "Nenu kuda vastanu, naku kuda kothavi kavali."
+  },
+  {
+    "prompt": "Ee colour naku baguntunda ani naku doubt ga undhi.",
+    "response": "Nuvvu try chesi choodu, apudu thelustundi."
+  },
+  {
+    "prompt": "Shoes return cheyalante em cheyali?",
+    "response": "Bill tho saha store ki vellali."
+  },
+  {
+    "prompt": "Discount sale ippudu undha?",
+    "response": "Avunu, chala stores lo discounts unnai."
+  },
+  {
+    "prompt": "Manchi quality clothes ekkada dorukuthayi?",
+    "response": "Pedda brands quality baguntadi, kani konchem costly untayi."
+  },
+  {
+    "prompt": "Online order chesina item inka raledu.",
+    "response": "Customer service ki call chesi adugu."
+  },
+  {
+    "prompt": "Ee dress rate entha?",
+    "response": "Idi 1500 rupees ani undi tag meeda."
+  },
+  {
+    "prompt": "Naku pedda size shoes kavali.",
+    "response": "Stores lo number 10 varaku dorukuthayi."
+  },
+  {
+    "prompt": "Ee fabric comfort ga untunda?",
+    "response": "Avunu, cotton fabric chala comfort ga untadi."
+  },
+  {
+    "prompt": "Naku party wear kavali.",
+    "response": "Daniki chala options unnai online lo choodu."
+  },
+  {
+    "prompt": "Ee shirt konukkundama?",
+    "response": "Adi neeku baguntundi, konukkundam."
+  },
+  {
+    "prompt": "Inko size lo ee dress undha?",
+    "response": "Wait, adigi chepthanu."
+  },
+  {
+    "prompt": "Ee skirt meeda top emi veskovali?",
+    "response": "White color top baguntundi."
+  },
+  {
+    "prompt": "Shopping ki veldam mari?",
+    "response": "Sare, eppudu veldham?"
+  },
+  {
+    "prompt": "Ee brand quality baguntunda?",
+    "response": "Avunu, ee brand clothes chala rojulu vastayi."
+  },
+  {
+    "prompt": "Kotha styles emaina vachchaya?",
+    "response": "Avunu, ippudu crop tops fashion lo unnai."
+  },
+  {
+    "prompt": "Ee dress konalani undhi kani price chala ekkuva undhi.",
+    "response": "Discount kosam wait cheddam."
+  },
+  {
+    "prompt": "Ee jacket naku chala ishtam.",
+    "response": "Adi neeku chala bagundi, konukkovu."
+  },
+  {
+    "prompt": "Shoes konadaniki ekkadiki vellali?",
+    "response": "Shoe mart lo chala variety untundi."
+  },
+  {
+    "prompt": "Ee saree neeku baguntundi.",
+    "response": "Avuna, idhi naku konchem costly ga anipistundi."
+  },
+  {
+    "prompt": "Return policy entha mandhi rojulu untadi?",
+    "response": "General ga 7 days untundi returns ki."
+  },
+  {
+    "prompt": "Online lo dress chudamani cheppav kadha, e site choodali?",
+    "response": "Meesho lo chala cheap ga untayi."
+  },
+  {
+    "prompt": "Eeroju shop close chesara?",
+    "response": "Avunu, Sunday kabatti close chesaru."
+  },
+  {
+    "prompt": "Manchi quality socks ekkada dorukuthayi?",
+    "response": "Decathlon lo sports socks baguntayi."
+  },
+  {
+    "prompt": "Ee pants loose ga unnai, chinna size ivvamani cheppava?",
+    "response": "Avunu, chinna size iste baguntundi."
+  },
+  {
+    "prompt": "Winter wear konalani undhi.",
+    "response": "Ippudu chala brands lo sale nadustundi."
+  },
+  {
+    "prompt": "Birthday gift kosam dress konalani undhi.",
+    "response": "Ame favorite color emito adigi konukundam."
+  },
+  {
+    "prompt": "Ee dress ki inko color option undha?",
+    "response": "Ledhu, idokkate color available undhi."
+  },
+  {
+    "prompt": "Mugguru kalisi shopping ki vellama?",
+    "response": "Sare, andaram kalisi veldham."
+  },
+  {
+    "prompt": "Naku kotha watch kavali.",
+    "response": "Titan showroom lo chala designs unnai."
+  },
+  {
+    "prompt": "Ee dress chala tight ga undhi.",
+    "response": "Adi neeku saripoledhu, pedda size choodali."
+  },
+  {
+    "prompt": "Amma phone chesinda?",
+    "response": "Avunu, ippude chesindi. Andaru bagunnara ani adigindi."
+  },
+  {
+    "prompt": "Bava pelli ki velthunnava nuvvu?",
+    "response": "Avunu, weekend velthunna. Chala pedda pelli anta."
+  },
+  {
+    "prompt": "Relatives intiki vachchara?",
+    "response": "Vachcharu. Ippude tiffin chesi kurchunnaru."
+  },
+  {
+    "prompt": "Amma chesina tindi ante neeku chala istam kada?",
+    "response": "Avunu, amma chesina bhojanam ela untundo neeku thelusu kada."
+  },
+  {
+    "prompt": "Inti vatavaranam bagunda akkada?",
+    "response": "Chala santosham ga undi. Andaru kalisi unnaru."
+  },
+  {
+    "prompt": "Anna ni matladinchava?",
+    "response": "Inka matladaledu. Konchem busy ga unnadanta."
+  },
+  {
+    "prompt": "Atha bagunnara?",
+    "response": "Avunu, atha bagunnaru. Ni gurinchi adigaru."
+  },
+  {
+    "prompt": "Thammudu exam ela rasadu?",
+    "response": "Baga rasadu ani cheppadu. Results kosam chustunnadu."
+  },
+  {
+    "prompt": "Mama intiki eppudu vasthunadu?",
+    "response": "Repu vasthunnadu anta. Late ga flight undhi."
+  },
+  {
+    "prompt": "Me relatives ela unnaru?",
+    "response": "Andaru bagunnaru. Sankranthi ki andaru kalisaru."
+  },
+  {
+    "prompt": "Nanna kuda phone chesada?",
+    "response": "Avunu, amma tho patu nanna kuda matladadu."
+  },
+  {
+    "prompt": "Akka pelli ki tickets book chesavara?",
+    "response": "Inka cheyaledu. Repu cheyali."
+  },
+  {
+    "prompt": "Peddamma ela unnaru?",
+    "response": "Peddamma sehat bagaledu. Ippudu konchem better."
+  },
+  {
+    "prompt": "Chinnamma intiki eppudu vasthunaru?",
+    "response": "Next month vasthunaru. Valla pillalu kuda vasthunaru."
+  },
+  {
+    "prompt": "Baamma katha cheppara niku?",
+    "response": "Avunu, Baamma katha cheppindi. Chala rojula taruvatha vinnanu."
+  },
+  {
+    "prompt": "Thatha health ela undi?",
+    "response": "Thatha health ippudu bagundi. Medicine veskuntunnaru."
+  },
+  {
+    "prompt": "Kudali intiki vacchinda?",
+    "response": "Avunu, intiki vacchindi. Santosham ga undi."
+  },
+  {
+    "prompt": "Nuvvu Amma nanna tho matladava?",
+    "response": "Avunu, matladanu. Valla gurinchi adiganu."
+  },
+  {
+    "prompt": "Bava pelli photo lu chudachcha?",
+    "response": "Avunu, chudochu. Chala photo lu pampadu."
+  },
+  {
+    "prompt": "Evaraina relatives intlo untunnara?",
+    "response": "Avunu, ma menalludu intlo untunnadu. Chaduvu kosam."
+  },
+  {
+    "prompt": "Intiki eppudu vasthunavu?",
+    "response": "Next week vasthunna. Nanna ni kalavali."
+  },
+  {
+    "prompt": "Amma cooking nerchukunnava nuvvu?",
+    "response": "Konchem nerchukunna kani amma laga cheyaleenu."
+  },
+  {
+    "prompt": "Pinni ninu kalisinda?",
+    "response": "Avunu, Pinni kalisindi. Chala rojula taruvatha."
+  },
+  {
+    "prompt": "Maama gari intlo varsham padinda?",
+    "response": "Avunu, akkada chala varsham padindanta."
+  },
+  {
+    "prompt": "Me nanna bagunnara?",
+    "response": "Avunu, nanna bagunnaru. Roju walk ki veltharu."
+  },
+  {
+    "prompt": "Akka pillalu ela unnaru?",
+    "response": "Pillalu chala allari ga unnaru. Peddaga ayyaru."
+  },
+  {
+    "prompt": "Cousins tho matladava?",
+    "response": "Avunu, andari tho matladanu. Fun ga undi."
+  },
+  {
+    "prompt": "Intlo function emaina unda?",
+    "response": "Chinna puja undi. Andaru vasthunaru."
+  },
+  {
+    "prompt": "Amma chese pulihora ante neeku istam kada?",
+    "response": "Chala istam. Amma pulihora special."
+  },
+  {
+    "prompt": "Me intlo andaru happpy ga unnara?",
+    "response": "Avunu, andaru chala happy ga unnaru."
+  },
+  {
+    "prompt": "Vadina kuda function ki vasthunda?",
+    "response": "Avunu, Vadina kuda vasthundi. Pillalatho."
+  },
+  {
+    "prompt": "Maama ippudu ekkadunnadu?",
+    "response": "Maama ippudu Tirupathi lo unnadu."
+  },
+  {
+    "prompt": "Nenu ni parents ni kalavacha?",
+    "response": "Sure, nuvvu Amma nanna ni kalavochu. Valla ki kuda istame."
+  },
+  {
+    "prompt": "Thalli tandrulu ninnu eppudu adukuntunnara?",
+    "response": "Avunu, eppudu adukuntunnaru. Phone cheyali."
+  },
+  {
+    "prompt": "Mana semester exams eppudu modhalu avuthayi?",
+    "response": "Next month 15th nunchi start avuthayi anta."
+  },
+  {
+    "prompt": "Eesari group studies chesthunnara?",
+    "response": "Avunu, library lo kaluddam anukuntunnam."
+  },
+  {
+    "prompt": "Library eppati varaku therichi untundhi?",
+    "response": "Raathri 9 varaku untundhi."
+  },
+  {
+    "prompt": "Assignments submission deadline gurthundha?",
+    "response": "Eedhi Friday kada, ippude complete chesa."
+  },
+  {
+    "prompt": "Exam results eppudu osthayi ani telsa?",
+    "response": "Inka chala rojulu paduthundhi, digulu padaku."
+  },
+  {
+    "prompt": "Manam exam ki ela prepare avudham?",
+    "response": "Nuvvu notes share chesthe, nenu concepts explain chestha."
+  },
+  {
+    "prompt": "Ee subject chala kashtam ga undhi.",
+    "response": "Practice cheste easy avuthundhi, bayam padaku."
+  },
+  {
+    "prompt": "Nenu chala tension ga unnanu exam gurinchi.",
+    "response": "Calm ga undu, manchi ga raasthav."
+  },
+  {
+    "prompt": "Physics assignment lo neeku emanna help kavala?",
+    "response": "Avunu, konchem doubts unnay, explain chesthava?"
+  },
+  {
+    "prompt": "Mana college lo wi-fi signal chala weak ga undhi.",
+    "response": "Avunu, assignments download cheyadaaniki chala time paduthundhi."
+  },
+  {
+    "prompt": "Manam eppudu group discussion cheyali?",
+    "response": "Evening class taruvatha cheddam."
+  },
+  {
+    "prompt": "Nenu ee semester lo chala assignments miss ayyanu.",
+    "response": "Thwaraga submit chey, lekapothe marks potayi."
+  },
+  {
+    "prompt": "Library lo kotha pusthakalu vachchay anta.",
+    "response": "Avuna? Nenu velli choodali."
+  },
+  {
+    "prompt": "Ee exam chala toughest undhi kada?",
+    "response": "Avunu, questions annee chala tricky ga unnay."
+  },
+  {
+    "prompt": "Manam exam hall ki thwaraga veldama?",
+    "response": "Avunu, traffic undochu, mundhe velladam manchidi."
+  },
+  {
+    "prompt": "Nenu inka revision cheyadam start cheyaledhu.",
+    "response": "Ippude modhalu pettu, inka time undhi."
+  },
+  {
+    "prompt": "Ee sari exam lo high marks raavali.",
+    "response": "Kashatapadithe tappakunda osthayi."
+  },
+  {
+    "prompt": "Project final submission deadline eppudu?",
+    "response": "Next Monday anukunta, confirm chesko."
+  },
+  {
+    "prompt": "Nenu chala nerchukovali, kani time ledhu.",
+    "response": "Plan chesukuni chaduvu, konchem konchem ga."
+  },
+  {
+    "prompt": "Mana professor chala strict kada?",
+    "response": "Avunu, kani lessons chala baga cheptharu."
+  },
+  {
+    "prompt": "Nenu notes miss ayyanu, neeku unnay ga?",
+    "response": "Avunu, nenu share chestha."
+  },
+  {
+    "prompt": "Exams ayipoyaka cinema ki veldama?",
+    "response": "Sare, manchi idea!"
+  },
+  {
+    "prompt": "Nenu ee subject lo fail avuthana ani bayam ga undhi.",
+    "response": "Bayam padaku, manam kalisi chaduvudham."
+  },
+  {
+    "prompt": "Practical exam ki em prepare avvali?",
+    "response": "Lab manual choodu, annee undali andulo."
+  },
+  {
+    "prompt": "College canteen lo kotha tindi item vachchindhi anta.",
+    "response": "Avuna? Mari velli try cheddama?"
+  },
+  {
+    "prompt": "Nenu ee topic ni asala ardham chesukolekapotunnanu.",
+    "response": "Nenu help chestha, marokka sari explain chestha."
+  },
+  {
+    "prompt": "Manam weekend lo kalisi chaduvukundama?",
+    "response": "Sare, library lo kaluddam."
+  },
+  {
+    "prompt": "Professor aduguthunna questions chala kashtam ga unnay.",
+    "response": "Avunu, concepts baga teliyali vatiki."
+  },
+  {
+    "prompt": "Nenu exam hall ki charger techchukovadam marchipoyanu.",
+    "response": "Parledhu, naa daggara undhi, theesko."
+  },
+  {
+    "prompt": "Eesari question paper chala unexpected ga undhi.",
+    "response": "Avunu, syllabus bayata nunchi kuda vachchay."
+  },
+  {
+    "prompt": "Nenu nidra lekunda chaduvukuntunnanu.",
+    "response": "Arogyam kuda mukhyam, konchem rest theesko."
+  },
+  {
+    "prompt": "Results kosam nenu chana rojuluga wait chesthunnanu.",
+    "response": "Inka konchem opika pattu."
+  },
+  {
+    "prompt": "College fees payment ki last date eppudu?",
+    "response": "Month end kada, thwaraga kattali."
+  },
+  {
+    "prompt": "Nenu study plan chesanu, neeku chupinchana?",
+    "response": "Avunu, choodu, bagundha ledha cheptha."
+  },
+  {
+    "prompt": "Mana security deposit ippude kattali, ledante late avuthundi.",
+    "response": "Avunu, nenu ippude transfer chesesanu."
+  },
+  {
+    "prompt": "Ee nela rent mundhe katteyyali, date vachestundi.",
+    "response": "Sare, nenu kooda na share pampisthanu."
+  },
+  {
+    "prompt": "Grocery bill chana ekkuva vachindi ee sari, enduku?",
+    "response": "Konni extra items konnattu unnam, anduke."
+  },
+  {
+    "prompt": "Room cleaning schedule ni oka sari choodu, eppudu evaru cheyyali?",
+    "response": "Nenu ee weekend naa turn teesukunta."
+  },
+  {
+    "prompt": "Landlord phone chesadu, edho problem antunnadu.",
+    "response": "Emiti problem? Water pipe repair aa?"
+  },
+  {
+    "prompt": "Nuvvu fridge clean chesav ga? Chala dirty ga undi.",
+    "response": "Ledu, nenu cheyaledu. Next nenu chesta."
+  },
+  {
+    "prompt": "Wi-Fi bill share cheyyali, evaru kattaru ee sari?",
+    "response": "Nenu ippude bill chusanu, nenu kattesanu."
+  },
+  {
+    "prompt": "Bathroom clean cheyyadam marchipoku, chana rojulaindi.",
+    "response": "Oh, sare, nenu sandhya ki chesta."
+  },
+  {
+    "prompt": "Ee nela electricity bill chana ekkuva vachindi.",
+    "response": "AC chana vaadinattunnam, anduke."
+  },
+  {
+    "prompt": "Mana intiki kotha utensils konnalu, anni paathavi ayyayi.",
+    "response": "Avunu, nenu online lo chusanu konni."
+  },
+  {
+    "prompt": "Nuvvu tiffin kosam emanna konnav ga?",
+    "response": "Avunu, bread, eggs konnanu."
+  },
+  {
+    "prompt": "Ee nela rent evaru kattali first?",
+    "response": "Nenu katteyyana, taruvatha naaku transfer cheyyu."
+  },
+  {
+    "prompt": "Flatmate meeting pettadam manchidi, konni vishayalu matladali.",
+    "response": "Avunu, sare, eppudu petttam?"
+  },
+  {
+    "prompt": "Ninna night nuvvu lights off cheyaledu, current waste ayyindi.",
+    "response": "Oh sorry, marchipoyanu."
+  },
+  {
+    "prompt": "Mana flat lo edho leak undi, landlord ki cheptunnanu.",
+    "response": "Avunu, nenu kuda gamaninchanu, choodamani cheppu."
+  },
+  {
+    "prompt": "Kitchen clean cheyyadam evari turn?",
+    "response": "Nuvve ga cheyyali, last week nenu chesanu."
+  },
+  {
+    "prompt": "Nenu ee week lo konchem busy ga untanu, na pani konchem cheyava?",
+    "response": "Sare, nenu help chesta neeku."
+  },
+  {
+    "prompt": "Rent payment due date mundhe pay cheseyyali.",
+    "response": "Avunu, nenu ippude pay chesta."
+  },
+  {
+    "prompt": "Mana security deposit refund gurinchi landlord ni adagali.",
+    "response": "Avunu, nenu ee roje phone chesta."
+  },
+  {
+    "prompt": "Grocery shopping list ready chesav ga?",
+    "response": "Avunu, WhatsApp lo pampanu."
+  },
+  {
+    "prompt": "Landlord vachhi mana intlo emanna chepthunnada?",
+    "response": "Ledu, monthly check-up ki vachadu."
+  },
+  {
+    "prompt": "Dusting cheyyali, room chana dhoolu ga undi.",
+    "response": "Sare, nenu evening chesta."
+  },
+  {
+    "prompt": "Ninna nuvvu late ga vachav, door lock chesav ga?",
+    "response": "Avunu, lock chesane."
+  },
+  {
+    "prompt": "Maid pani ki raavatledu, phone cheyaledu.",
+    "response": "Oh no, nenu phone chesi aduguthanu."
+  },
+  {
+    "prompt": "Mana balcony chana dirty ga undi, cleaning cheyyali.",
+    "response": "Nenu ee weekend chesta."
+  },
+  {
+    "prompt": "Nuvvu grocery bill katteyyava, nenu taruvatha neeku isthanu.",
+    "response": "Sare, nenu kattestha."
+  },
+  {
+    "prompt": "Flat rent ippudu chana ekkuva undi, kotha flat choodala?",
+    "response": "Avunu, adhi kuda oka idea."
+  },
+  {
+    "prompt": "Ee month rent payment ni divide cheddama?",
+    "response": "Avunu, adhe manchidi."
+  },
+  {
+    "prompt": "Landlord edho kotha rule petttadu anta, emito telusa?",
+    "response": "Ledu, naaku teliyadu. Adagali."
+  },
+  {
+    "prompt": "Nuvvu use chesina utensils ni clean cheyyadam marchipoku.",
+    "response": "Sare, ippude chesta."
+  },
+  {
+    "prompt": "Washing machine repair ki vachadu, bill share cheyyali.",
+    "response": "Avunu, nenu pay chesta."
+  },
+  {
+    "prompt": "Water bill chana ekkuva vachindi ee sari, enduku?",
+    "response": "Manam chana water use chesam."
+  },
+  {
+    "prompt": "Maa room clean cheyyali, chana messy ga undi.",
+    "response": "Avunu, nenu kooda chesta."
+  },
+  {
+    "prompt": "Kotha flatmate kosam advertisement petttali.",
+    "response": "Avunu, nenu online lo post chesta."
+  },
+  {
+    "prompt": "Nenu ippudu Instagram reels chusthunna, chala interesting unnayi.",
+    "response": "Avuna? Nenu kuda konni chudali anukuntunna."
+  },
+  {
+    "prompt": "Whatsapp lo nunchi oka chala funny meme vachindi, neeku forward chesa.",
+    "response": "Chusa, adhi chala navvukunna. Ekkada dorikindi neeku?"
+  },
+  {
+    "prompt": "Na WhatsApp status ippude update chesa, chudali nuvvu.",
+    "response": "Sare, ippude chusthanu. Em pettavu?"
+  },
+  {
+    "prompt": "Eeroju chala reels chusesanu, pani em cheyaledu.",
+    "response": "Nenu kuda anthe! Reels time ni baga lagestayi."
+  },
+  {
+    "prompt": "Social media notifications chala distract chestunnayi.",
+    "response": "Avunu, avi off cheyadam manchidi anukuntunna."
+  },
+  {
+    "prompt": "Neeku ippati varaku enni Instagram followers unnaru?",
+    "response": "Naku peddaga followers leru. Nenu antha active ga undanu."
+  },
+  {
+    "prompt": "Ee roju oka chala manchi cooking video reel lo chusa.",
+    "response": "Avuna? Link pampu, nenu kuda try cheyali."
+  },
+  {
+    "prompt": "Twitter lo trend avuthunna topic ento telusa?",
+    "response": "Ledhu, nenu inka chudaledu. Em jarugutundi?"
+  },
+  {
+    "prompt": "Oka kotha filter tho selfie teesanu, WhatsApp lo pampanu.",
+    "response": "Wah! Chala bagunnav. Kotha filter try cheyali nenu kuda."
+  },
+  {
+    "prompt": "Naaku night anta reels chusi nidra pattesindi.",
+    "response": "Ante neeku nidra sarigga pattaledha?"
+  },
+  {
+    "prompt": "Eeroju TikTok lo oka kotha challenge viral ayindi.",
+    "response": "Avuna? Nenu kuda okasari chudali. Try cheyala?"
+  },
+  {
+    "prompt": "Mana friend pampina meme group lo chala navvukunna.",
+    "response": "Avunu, adhi chala funny ga undi."
+  },
+  {
+    "prompt": "Nenu Instagram lo new reel post chesa, chudu.",
+    "response": "Sare, ippude chusthanu. Ela vachindi?"
+  },
+  {
+    "prompt": "Mana gallery lo unna paatha photos ni WhatsApp status lo pettala?",
+    "response": "Manchide! Nostalgia ni share cheddam."
+  },
+  {
+    "prompt": "Konni hours nunchi social media lo ne unnanu.",
+    "response": "Alage, kani konchem break theeskovadam manchidi."
+  },
+  {
+    "prompt": "Youtube shorts lo konni kotha songs vinnanu, bagunnayi.",
+    "response": "Avuna? Aa songs ento cheppu. Nenu kuda vintanu."
+  },
+  {
+    "prompt": "Ma amma Facebook lo chala active ga untaru.",
+    "response": "Mana peddavallu kuda social media ni baga use chestunnaru ippudu."
+  },
+  {
+    "prompt": "Oka video chusi chala motivate ayyanu, neeku forward chesa.",
+    "response": "Chala manchidi! Nenu ippude chusthanu."
+  },
+  {
+    "prompt": "Naku social media chudali ani anipistundi, kani pani undhi.",
+    "response": "Mundhu pani complete chey, taruvatha choodochu."
+  },
+  {
+    "prompt": "Konni motivational quotes ni WhatsApp status lo petta.",
+    "response": "Chala manchidi! Andariki positivity ivvadam baguntundi."
+  },
+  {
+    "prompt": "Ekkada chusina katha reels chala ekkuva unnayi.",
+    "response": "Avunu, ippudu story formats chala popular ayyayi."
+  },
+  {
+    "prompt": "Friendship gurinchi oka emotional post chusa, naku pampanu.",
+    "response": "Chala manchidi, adhi chala touchy ga undi."
+  },
+  {
+    "prompt": "Nenu morning lechagane mundhu social media ne chusthanu.",
+    "response": "Adhi mana ippati generation lo common ayipoyindi."
+  },
+  {
+    "prompt": "Ee group lo memes chala late ga vastunnayi.",
+    "response": "Avunu, admin konchem slow ga unnaru anukunta."
+  },
+  {
+    "prompt": "Instagram reels naku creativity ni istunnayi.",
+    "response": "Chala manchidi! Nuvvu kuda try cheyochu."
+  },
+  {
+    "prompt": "Na phone battery motham social media chudatanike ayipoyindi.",
+    "response": "Alage, adhi chala common ga jarugutundi."
+  },
+  {
+    "prompt": "Oka travel reel chusi nenu aa place ki vellali ani anipinchindi.",
+    "response": "Avuna? Aa place ekkado cheppu, mana plan cheddam."
+  },
+  {
+    "prompt": "WhatsApp lo okasari status chusi tappinchukunna.",
+    "response": "Avunu, chala mandhi anukokunda chustuntaru."
+  },
+  {
+    "prompt": "Nenu eppudu notifications off chesthanu, chala disturbance.",
+    "response": "Adhi chala manchi decision. Peace ga untundi."
+  },
+  {
+    "prompt": "Eeroju oka chala emotional song ni reel ga chusa.",
+    "response": "Avuna? Adhi naku pampu. Nenu kuda vintanu."
+  },
+  {
+    "prompt": "Social media naku konni kotha recipes nerpinchindi.",
+    "response": "Wow! Emi kotha recipes chesav?"
+  },
+  {
+    "prompt": "Mana friend birthday ki oka special status pettanu.",
+    "response": "Chala manchidi! Andaru chusi wish chestharu."
+  },
+  {
+    "prompt": "Konni funny animal reels chusi chala relax ayyanu.",
+    "response": "Avunu, avi chala stress buster ga untayi."
+  },
+  {
+    "prompt": "Whatsapp lo chala groups lo unnanu, anni notifications vastunnayi.",
+    "response": "Groups ni mute cheyadam manchidi, lekapothe chala chiraku."
+  },
+  {
+    "prompt": "Mana kukka ippudu em chestundi?",
+    "response": "Adi bed pakkana nidra potundi."
+  },
+  {
+    "prompt": "Kukkaki tindi esava?",
+    "response": "Avunu, konchem mundhu esanu."
+  },
+  {
+    "prompt": "Mana pilli ekkadiki vellindi?",
+    "response": "Adi pelli kurchi kinda undi."
+  },
+  {
+    "prompt": "Aa chinna kukka chala andamga undi kada?",
+    "response": "Avunu, chala cute ga undi."
+  },
+  {
+    "prompt": "Kukkalaki regular ga snanam cheyinchali kada?",
+    "response": "Avunu, lekapothe vaatiki chala durvasana vastundi."
+  },
+  {
+    "prompt": "Ma inti pakkana chala stray kukkalunnayi.",
+    "response": "Danimalla night chala noise untundi."
+  },
+  {
+    "prompt": "Ivala evening pet shop ki vellala?",
+    "response": "Avunu, vaatiki tindi konali."
+  },
+  {
+    "prompt": "Mana kukka vaccinattion cheyinchara?",
+    "response": "Next week appointment undi."
+  },
+  {
+    "prompt": "E kukka ela behave chestundi?",
+    "response": "Adi baga playful ga undi, ball tho adukuntundi."
+  },
+  {
+    "prompt": "Stray pillulaki tindi pedthava?",
+    "response": "Avunu, appudappudu pedthanu."
+  },
+  {
+    "prompt": "Mana kukkaki kotha toy konali.",
+    "response": "Adi paatha toy tho bor kottindi anukunta."
+  },
+  {
+    "prompt": "Kukkalu chala loyal ga untayi kada?",
+    "response": "Avunu, manushula kanna ekkuva."
+  },
+  {
+    "prompt": "Aa puppy chala chinadi kada?",
+    "response": "Avunu, chala chinna puppy adi."
+  },
+  {
+    "prompt": "Ma pillaki fever vachindi.",
+    "response": "Vet daggariki teeskellali thwaraga."
+  },
+  {
+    "prompt": "Kukkalaki walk ki teeskellali roju.",
+    "response": "Avunu, vaatiki exercise avasaram."
+  },
+  {
+    "prompt": "Stray animals ni chusukovali kada?",
+    "response": "Manam help cheyali vaatiki."
+  },
+  {
+    "prompt": "Mana kukka kotha tricks nerchukundhi.",
+    "response": "Wow, em tricks adi?"
+  },
+  {
+    "prompt": "Pillalu chala lazy ga untayi kada?",
+    "response": "Avunu, roju chala sepu padukuntayi."
+  },
+  {
+    "prompt": "Pet food cost chana ekkuva kada?",
+    "response": "Avunu, kani em cheyamu."
+  },
+  {
+    "prompt": "Mana kukkaki grooming cheyinchali.",
+    "response": "Adi chana hair shed chestundi ippudu."
+  },
+  {
+    "prompt": "Evaina animals ni adopt cheskundama?",
+    "response": "Nenu adopt cheyadaniki ready."
+  },
+  {
+    "prompt": "Kukkalaki special medicines avasaram?",
+    "response": "Avunu, age perigina koddi avasaram."
+  },
+  {
+    "prompt": "Aa pilli nannu scratch chesindi.",
+    "response": "Be careful, vaati golla chana sharp ga untayi."
+  },
+  {
+    "prompt": "Mana kukka ippudu nidra potunda?",
+    "response": "Ledu, adi garden lo adukuntundi."
+  },
+  {
+    "prompt": "Aa parugu pette kukka needa?",
+    "response": "Avunu, ade na kukka."
+  },
+  {
+    "prompt": "Kukkalu chala intelligent ga untayi.",
+    "response": "Training iste chala nerchukuntayi."
+  },
+  {
+    "prompt": "Pillulaki milk isthava?",
+    "response": "Avunu, konchem iste thagutayi."
+  },
+  {
+    "prompt": "Kukka vaccination card ekkada undi?",
+    "response": "Adi drawer lo choodu."
+  },
+  {
+    "prompt": "Mana puppy chala naught ga untundi.",
+    "response": "Adi furniture ni chew chestundi."
+  },
+  {
+    "prompt": "Animals tho time spend cheyadam chala baguntundi.",
+    "response": "Stress ni reduce chestundi."
+  },
+  {
+    "prompt": "Stray kukkalaki shelter avasaram.",
+    "response": "Varsham padinappudu vaatiki kastam."
+  },
+  {
+    "prompt": "Mana pilli chala quiet ga untundi.",
+    "response": "Adi eppudu disturb cheyadu."
+  },
+  {
+    "prompt": "Mana kukkaki brush cheyinchali.",
+    "response": "Hair antha floor paina padutundi."
+  },
+  {
+    "prompt": "Naaku thala noppi chala ekkuvaga undhi.",
+    "response": "Oh avuna? Tablet vesukunnava mari?"
+  },
+  {
+    "prompt": "Ninna nunchi nenu cough tho chala ibbandi paduthunna.",
+    "response": "Doctor daggariki vellava leda?"
+  },
+  {
+    "prompt": "Naaku konchem jwaram ga unnatlu undhi.",
+    "response": "Parledhu, rest theesuko, saripothundhi."
+  },
+  {
+    "prompt": "Thondaraga pharmacy ki velli medicines theesukoni raavali.",
+    "response": "Nenu vellana neeku emaina theevalante cheppu."
+  },
+  {
+    "prompt": "Ee cold ki em syrup vadali?",
+    "response": "Doctor recommend chesindhi teeskunte better kada?"
+  },
+  {
+    "prompt": "Nenu roju morning exercise chesthanu kani, ippudu cheyaleanu.",
+    "response": "Health mundhu mukhyam, rest theesko."
+  },
+  {
+    "prompt": "Naaku throat pain ga undhi, em cheyali?",
+    "response": "Hot water lo salt vesi gargle chey, relief untundhi."
+  },
+  {
+    "prompt": "Mana illu daggarlo manchi doctor evaru unnaru?",
+    "response": "Pedda hospital lo check cheyinchukovadam manchidhi."
+  },
+  {
+    "prompt": "Nenu ippudu baitiki vellanu, asalu baledhu.",
+    "response": "Ento ayyindhi neeku? Bed pai rest theesuko."
+  },
+  {
+    "prompt": "Naaku chala weak ga anipisthundhi.",
+    "response": "Manchi tindi thinu, konchem energy vastundhi."
+  },
+  {
+    "prompt": "Ee varsham lo thadigithe cold vastundhi.",
+    "response": "Chala jagrathaga undali ippudu."
+  },
+  {
+    "prompt": "Naaku panti noppi modalu ayyindhi, chala badhaga undhi.",
+    "response": "Dentist appointment theesukovali nuvvu."
+  },
+  {
+    "prompt": "Ninna night asalu nidra pattaledhu noppi tho.",
+    "response": "Pain killer vesukovalsindi appude."
+  },
+  {
+    "prompt": "Naaku stomach upset ayyindhi.",
+    "response": "Light tindi thinu, konchem neellu ekkuvaga thagu."
+  },
+  {
+    "prompt": "Thwaraga pharmacy velli band-aid theesukuni raavali.",
+    "response": "Chinnavallu hurt ayyara emaina?"
+  },
+  {
+    "prompt": "Ee tablets ki side effects untaya?",
+    "response": "Doctor ni adagali, nenu cheppalenu."
+  },
+  {
+    "prompt": "Nenu hospital ki vellalsi vastundhi anukuntunna.",
+    "response": "Entuku antha serious ga undha?"
+  },
+  {
+    "prompt": "Naaku body pains unnayi, chala alasi poyanu.",
+    "response": "Warm water tho snanam chey, relax avuthaav."
+  },
+  {
+    "prompt": "Doctor treatment baga chesara?",
+    "response": "Avunu, ippudu konchem better ga undhi."
+  },
+  {
+    "prompt": "Nenu office ki vellaledu ee roju.",
+    "response": "Health mundhu, pani taruvatha."
+  },
+  {
+    "prompt": "Naaku eppudu jwaram raaledhu intha ekkuvaga.",
+    "response": "Bayam padaku, taggipothundhi."
+  },
+  {
+    "prompt": "Ee cough syrup ki taste chala daridranga undhi.",
+    "response": "Nuvvu amrutham ani anukoni thagu."
+  },
+  {
+    "prompt": "Naaku chevi noppi ga undhi, chala badhaga undhi.",
+    "response": "Ear drops vadali, doctor ni adigi."
+  },
+  {
+    "prompt": "E roju tiffin skip chesanu, baledhu ani.",
+    "response": "Tindi miss cheyaku, adhi inka weakness penchuthundhi."
+  },
+  {
+    "prompt": "Nenu full ga blanket lo padukovali anukuntunna.",
+    "response": "Temperature ekkuva unte alage anipisthundhi."
+  },
+  {
+    "prompt": "Naaku head bhayankaram ga thiruguthundhi.",
+    "response": "Thwaraga doctor ni kalusu, late cheyaku."
+  },
+  {
+    "prompt": "Nuvvu medicine theesukunnava correct time ki?",
+    "response": "Avunu, theesukunnanu, nenu marchiponu."
+  },
+  {
+    "prompt": "Naaku chest congestion undhi, swasa theesukovadam kashtam ga undhi.",
+    "response": "Nebulizer vadali, doctor ni consult chey."
+  },
+  {
+    "prompt": "Ee roju nenu light tindi matrame thintanu.",
+    "response": "Health balenappudu alage cheyali."
+  },
+  {
+    "prompt": "Naaku rash vachindhi skin pai, itching ga undhi.",
+    "response": "Allergy emaina ayyinda? Doctor ki chupinchu."
+  },
+  {
+    "prompt": "Mana illu lo first aid kit undha?",
+    "response": "Avunu, bathroom cabinet lo undhi choodu."
+  },
+  {
+    "prompt": "Nenu tablets theesukovadam marchipoyanu.",
+    "response": "Time ki vesukovadam chala mukhyam."
+  },
+  {
+    "prompt": "Naaku night cough chala ekkuva ayyindhi.",
+    "response": "Warm water tho honey kalupukoni thagu."
+  },
+  {
+    "prompt": "Ee weekend ekkadiki velladam plan chesthunnav?",
+    "response": "Nenu Goa ki velladaniki plan chesthunna."
+  },
+  {
+    "prompt": "Manam trip ki vellinappudu suitcase entha peddadi theesukellali?",
+    "response": "Chinadhe theesukundham, peddadi avasaram ledu."
+  },
+  {
+    "prompt": "Hotel booking chesavara?",
+    "response": "Inka cheyaledu, ippude cheyali."
+  },
+  {
+    "prompt": "Ekkada undevi scenic viewpoints?",
+    "response": "Andamaina chotlu chala unnayi, choosukundham."
+  },
+  {
+    "prompt": "Sightseeing ki em places unnay ikkada?",
+    "response": "Konni historic places unnay, avi chudam."
+  },
+  {
+    "prompt": "Eppudu start avuddi manam trip?",
+    "response": "Repu morning thwaraga start avuddi."
+  },
+  {
+    "prompt": "Flight tickets book chesava?",
+    "response": "Avunu, tickets book chesesa."
+  },
+  {
+    "prompt": "Trip ki em tindi theesukellali?",
+    "response": "Light ga snacks theesukundham."
+  },
+  {
+    "prompt": "Mana luggage ready cheyalsindi kada?",
+    "response": "Inka konchem undi, ippude chesestha."
+  },
+  {
+    "prompt": "Hotel lo amenities em unnayi?",
+    "response": "Swimming pool, gym unnayi anta."
+  },
+  {
+    "prompt": "Ee place chala bagundi kada?",
+    "response": "Avunu, chala andamaina place."
+  },
+  {
+    "prompt": "Nuvvu car lo vasthunava train lo vasthunava?",
+    "response": "Nenu train lo vasthunna."
+  },
+  {
+    "prompt": "Ekkada padukovali ani anukuntunnav?",
+    "response": "Beach pakkana unna resort lo padukundham."
+  },
+  {
+    "prompt": "Mana itinerary ready chesavara?",
+    "response": "Avunu, motham ready chesa."
+  },
+  {
+    "prompt": "Ee trip ki budget entha ayyindi?",
+    "response": "Peddaga em avvaledu, konchem ayyindi."
+  },
+  {
+    "prompt": "Varsham padithe em cheyali?",
+    "response": "Appudu indoor activities cheyali."
+  },
+  {
+    "prompt": "Nuvvu photography cheyalante ee place perfect.",
+    "response": "Avunu, photos baga vastayi."
+  },
+  {
+    "prompt": "Mana room lo Wi-Fi untunda?",
+    "response": "Avunu, Wi-Fi undi ani chepparu."
+  },
+  {
+    "prompt": "Airport ki entha dooram?",
+    "response": "Konchem dooram undi, 30 nimishalu paduthundi."
+  },
+  {
+    "prompt": "Nuvvu shopping chesthava trip lo?",
+    "response": "Konchem local things konali ani undi."
+  },
+  {
+    "prompt": "Ekkada auto stand undi?",
+    "response": "Hotel bayata ne auto stand undi."
+  },
+  {
+    "prompt": "Mana taxi ekkada waiting?",
+    "response": "Bayata entrance lo waiting."
+  },
+  {
+    "prompt": "Ee trip ki baga relax avvochu kada?",
+    "response": "Avunu, chala relax avvochu."
+  },
+  {
+    "prompt": "Nuvvu eppudu tirigi vasthunnav?",
+    "response": "Next week vasthunna."
+  },
+  {
+    "prompt": "Manam boating cheyagalama?",
+    "response": "Avunu, akkada boating option undi."
+  },
+  {
+    "prompt": "Check-in time entha?",
+    "response": "Afternoon 2:00 PM ki check-in."
+  },
+  {
+    "prompt": "Breakfast hotel lo include ayyinda?",
+    "response": "Avunu, breakfast include ayyindi."
+  },
+  {
+    "prompt": "Ee place ki first time vasthunnava?",
+    "response": "Avunu, nenu first time vasthunna."
+  },
+  {
+    "prompt": "Mana camera theesukelladam marchipoku.",
+    "response": "Ledule, theesukunna."
+  },
+  {
+    "prompt": "Ee beach lo swimming safe aa?",
+    "response": "Avunu, safe ani chepparu."
+  },
+  {
+    "prompt": "Konchem thwaraga vellali kada?",
+    "response": "Avunu, thwaraga vellali."
+  },
+  {
+    "prompt": "Tour guide theesukundhama?",
+    "response": "Avasaram ledu, maname choosukundham."
+  },
+  {
+    "prompt": "Ee roju weather ela undi?",
+    "response": "Ee roju weather chala bagundi, yenda takkuva undi."
+  },
+  {
+    "prompt": "Mana passports theesukunnam kada?",
+    "response": "Avunu, anni ready ga unnayi."
+  },
+  {
+    "prompt": "Ninna rathri late ga padukunna, ippudu nidra raavatledhu.",
+    "response": "Oh avuna? Konchem paalu taagi choodu, padukundham anipisthundhi."
+  },
+  {
+    "prompt": "Eeroju marala alarm snooze chesi late ga lecha.",
+    "response": "Prati roju ide pani kada neeku? Konchem thwaraga levaledha?"
+  },
+  {
+    "prompt": "Madhyaanam naku nidra vasthundhi, em cheyali?",
+    "response": "Konchem coffee taagu leda bayataki velli ra. Fresh avuthavu."
+  },
+  {
+    "prompt": "Naa nidra cycle asalu set avvatledhu.",
+    "response": "Night time lo phone choodadam maney. Thwaraga padukuntaavu."
+  },
+  {
+    "prompt": "Eeroju chala thwaraga lecha, fresh ga undhi.",
+    "response": "Adhi manchidhi kada! Alaage roju thwaraga levaledha?"
+  },
+  {
+    "prompt": "Repu mundhe levali, emaina tips cheppu.",
+    "response": "Night light off chesi paduko. Morning alarm dooramga pettukoo."
+  },
+  {
+    "prompt": "Naaku nidra pattadam chala kastam avutundhi.",
+    "response": "Nidra mundhu heavy tindi thinaku, exercise chey konchem."
+  },
+  {
+    "prompt": "Alarm mogina kuda levalekapoyanu eeroju.",
+    "response": "Ala enduku? Chala alupu ga unnaava?"
+  },
+  {
+    "prompt": "Morning routine change cheddam anukuntunna.",
+    "response": "Manchi alochana. Em cheyali anukuntunnav?"
+  },
+  {
+    "prompt": "Ninna night oka cinema chusi late ga padukunna.",
+    "response": "Adhe kada, alaage roju nidra sarriga undadam ledhu."
+  },
+  {
+    "prompt": "Eeroju morning walk ki vellanu, bagundhi.",
+    "response": "Super! Ala physical activity chesthe nidra kuda baga paduthundhi."
+  },
+  {
+    "prompt": "Nenu asalu sarriga nidrapovatledhu.",
+    "response": "Okasari doctor ni kalisi choodu, problem emito telusthundhi."
+  },
+  {
+    "prompt": "Morning levagane thala noppi vasthundhi.",
+    "response": "Ade nidra sarriga poyina ledha takkuva poyina adhe problem."
+  },
+  {
+    "prompt": "Weekend lo late ga leddam ani fix ayyanu.",
+    "response": "Avunu, weekend kada konchem relax avvochu."
+  },
+  {
+    "prompt": "Naa morning coffee naku chala mukhyam.",
+    "response": "Ade kada, andhariki alage untundhi."
+  },
+  {
+    "prompt": "Eeroju morning breakfast cheyyaledhu.",
+    "response": "Ala cheyyaku, breakfast chala mukhyam rojukini."
+  },
+  {
+    "prompt": "Rathri pashuvulu chala noise chestunnayi, nidra pattaledhu.",
+    "response": "Ayyo papam, adhi chala disturbing ga untundhi."
+  },
+  {
+    "prompt": "Nidra mundhu pusthakam chadavadam naaku ishtam.",
+    "response": "Adhi manchi habit, phone kante pusthakam better."
+  },
+  {
+    "prompt": "Eeroju night early ga padukundham anukuntunna.",
+    "response": "Manchidhi, konchem rest avuthavu."
+  },
+  {
+    "prompt": "Naku morning levagane snanam cheyali anipinchadhu.",
+    "response": "Chali kalam lo alage untundhi. Konchem hot water use chey."
+  },
+  {
+    "prompt": "Naa laptop night antha on lo untundhi.",
+    "response": "Nidra quality affect avuthundhi, off chesi paduko."
+  },
+  {
+    "prompt": "Nidra lo edho bayankaramaina kala vachindhi.",
+    "response": "Ayyo, ala untundhi. Neellu taagi marala paduko."
+  },
+  {
+    "prompt": "Eeroju morning yoga chesanu, baga active ga unnanu.",
+    "response": "Yoga chala manchidhi, ala chesthune undu."
+  },
+  {
+    "prompt": "Naku nidra lekunna chala active ga untanu.",
+    "response": "Adhi manchidhi kani body ki rest avasaram kada?"
+  },
+  {
+    "prompt": "Eeroju office ki thwaraga vellali, so thwaraga lecha.",
+    "response": "Good job! Planning bagundhi."
+  },
+  {
+    "prompt": "Naku chali pedthundhi, blanket lekunda nidra pattadhu.",
+    "response": "Ala aithe heavy blanket teesukoo."
+  },
+  {
+    "prompt": "Nidra mundhu phone vadithe problem enti?",
+    "response": "Phone light valla brain ki signals velli nidra pattadam late avuthundhi."
+  },
+  {
+    "prompt": "Ninna night football match chusi late ga padukunna.",
+    "response": "Enduku antha late? Eeroju baga alupu ga untundhi."
+  },
+  {
+    "prompt": "Eeroju morning naku time dorkaledhu ready avvadaniki.",
+    "response": "Ala aithe repu konchem mundhu ga levale."
+  },
+  {
+    "prompt": "Nidra lekunna work cheyadam chala kastam.",
+    "response": "Avunu, concentrate cheyyalenu."
+  },
+  {
+    "prompt": "Naku night milk taagi padukune alavatu undhi.",
+    "response": "Adhi manchi alavatu. Nidra baga paduthundhi."
+  },
+  {
+    "prompt": "Eeroju weekend night party ki velli late ga vastha.",
+    "response": "Sare, enjoy chey kani sarriga inti ki ra."
+  },
+  {
+    "prompt": "Nuvvu ee madhya em hobbies chestunnav?",
+    "response": "Nenu gardening start chesanu, chala bagundi."
+  },
+  {
+    "prompt": "Gardening lo emi penchutunnav?",
+    "response": "Chinna chinna mokkalu, pushpalu penchutunna."
+  },
+  {
+    "prompt": "Mokkalu penchadam ela undi?",
+    "response": "Chala prashanthamga anipisthundi."
+  },
+  {
+    "prompt": "Nee fav novel emiti?",
+    "response": "Nenu ippudu oka fantasy novel chaduvutunna, chala interesting ga undi."
+  },
+  {
+    "prompt": "Pusthakalu chadavadam ante ishtamena neeku?",
+    "response": "Avunu, nenu roju konchem samayam pusthakalaki istanu."
+  },
+  {
+    "prompt": "Guitar nerchukuntunnava?",
+    "response": "Avunu, koddiga nerchukuntunna, kashtam ga undi kani ishtam."
+  },
+  {
+    "prompt": "Em paatalu play chestunnav?",
+    "response": "Ippudu konchem simple paatalu practice chestunna."
+  },
+  {
+    "prompt": "Nuvvu painting chestava?",
+    "response": "Avunu, watercolors tho chitha lekhanam chestanu."
+  },
+  {
+    "prompt": "Ekkada nerchukunnav painting?",
+    "response": "Nenu online lo chusi nerchukundhi."
+  },
+  {
+    "prompt": "Painting cheyadam ela anipisthundi?",
+    "response": "Chala relaxation istundi, samayam teliyadu asalu."
+  },
+  {
+    "prompt": "Nee paatalu vintava, leda instrumental music vintava?",
+    "response": "Nenu rendu vintanu, mood ni batti marustanu."
+  },
+  {
+    "prompt": "Guitar class ki vellava?",
+    "response": "Ledu, nenu youtube lo lessons chustanu."
+  },
+  {
+    "prompt": "Ee weekend em plan chesukunnav?",
+    "response": "Nenu illu pakkana unna park ki velli konchem chaduvuthanu."
+  },
+  {
+    "prompt": "Kotha pustakam emaina konava?",
+    "response": "Avunu, oka kotha mystery novel konnanu."
+  },
+  {
+    "prompt": "Gardening ki entha samayam istav roju?",
+    "response": "Roju oka araganta istanu, mokkalatho matladathaanu kuda."
+  },
+  {
+    "prompt": "Nuvvu yekkadi nunchi mokkalu thechukuntav?",
+    "response": "Nursery nunchi konni, friends nunchi konni."
+  },
+  {
+    "prompt": "Watercolors lo emi paint chestav baga?",
+    "response": "Nature scenes, mukhyamga puvvulu chala ishtam."
+  },
+  {
+    "prompt": "Music lo nee favorite genre emiti?",
+    "response": "Naku classical music ante chala ishtam."
+  },
+  {
+    "prompt": "Eppudaina concert ki vellava?",
+    "response": "Avunu, oka saari Carnatic concert ki vellanu, adbhutam ga undi."
+  },
+  {
+    "prompt": "Novel characters gurinchi alochistava?",
+    "response": "Avunu, aa kathalo nenu unnattu oohinchukuntanu."
+  },
+  {
+    "prompt": "Mokkalu penchadaniki patience avasarama?",
+    "response": "Chala avasaram, avvaleda ani digulu padakudadu."
+  },
+  {
+    "prompt": "Guitar strings change cheyadam telusa neeku?",
+    "response": "Avunu, ade nerchukuntunna ippudu."
+  },
+  {
+    "prompt": "Nee intlo entha mandhi music play chestaru?",
+    "response": "Nenu okkadine guitar play chesta, migathavallu vintaru."
+  },
+  {
+    "prompt": "Neeru posinappudu mokkalu ela untayi?",
+    "response": "Chala happy ga, fresh ga untayi."
+  },
+  {
+    "prompt": "Mekkalu peruguthunte chooddam chala santhosham ga untundi kada?",
+    "response": "Avunu, adi oka adbhuthamaina anubhuti."
+  },
+  {
+    "prompt": "Kotha guitar konava?",
+    "response": "Ledu, adi naa paatha guitar eh, baaga care theesukuntanu."
+  },
+  {
+    "prompt": "Nuvvu chesina paintings evarikaina chupinchaava?",
+    "response": "Avunu, naa friends ki, family ki chupinchanu."
+  },
+  {
+    "prompt": "Painting lo baga nerchukovadaniki emi cheyali?",
+    "response": "Roju practice cheyali, kotha techniques nerchukovali."
+  },
+  {
+    "prompt": "Pusthakalu yekkadi nunchi thechukuntav?",
+    "response": "Library nunchi konni, online lo konni."
+  },
+  {
+    "prompt": "Rojulu gadavadaniki hobbies avasaramena?",
+    "response": "Avunu, roju pani chesina taruvatha relaxation ki chala avasaram."
+  },
+  {
+    "prompt": "Gardening chesetappudu gloves vesukuntava?",
+    "response": "Avunu, chethulu muriki avvakunda gloves vesukuntanu."
+  },
+  {
+    "prompt": "Ee madhya emaina kotha paata nerchukunnava?",
+    "response": "Avunu, oka old Telugu paata nerchukuntunna."
+  },
+  {
+    "prompt": "Nee intlo paintings display chesava?",
+    "response": "Avunu, naa drawing room lo konni unnay."
+  },
+  {
+    "prompt": "Pusthakalu chaduvutunte samayam ela gadichipotundo teliyadu kada?",
+    "response": "Avunu, oka kottha prapancham lo unnattu untundi."
+  },
+  {
+    "prompt": "Ippudu chana varsham padutundi, pani puri tinadaniki baguntundhi kada?",
+    "response": "Avunu, ee weather lo pani puri chala perfect ga untundhi."
+  },
+  {
+    "prompt": "Mana college daggarlo kotha chaat bandi vachindhi, chudala?",
+    "response": "Oh avuna? Sare, evening college ayyaka velludam."
+  },
+  {
+    "prompt": "Naaku samosa chala tinipinchali, ekkada dorukuthundi ippudu?",
+    "response": "Nuvvu bus stand daggariki vellu, akkada hot hot samosalu untayi."
+  },
+  {
+    "prompt": "Evening mana friends andaram kalisi tea taagudama?",
+    "response": "Chala manchi idea, ekkada kaludam?"
+  },
+  {
+    "prompt": "Mana area lo kulfi entha baguntundo neeku thelusa?",
+    "response": "Avunu, nenu kulfi chala sarlu akkadiki thinna."
+  },
+  {
+    "prompt": "Akkada pedda crowd undhi, emami ammutunnaru?",
+    "response": "Adhi chicken pakodi bandi, chala famous."
+  },
+  {
+    "prompt": "Nuvvu spicy food baga thintava?",
+    "response": "Avunu, nenu spicy chaat ante chala ishtapadatha."
+  },
+  {
+    "prompt": "Ee roju lunch ki street food thindama?",
+    "response": "Sare, em thindam anukuntunnav?"
+  },
+  {
+    "prompt": "Thandaga undhi, hot ga coffee taagudam ra.",
+    "response": "Sare, mana tea stall ki velludam."
+  },
+  {
+    "prompt": "Nuvvu street food ekkuva prefer chesthava leka restaurant aa?",
+    "response": "Nenu rendu prefer chesthanu, kani street food ki oka different feel untundhi."
+  },
+  {
+    "prompt": "Pani puri ki vellinappudu, oka extra sukha puri adugutava?",
+    "response": "Avunu, adi common ga aduguthanu."
+  },
+  {
+    "prompt": "Ee yenda ki ice cream chala baguntundhi.",
+    "response": "Avunu, fruit ice cream tinadaniki chala fresh ga untundhi."
+  },
+  {
+    "prompt": "Street food lo neeku istamaina item enti?",
+    "response": "Naaku bombay pav bhaji ante chala istam."
+  },
+  {
+    "prompt": "Mana intlo street food cheyadam elago nerchukundama?",
+    "response": "Oh adi chala baguntundhi, nenu kuda nerchukovalani undhi."
+  },
+  {
+    "prompt": "Ekkada manchi sweet corn dorukuthundhi?",
+    "response": "Park mundhu oka bandi untundhi, akkada choodu."
+  },
+  {
+    "prompt": "Idhi chala pedda queue undhi, enduku?",
+    "response": "Adhi oka famous chaat bandi, taste chala baguntundhi anta."
+  },
+  {
+    "prompt": "Nuvvu street food hygienic ga untundhi ani nammutava?",
+    "response": "Konni places lo hygienic ga untundhi, konni chotla doubtful."
+  },
+  {
+    "prompt": "Kobbari bondam ippudu dorukuthundha?",
+    "response": "Avunu, road pakkana oka ayana ammutunnadu."
+  },
+  {
+    "prompt": "Ratri full ga thinna, kani street food craving undhi.",
+    "response": "Appudu konchem light ga chaat thinu."
+  },
+  {
+    "prompt": "Manam weekend outing ki vellinappudu street food try cheyudam.",
+    "response": "Chala manchi idea, local street food baguntundhi."
+  },
+  {
+    "prompt": "Neeku jalebi and rabdi combination ishtama?",
+    "response": "Avunu, adi chala sweet ga untundhi."
+  },
+  {
+    "prompt": "Ee roju evening pani undha, leka bayata tirugudama?",
+    "response": "Emi pani ledu, bayata velli street food thinudam."
+  },
+  {
+    "prompt": "Dabeli entha tasty ga untundhi kadha?",
+    "response": "Avunu, nenu adhi chala ishtapadatha."
+  },
+  {
+    "prompt": "Ee varshanga tea and pakodi combination chala baguntundhi.",
+    "response": "Perfect idea, thwaraga velli thechukundam."
+  },
+  {
+    "prompt": "Ikkada chaat price konchem ekkuva undhi kadha?",
+    "response": "Avunu, kani taste chala baguntundhi."
+  },
+  {
+    "prompt": "Nuvvu dosa bandi daggariki vellinappudu em order chesthav?",
+    "response": "Nenu masal dosa order chesthanu, chala tasty ga untundhi."
+  },
+  {
+    "prompt": "Mirchi bajji ki chutney important kadha?",
+    "response": "Avunu, chutney leni mirchi bajji antha bagundadhu."
+  },
+  {
+    "prompt": "Mana pakkana street lo chaat fest jarugutundhi.",
+    "response": "Oh avuna? Evening velli choodali."
+  },
+  {
+    "prompt": "Nuvvu street food thinnaka acidity vastunda?",
+    "response": "Appudappudu vastundhi, kani chala istam."
+  },
+  {
+    "prompt": "Gobi manchuria entha hot hot ga untundhi!",
+    "response": "Avunu, winter lo adhi chala comforting ga untundhi."
+  },
+  {
+    "prompt": "Pani puri lo teepi pani neeku istama leka karam pani aa?",
+    "response": "Naaku karam pani istam, kani konchem teepi kuda baguntundhi."
+  },
+  {
+    "prompt": "Ee roju pakodi tho tea taagudam.",
+    "response": "Sare, nenu intiki velli prepare chesthanu."
+  },
+  {
+    "prompt": "Nuvvu chaat ante entha ishtapadathavo nenu chusanu.",
+    "response": "Avunu, adi naa weakness."
+  },
+  {
+    "prompt": "Pani puri vaadu asala pani gurunchi alochinchadu.",
+    "response": "Avunu, vadu chala fast ga chesthadu."
+  },
+  {
+    "prompt": "Naa resume update cheyadam ela start cheyali anukuntunnav?",
+    "response": "Mundhu nee achievements list chey, taruvatha format choodu."
+  },
+  {
+    "prompt": "Nenu emaina online job portals choodala?",
+    "response": "Avunu, LinkedIn, Naukri choodu, chala openings untayi."
+  },
+  {
+    "prompt": "Eeroju emaina interview calls vachchaya neeku?",
+    "response": "Ledu, inka emi raledu, waiting."
+  },
+  {
+    "prompt": "Salary package gurinchi matladataniki neeku bayam ga undha?",
+    "response": "Konchem bayam ga undhi kani, confidence ga matladali."
+  },
+  {
+    "prompt": "Mock interviews practice cheyadam avasarama?",
+    "response": "Chala avasaram, confidence perugutundi."
+  },
+  {
+    "prompt": "Nenu ee job ki apply cheyyala vadha?",
+    "response": "Job description baga choodu, taruvatha decide chey."
+  },
+  {
+    "prompt": "Naa resume lo em qualities add cheyali?",
+    "response": "Nee skills, experience highlight chey."
+  },
+  {
+    "prompt": "Ee company lo pani cheyadam ela untundi anukuntunnav?",
+    "response": "Reviews choodu, work culture bagundachu."
+  },
+  {
+    "prompt": "Job search ki entha time pattochu?",
+    "response": "Adhi nee skills batti untundi, konchem patience undali."
+  },
+  {
+    "prompt": "References ivvadam manchidena?",
+    "response": "Avunu, manchi references unte chala help avvuddi."
+  },
+  {
+    "prompt": "Nenu oka cover letter kuda rayala?",
+    "response": "Avunu, cover letter raste baguntundi."
+  },
+  {
+    "prompt": "Job alerts set cheskunnava?",
+    "response": "Avunu, daily alerts vastunnayi."
+  },
+  {
+    "prompt": "Interview mundu company gurinchi research cheyala?",
+    "response": "Must ga cheyali, adhi chala important."
+  },
+  {
+    "prompt": "Nee network lo evaraina job openings share chesara?",
+    "response": "Mithrulu konni openings chepparu."
+  },
+  {
+    "prompt": "Ee role ki naaku entha salary expect cheyochchu?",
+    "response": "Market standards choodu, neeku oka idea vastundi."
+  },
+  {
+    "prompt": "Nee old company lo em experience nerchukunnav?",
+    "response": "Chala nerchukunnanu, konni lessons kuda."
+  },
+  {
+    "prompt": "Nee career goals emiti?",
+    "response": "Nenu manager position ki vellali anukuntunna."
+  },
+  {
+    "prompt": "Nenu konchem nervous ga unnanu, em cheyali?",
+    "response": "Deep breaths teesko, calm ga undu."
+  },
+  {
+    "prompt": "Ee job offer accept cheyyala?",
+    "response": "Package, role, future growth anni consider chey."
+  },
+  {
+    "prompt": "Nee resume ni mari konchem attractive ga cheyali?",
+    "response": "Yes, professional ga design cheyali."
+  },
+  {
+    "prompt": "Interview lo common questions emi untayi?",
+    "response": "Self-introduction, strengths, weaknesses, future plans."
+  },
+  {
+    "prompt": "Nenu job kosam migrate avvala?",
+    "response": "Adhi nee personal choice, opportunity batti untundi."
+  },
+  {
+    "prompt": "Online courses cheyadam valla benefit untunda?",
+    "response": "Chala benefit untundi, skills improve avtayi."
+  },
+  {
+    "prompt": "Naa social media presence career ki affect chestunda?",
+    "response": "Yes, positive ga maintain cheyali."
+  },
+  {
+    "prompt": "Job fairs lo participate cheyadam manchidena?",
+    "response": "Avunu, contacts perugutayi."
+  },
+  {
+    "prompt": "Ee company ki second round interview undha?",
+    "response": "Avunu, next week schedule chesaru."
+  },
+  {
+    "prompt": "Negotiation tips emaina unnayya?",
+    "response": "Nee value telusukoni, confidence ga matladu."
+  },
+  {
+    "prompt": "Professional headshot avasarama?",
+    "response": "Resume ki mandatory kadu kani, LinkedIn ki manchidi."
+  },
+  {
+    "prompt": "Ee role naku suit avvuddi ani anukuntunnava?",
+    "response": "Nee skills ki matching ga undhi, try chey."
+  },
+  {
+    "prompt": "Networking events ki velladam important ah?",
+    "response": "Chala important, kotha connections perugutayi."
+  },
+  {
+    "prompt": "Nenu emaina additional certifications cheyala?",
+    "response": "Nee career path ki help ayye certifications cheyali."
+  },
+  {
+    "prompt": "Nee dream job emiti?",
+    "response": "Manchi work-life balance unna job naaku dream."
+  },
+  {
+    "prompt": "Job rejection ni ela manage cheyali?",
+    "response": "Adhi common, next opportunity ki focus cheyali."
+  },
+  {
+    "prompt": "Mana chinna naati games gurthu unnaya? Hide and seek entha bagundedho.",
+    "response": "Avunu! Eerojullo aa maja ekkada."
+  },
+  {
+    "prompt": "Gilli-danda chala pedda gang tho aadadam gurthu undha?",
+    "response": "Oh avunu, adi chala tough game."
+  },
+  {
+    "prompt": "School ground lo cricket aadadam bagundedhi kadha?",
+    "response": "Chala bagundedhi, rojantha akkade undevallam."
+  },
+  {
+    "prompt": "Mana old school friends tho malli kalisi adali ani undhi.",
+    "response": "Same feeling, chala miss avthunna vallani."
+  },
+  {
+    "prompt": "Hopscotch kuda entha ishtam ga aadukunnam?",
+    "response": "Avunu, oka paata prapancham adi."
+  },
+  {
+    "prompt": "Kanche tappu ani oka game undedhi, gurthu undha?",
+    "response": "Oh avunu! Adukova chala bayamga undedhi."
+  },
+  {
+    "prompt": "Donga police game entha mandi aadukunnam?",
+    "response": "Mana batch antha rojupata adukunnam."
+  },
+  {
+    "prompt": "Chinna chinna raallatho katha-katha aadadam chala maja ichhedhi.",
+    "response": "Avunu, adi creativity ki chala manchidhi."
+  },
+  {
+    "prompt": "Chettu ekkadam game gurthundha? Evvaru mundhu ekkuthaaro choodali.",
+    "response": "Nenu eppudu gelichedanni."
+  },
+  {
+    "prompt": "Marbles tho aadadam kuda chala ishtamga undedhi.",
+    "response": "Na dagara chala colour marbles undevi."
+  },
+  {
+    "prompt": "Mana chinna naati games chala energetic ga undevi.",
+    "response": "Ippati pillalaki avi theliyadhu."
+  },
+  {
+    "prompt": "Adi oka swarna yugam, aa games ippudu levu.",
+    "response": "Nijam, aa dinnalu tirigi raavu."
+  },
+  {
+    "prompt": "School taruvatha intiki vellagane playground ki velle vallam kadha?",
+    "response": "Avunu, homework kuda choodakunda."
+  },
+  {
+    "prompt": "Maa street lo girls boys andaram kalisi aadukunnam.",
+    "response": "Adhi ippudu ekkada ledhu."
+  },
+  {
+    "prompt": "Pakka intlo pillalni pilichi aadadam chala bagundedhi.",
+    "response": "Ippudu pillalu intlo kurchuntunnaru."
+  },
+  {
+    "prompt": "Sankranthi ki flying kites chala bagundedhi.",
+    "response": "Nenu chala guttu ga kites egaresevadini."
+  },
+  {
+    "prompt": "Chinna chinna bommalatho pellilu chese vallam gurthu undha?",
+    "response": "Avunu, chala fun ga undedhi."
+  },
+  {
+    "prompt": "Mana old toys ni kuda chala miss avthunnam.",
+    "response": "Naaku aa remote car chala ishtam."
+  },
+  {
+    "prompt": "Vaana vasthe kuda cricket aadutunnam gurthu undha?",
+    "response": "Avunu, vaana varsham lo kuda aadevallam."
+  },
+  {
+    "prompt": "Appatlo time gurthinche vallam kadhu, aadukuntu velle vallam.",
+    "response": "Amma pilichi pilichi alasi poyevi."
+  },
+  {
+    "prompt": "Mana school annual day games bagundevi kadha?",
+    "response": "Avunu, egg and spoon race lo nenu eppudu gelichevadni."
+  },
+  {
+    "prompt": "Chinna chinna pandlatho kabaddi aadadam gurthu undha?",
+    "response": "Avunu, adhi chala pedda game."
+  },
+  {
+    "prompt": "Bommala pellam aata chala ishtamga undedhi kadha?",
+    "response": "Na chelli ki adhi ante chala ishtam."
+  },
+  {
+    "prompt": "Cycle thokkadam kuda oka game laaga undedhi kadha?",
+    "response": "Avunu, race lu pettukune vallam."
+  },
+  {
+    "prompt": "Chinna chinna kadhalu cheppukuntu aadadam entha bagundedho.",
+    "response": "Mana imagination chala ekkuva undedhi."
+  },
+  {
+    "prompt": "Mana chinna naati bondings games valla baga perigayi.",
+    "response": "Nijam, aa friendship eppudu marichipolenu."
+  },
+  {
+    "prompt": "Pakka vaadi intiki velli aadadam chala normal ga undedhi.",
+    "response": "Ippudu avanni maripoyayi."
+  },
+  {
+    "prompt": "Pidikedu raallatho kuncham aata gurthu undha?",
+    "response": "Adhi chala brain game."
+  },
+  {
+    "prompt": "Aa games anni manalni physical ga strong chesayi.",
+    "response": "Avunu, ippudu manam chala fit ga unnam."
+  },
+  {
+    "prompt": "Chinna chinna role plays kuda chala ishtam ga chese vallam.",
+    "response": "Doctor, teacher lanti roles."
+  },
+  {
+    "prompt": "Appatlo games ki enduku antha time undedho.",
+    "response": "Em tensions levu kadha."
+  },
+  {
+    "prompt": "Jumping rope tho kuda chala competitions pette vallam.",
+    "response": "Avunu, entha sepu jump chesthaamo choodali."
+  },
+  {
+    "prompt": "Old memories chala sweet ga untayi, kadha?",
+    "response": "Chala sweet, malli aa rojulu vasthe bagundu."
+  },
+  {
+    "prompt": "School ground lo tag-team game gurthu undha?",
+    "response": "Oh, adi chala fast game."
+  },
+  {
+    "prompt": "Diwali crackers pelchava?",
+    "response": "Avunu, chinna crackers pelchaanu. Sound pollution ekkuva undoddhu ani."
+  },
+  {
+    "prompt": "Sankranti ki intiki veltunnava?",
+    "response": "Ledu, eesaari intiki velladam ledu, ikkade celebrate chesukuntunnam."
+  },
+  {
+    "prompt": "Sankranti kites egaresava?",
+    "response": "Avunu, ma friends tho kalisi chala kites egaresam."
+  },
+  {
+    "prompt": "Dussehra pooja ela jarigindi?",
+    "response": "Chala baga jarigindi, andaram kalisi chesam."
+  },
+  {
+    "prompt": "Dussehra ki kotha battalu konnava?",
+    "response": "Avunu, oka kotha saree konukukunnanu."
+  },
+  {
+    "prompt": "Ee festival ki special tindi emi chestunnav?",
+    "response": "Boorelu, pulihora chesthunnanu."
+  },
+  {
+    "prompt": "Christmas celebrations ki ready ga unnavara?",
+    "response": "Avunu, intini decoration chesam."
+  },
+  {
+    "prompt": "New Year ki parties emaina unnaya?",
+    "response": "Chinna get-together undhi anthe."
+  },
+  {
+    "prompt": "Holi ki rangulu adinava?",
+    "response": "Ledu, nenu adaledu. Colors ki allergic nenu."
+  },
+  {
+    "prompt": "Rakhi ki mee anna vachada?",
+    "response": "Avunu, vachadu. Memu Rakhi kattesam."
+  },
+  {
+    "prompt": "Ganesh Chaturthi ki pandal chudataniki vellava?",
+    "response": "Avunu, ma colony lo pandal chala bagundi."
+  },
+  {
+    "prompt": "Ugadi pachadi chesava?",
+    "response": "Avunu, Ugadi roju chesam. Chala taste ga undi."
+  },
+  {
+    "prompt": "Pongal ela jarigindi neeku?",
+    "response": "Chala santhosham ga jarigindi, intlo sweets chesam."
+  },
+  {
+    "prompt": "Eppudu intlo festivals ki sweets chesthara?",
+    "response": "Avunu, chala varaku intlone chestham."
+  },
+  {
+    "prompt": "Festivals ki intiki relatives vasthara?",
+    "response": "Avunu, prati festival ki vastharu."
+  },
+  {
+    "prompt": "Mee inti deggara Diwali lights bagunnaya?",
+    "response": "Chala bagunnai, street mottam light vesaru."
+  },
+  {
+    "prompt": "Sankranti muddapappu baga chesavata?",
+    "response": "Avunu, baga kudirindi ani andaru annaru."
+  },
+  {
+    "prompt": "Dussehra ki bommala koluvu pettava?",
+    "response": "Ledu, memu pettaledu. Ma relatives intlo chusam."
+  },
+  {
+    "prompt": "Birthday party arrange chesava?",
+    "response": "Avunu, ma amma ki chinna party chesam."
+  },
+  {
+    "prompt": "Wedding function ki vellava?",
+    "response": "Avunu, ma friend wedding ki vellanu, chala bagundi."
+  },
+  {
+    "prompt": "Festival time lo travel cheyadam kastam kadha?",
+    "response": "Avunu, chala crowd untundi buses lo, trains lo."
+  },
+  {
+    "prompt": "Christmas tree decoration chesava?",
+    "response": "Avunu, ma pillalu chala excite ayyaru decoration cheyadaniki."
+  },
+  {
+    "prompt": "New Year resolution emaina teesukunnava?",
+    "response": "Avunu, healthy ga undali ani okati teesukunnanu."
+  },
+  {
+    "prompt": "Holi songs pettara?",
+    "response": "Avunu, loud speaker lo songs vesaru."
+  },
+  {
+    "prompt": "Rakhi gift em icharu neeku?",
+    "response": "Oka kotha dress ichadu ma brother."
+  },
+  {
+    "prompt": "Ganesh nimajjanam chudataniki vellava?",
+    "response": "Avunu, chala mandhi vacharu nimajjanam chudataniki."
+  },
+  {
+    "prompt": "Ugadi roju panchanga shravanam vinava?",
+    "response": "Avunu, TV lo live chusam intlo."
+  },
+  {
+    "prompt": "Pongal muggulu vesara?",
+    "response": "Avunu, ma ammagaru chala pedda muggu vesaru."
+  },
+  {
+    "prompt": "Festivals ante neeku istama?",
+    "response": "Avunu, chala istam. Andaru kalustharu kadha."
+  },
+  {
+    "prompt": "Kotha battalu konukkunnav ani cheppaledu?",
+    "response": "Oh avunu, last week konukkunnanu."
+  },
+  {
+    "prompt": "Ee sari vinayaka chavithi ki intlo Ganesh idol pettava?",
+    "response": "Avunu, chinna idol pettaanu."
+  },
+  {
+    "prompt": "Dasara pandaga ela jarigindi?",
+    "response": "Baga jarigindi, intlo pooja chesam."
+  },
+  {
+    "prompt": "Makar Sankranti naadu nuvvu gangireddulu chusava?",
+    "response": "Ledu, eesaari chudaledu."
+  },
+  {
+    "prompt": "Mana kotha illu chudataniki eppudu vellam?",
+    "response": "Repu saayanthram vellam, free ga unte."
+  },
+  {
+    "prompt": "Ee 2BHK flat rent entha undi?",
+    "response": "Ade nenu ethukutunna, konchem ekkuva undochu."
+  },
+  {
+    "prompt": "House rent agreement sign cheyyali kada?",
+    "response": "Avunu, mundhu oka sari terms anni choodu."
+  },
+  {
+    "prompt": "Packers and movers number undha nee daggara?",
+    "response": "Na daggara ledu, kani online lo choodochu."
+  },
+  {
+    "prompt": "Mana illu shiting eppudu plan cheddam?",
+    "response": "Next weekend plan cheddam, appudu pani undadu."
+  },
+  {
+    "prompt": "Kotha illu vastu prakaram undha?",
+    "response": "Avunu, owner chepparu baga undi ani."
+  },
+  {
+    "prompt": "Housewarming ki evarini piluddam?",
+    "response": "Close friends ni relatives ni piluddam."
+  },
+  {
+    "prompt": "Ippudu konchem pedda illu kavalani undhi.",
+    "response": "Avunu, ippudu place saripovadam ledu."
+  },
+  {
+    "prompt": "Mana budget lo manchi illu ethuku.",
+    "response": "Nenu daily listings chustunna."
+  },
+  {
+    "prompt": "Mana kotha illu choodataniki eppudu vellam?",
+    "response": "Repu saayanthram velludham."
+  },
+  {
+    "prompt": "2BHK flat ki rent entha aduguthunnaru akkada?",
+    "response": "Vaallu 15 thousand aduguthunnaru."
+  },
+  {
+    "prompt": "House warming ki evarevarini piluddam ani plan chesav?",
+    "response": "Manamu family ni, close friends ni piluddam."
+  },
+  {
+    "prompt": "Packers and movers number undo nee daggara?",
+    "response": "Avunu, na phone lo undhi."
+  },
+  {
+    "prompt": "Rent agreement kosam documents emem kaavali?",
+    "response": "Aadhaar, PAN card theesukellali."
+  },
+  {
+    "prompt": "Mana budget ki tagga illu ekkada undho thelusa?",
+    "response": "Kotha layout lo chudham, akkada konchem reasonable ga untayi."
+  },
+  {
+    "prompt": "E flat lo ventilation bagundha?",
+    "response": "Avunu, chala open ga, gaaali velthu undhi."
+  },
+  {
+    "prompt": "Broker ki commission entha ivvali?",
+    "response": "One month rent commission ga ivvali."
+  },
+  {
+    "prompt": "Shift cheyadaniki inka entha pani undhi?",
+    "response": "Inka chala petta ninda sardali."
+  },
+  {
+    "prompt": "Kotha illu chala peddaga undhi kada?",
+    "response": "Avunu, manam anukunnadanikanna peddaga undhi."
+  },
+  {
+    "prompt": "House warming ki bhojanam arrangements ela cheddam?",
+    "response": "Caterers ni matladudham, tension undadu."
+  },
+  {
+    "prompt": "Ippudu unna intiki notice period entha?",
+    "response": "One month notice period undhi."
+  },
+  {
+    "prompt": "Deposit money entha ivvali?",
+    "response": "Two months rent deposit ga aduguthunnaru."
+  },
+  {
+    "prompt": "Packing ki boxes evari daggara theesukundam?",
+    "response": "Mana general store lo adigi chuddam."
+  },
+  {
+    "prompt": "Kotha intiki painters ni eppudu piluddam?",
+    "response": "Saturday piluddam, appudu free ga untamu."
+  },
+  {
+    "prompt": "Meeru house warming ki vasthunnara?",
+    "response": "Avunu, pakka vasthunnamu."
+  },
+  {
+    "prompt": "Illu search cheyadam chala kashtam ga undhi kada?",
+    "response": "Avunu, manchi illu dhorakatam kastam ayyindhi."
+  },
+  {
+    "prompt": "Water facility ekkada bagundhi?",
+    "response": "E area lo water facility chala bagundhi."
+  },
+  {
+    "prompt": "Packers and movers ki booking chesava?",
+    "response": "Inka cheyaledu, repu chesthanu."
+  },
+  {
+    "prompt": "Rent agreement mundhe choodali kada?",
+    "response": "Avunu, anni clauses chusi sign cheyali."
+  },
+  {
+    "prompt": "Kotha intiki kitchen cabinets bagunnaya?",
+    "response": "Avunu, cabinets kotha ga chesaru, chala bagunnayi."
+  },
+  {
+    "prompt": "Manaku balcony unna illu kavali kada?",
+    "response": "Avunu, balcony pakka undali."
+  },
+  {
+    "prompt": "House warming taruvatha illu clean cheyadaniki evaru vastharu?",
+    "response": "Cleaners ni piluddam, vaalle chestaru."
+  },
+  {
+    "prompt": "Current bill rent lo kalisunda?",
+    "response": "Ledu, current bill maname pay cheyali."
+  },
+  {
+    "prompt": "Chiranjeevi colony lo illu dorikinda?",
+    "response": "Ledu, akkada rates chala ekkuva unnayi."
+  },
+  {
+    "prompt": "Shifting kosam car arrangements emaina chesava?",
+    "response": "Lorry book chesanu, adhi vasthundi."
+  },
+  {
+    "prompt": "Kotha illu vastu prakaram bagundha?",
+    "response": "Avunu, anni vastu prakaram ne unnayi."
+  },
+  {
+    "prompt": "Flat owner ni eppudu kaluddam?",
+    "response": "Evening kaluddam ani chepparu."
+  },
+  {
+    "prompt": "Mee illu house warming ki ready ayyindha?",
+    "response": "Inka konchem pani undhi, kani chala varaku ready."
+  },
+  {
+    "prompt": "Fridge, washing machine kuda shift chesthara?",
+    "response": "Avunu, anni pedda items shift chestharu."
+  },
+  {
+    "prompt": "Mana kotha illu bus stand ki daggara undha?",
+    "response": "Konchem dooram, kani auto easy ga dhorukutundi."
+  },
+  {
+    "prompt": "House warming ki sweets em theesukundam?",
+    "response": "Laddu, jalebi theesukundam."
+  },
+  {
+    "prompt": "Broker chala flats chupinchadu kada?",
+    "response": "Avunu, chala chupinchadu, kani idhe nachchindhi."
+  },
+  {
+    "prompt": "Internet connection kotha intlo undha?",
+    "response": "Ledu, maname set cheyinchali."
+  },
+  {
+    "prompt": "Nenu kotha bank account teeyali, yela start cheyali?",
+    "response": "Mundhu online lo forms check chey leda bank ki vellu."
+  },
+  {
+    "prompt": "Fixed deposit cheyadam manchida?",
+    "response": "Avunu, future kosam money save cheyadaniki adhi chala manchidhi."
+  },
+  {
+    "prompt": "ATM lo cash ravatledu, em cheyali ippudu?",
+    "response": "Bank customer care ki call chesi complain chey."
+  },
+  {
+    "prompt": "Na UPI transaction fail ayindhi, dabbu potunda?",
+    "response": "Ledu, two rojulalo automatic ga refund avuthundhi."
+  },
+  {
+    "prompt": "Intlo cash save cheyadam safe aa?",
+    "response": "Konchem amount aithe safe, kani pedda amounts bank lone pettadam better."
+  },
+  {
+    "prompt": "Bank account open cheyadaniki em documents kavali?",
+    "response": "Adhar card, PAN card, photo teesukellu."
+  },
+  {
+    "prompt": "Nenu savings increase cheyalante em cheyali?",
+    "response": "Prati nelaki konchem amount pakkanettadam alavatu chesuko."
+  },
+  {
+    "prompt": "Online banking ela setup cheyali?",
+    "response": "Bank website ki velli register cheyali, leda branch lo adugu."
+  },
+  {
+    "prompt": "Na ATM card block ayindhi, em cheyali?",
+    "response": "Immediate ga bank ki call chesi block theeyamani cheppu."
+  },
+  {
+    "prompt": "Loan kosam apply cheyali ante process ento cheppagalava?",
+    "response": "Bank ki velli adugu, vaaru eligibility ni batti details cheptharu."
+  },
+  {
+    "prompt": "Dabbu ekkuva save cheyali ante kharchulu ela tagginchali?",
+    "response": "Anavasaramaina kharchulu thagginchu, budget plan chesko."
+  },
+  {
+    "prompt": "Nenu credit card teesukovalani unnapudu em choodali?",
+    "response": "Interest rates, annual fees mariyu benefits choodu."
+  },
+  {
+    "prompt": "Joint account open cheyadam yela?",
+    "response": "Iddaru bank ki velli forms fill cheyali, documents kavali."
+  },
+  {
+    "prompt": "Mobile banking app use cheyadam safe aa?",
+    "response": "Avunu, security features unnai kani password jagratha ga undali."
+  },
+  {
+    "prompt": "Cheque book kosam request cheyali ante em cheyali?",
+    "response": "Mobile app lo apply chey leda bank ki velli cheppu."
+  },
+  {
+    "prompt": "Interest rate ekkuva unna bank yedi?",
+    "response": "Small finance banks lo interest rate ekkuva untundi, check chey."
+  },
+  {
+    "prompt": "Bank passbook update cheyali, ekkada cheyali?",
+    "response": "Bank branch lo unna passbook machine lo update chesuko."
+  },
+  {
+    "prompt": "Foreign currency exchange ekkada cheyali?",
+    "response": "Bank lone cheyachu, leda authorized money changers untaru."
+  },
+  {
+    "prompt": "Nenu abroad ki vellalante bank account details em kavali?",
+    "response": "SWIFT code mariyu account number thelusukovali."
+  },
+  {
+    "prompt": "Savings account minimum balance entha undali?",
+    "response": "Bank ni batti maruthundi, branch lo adugu leda website choodu."
+  },
+  {
+    "prompt": "Dabbu invest cheyalante em options unnai?",
+    "response": "Mutual funds, stocks, leda fixed deposits choodu."
+  },
+  {
+    "prompt": "ATM card pin marchipoya, reset cheyadam yela?",
+    "response": "Online banking lo leda ATM lo pin reset cheyachu."
+  },
+  {
+    "prompt": "Recurring deposit ela pani chestundi?",
+    "response": "Prati nelaki konchem amount fix chesi deposit chestavu, interest vastundi."
+  },
+  {
+    "prompt": "Bank statement ela download cheyali?",
+    "response": "Online banking app lo leda website lo download chesuko."
+  },
+  {
+    "prompt": "Senior citizen scheme lo em benefits unnai?",
+    "response": "Vaariki konchem ekkuva interest rates untayi, bank lo adugu."
+  },
+  {
+    "prompt": "Small business kosam loan kavali, yela apply cheyali?",
+    "response": "Bank ki velli business plan chupinchi adagali."
+  },
+  {
+    "prompt": "UPI ID ela create cheyali?",
+    "response": "Mobile banking app lo create cheyachu, simple ga untundi."
+  },
+  {
+    "prompt": "Lockers bank lo teesukovalante charges entha?",
+    "response": "Locker size ni batti charges untayi, bank lo adigi thelusuko."
+  },
+  {
+    "prompt": "Minor bank account open cheyadam yela?",
+    "response": "Parent or guardian tho kalisi bank ki velli open cheyali."
+  },
+  {
+    "prompt": "Net banking password marchipoya, em cheyali?",
+    "response": "Forgot password option use chesi reset chesuko."
+  },
+  {
+    "prompt": "Education loan kosam em documents kavali?",
+    "response": "Course details, admission letter, income proofs ivvali."
+  },
+  {
+    "prompt": "Bank balance choodadam yela?",
+    "response": "Mobile app lo, net banking lo leda ATM lo choodachu."
+  },
+  {
+    "prompt": "Cheque bounce ayindhi, em problem avuthundi?",
+    "response": "Fine paduthundi mariyu credit score ki bad avuthundi."
+  },
+  {
+    "prompt": "Money transfer cheyalante fastest way yedi?",
+    "response": "UPI leda IMPS fastest ways, immediate ga transfer avuthundi."
+  },
+  {
+    "prompt": "Nuvvu roju newspaper chaduvuthava?",
+    "response": "Avunu, nenu morning kachithamga chaduvuthanu."
+  },
+  {
+    "prompt": "Eppudaina book fair ki vellava?",
+    "response": "Chala sarlu vellanu, akkada naku chala ishtam."
+  },
+  {
+    "prompt": "Neeku library lo pusthakalu teesukuni chadivi alavatu unda?",
+    "response": "Mundhu undedhi kani ippudu antha ga ledu."
+  },
+  {
+    "prompt": "Pusthakalu online lo konadam nacchuthunda leda shops lo na?",
+    "response": "Naku shop lo chusi konadam ante istam."
+  },
+  {
+    "prompt": "Chinappudu story books chala chadivevada nuvvu?",
+    "response": "Avunu, nenu chaala stories chadivanu."
+  },
+  {
+    "prompt": "Emaina kotha pusthakam chadavadam start chesava ippudu?",
+    "response": "Ledu, inka emi start cheyaledu."
+  },
+  {
+    "prompt": "Neeku e genre pusthakalu nacchuthaayi?",
+    "response": "Naku mystery novels ante chala istam."
+  },
+  {
+    "prompt": "Oka pusthakam ni chadivithe entha time paduthundi neeku?",
+    "response": "Adi pusthakam size ni batti untundi."
+  },
+  {
+    "prompt": "Eppudaina oka pusthakam ni repeat ga chadivava?",
+    "response": "Avunu, konni favourite pusthakalanu rendu, moodu sarlu chadivanu."
+  },
+  {
+    "prompt": "Digital books chadavadam baguntunda leda physical books na?",
+    "response": "Naku physical books chadivi feeling chala istam."
+  },
+  {
+    "prompt": "Reading ki nuvvu entha time spend chesthavu roju?",
+    "response": "Konchem busy ga unte takkuva, free ga unte ekkuva chaduvuthanu."
+  },
+  {
+    "prompt": "Pusthakalu konadaniki nuvvu ekkuva paisal karchupedtava?",
+    "response": "Avunu, naku pusthakalu konadam oka hobby."
+  },
+  {
+    "prompt": "Neeku baaga nacchina oka pusthakam peru cheppagalava?",
+    "response": "Avunu, naku 'Ranganayaki' ante chala istam."
+  },
+  {
+    "prompt": "Nuvvu chadivina pusthakam gurinchi friendsthoni discuss chesthava?",
+    "response": "Chala sarlu chesthanu, mana opinions share chesukodam baguntundi."
+  },
+  {
+    "prompt": "Pusthakalu konni collect cheyadam neeku alavata?",
+    "response": "Avunu, naku konchem collection undi intlo."
+  },
+  {
+    "prompt": "Neeku non-fiction pusthakalu nacchuthaaya?",
+    "response": "Konni chala baguntaayi, konni boru kodathaayi."
+  },
+  {
+    "prompt": "Pusthakam chaduvuthunappudu nuvvu notes teesukuntava?",
+    "response": "Ledu, nenu notes teesukonu, just chaduvuthanu."
+  },
+  {
+    "prompt": "Eppudaina oka pusthakam ni ardha lo ne vadilesava?",
+    "response": "Avunu, konni boru kodithe vadilesanu."
+  },
+  {
+    "prompt": "Chadivina pusthakalu evarikaina gift ga istava?",
+    "response": "Avunu, baaga nacchina pusthakalanu isthanu."
+  },
+  {
+    "prompt": "Nuvvu night chaduvuthava leda morning chaduvuthava?",
+    "response": "Naku night time silent ga untundi kabatti nenu night chaduvuthanu."
+  },
+  {
+    "prompt": "Newspapers lo articles chadivi alavatu unda neeku?",
+    "response": "Avunu, nenu interesting articles chaduvuthanu."
+  },
+  {
+    "prompt": "Pusthakalu chadavadame kakunda podcasts kuda vintava?",
+    "response": "Ledu, naku pusthakalu chadavadame istam."
+  },
+  {
+    "prompt": "Oka pusthakam ni chadavadaniki nuvvu Oka plan vesukuntava?",
+    "response": "Ledu, antha planning emi undadu."
+  },
+  {
+    "prompt": "Eppudaina oka pusthakam ni library nunchi theesukunnava?",
+    "response": "Avunu, college days lo chala sarlu teesukunnanu."
+  },
+  {
+    "prompt": "Nuvvu chadivina pusthakam nunchi emaina nerchukunava?",
+    "response": "Prathi pusthakam nunchi edho okati nerchukuntanu."
+  },
+  {
+    "prompt": "Pusthakalu chadivi alavatu ippati generation ki takkuva kada?",
+    "response": "Avunu, ippudu mobile phone valla antha ga chadavadam ledu."
+  },
+  {
+    "prompt": "Neeku poetry pusthakalu nacchuthaaya?",
+    "response": "Naku antha ishtam undadu poetry."
+  },
+  {
+    "prompt": "Eppudaina oka pusthakam movie ga marindhi chusava?",
+    "response": "Avunu, konni chala bagunnayi."
+  },
+  {
+    "prompt": "Pusthakam chaduvuthunappudu music vintava?",
+    "response": "Ledu, nenu silent ga chaduvuthanu."
+  },
+  {
+    "prompt": "Neeku telugu pusthakalu ekkuva ishtam leda English pusthakalu na?",
+    "response": "Naku rendoo ishtame, story bagunte chalu."
+  },
+  {
+    "prompt": "Book clubs lo nuvvu join ayyava eppudaina?",
+    "response": "Ledu, nenu eppudu join avvaledu."
+  },
+  {
+    "prompt": "Eppudaina Oka pusthakam ni chadavadaniki ekkuva rojulu teesukunava?",
+    "response": "Avunu, konni busy ga unte ekkuva rojulu paduthundi."
+  },
+  {
+    "prompt": "Nuvvu chadivina pusthakala gurinchi blog lo rastava?",
+    "response": "Ledu, alanti alavatu emi ledu."
+  },
+  {
+    "prompt": "Pusthakalu chadavadam stress ni taggistunda?",
+    "response": "Avunu, chala varaku stress ni taggistundi."
+  },
+  {
+    "prompt": "Mana mokkalaku roju neellu poyala?",
+    "response": "Avunu, varsham padithe tappa, roju konchem neellu avasaram."
+  },
+  {
+    "prompt": "Eemadhya gulabi mokkalu baga peruguthunnayi choodu.",
+    "response": "Avunu, sarigga care theesukunte anthe."
+  },
+  {
+    "prompt": "Tomatoes ela penchali, idea undha?",
+    "response": "Seeds theesukochi, manchi matti lo nadite, perugutayi."
+  },
+  {
+    "prompt": "Organic composting ela start cheyali?",
+    "response": "Intlo migilipoyina tindi waste tho start cheyochu."
+  },
+  {
+    "prompt": "Manaku daggarlo manchi plant nursery ekkada undhi?",
+    "response": "Mana illu daggarlo oka pedda nursery undhi, akkada chala varieties untayi."
+  },
+  {
+    "prompt": "Eesari intiki kotha mokkalu konali anukuntunna.",
+    "response": "Nenu kuda. Indoor plants chooddama?"
+  },
+  {
+    "prompt": "Mokkalu poyina taruvatha entha sepu thadi ga undali?",
+    "response": "Maatiki baaga thadi ayye varaku neellu poyali."
+  },
+  {
+    "prompt": "Ma mlaagu lo pala mokka peduthunna, adhi manchida?",
+    "response": "Avunu, pala mokkalu perigithe choodataniki chala baguntayi."
+  },
+  {
+    "prompt": "Compost ante enti, adhi mokkalaku enduku vaadathaaru?",
+    "response": "Compost ante carbon matti, mokkalaku poshakalu ivvadaniki help chestundhi."
+  },
+  {
+    "prompt": "Indhaka nursery vellanu, kotha variety poola mokkalu chusanu.",
+    "response": "Nijamgaa? Photo theesava?"
+  },
+  {
+    "prompt": "Mana thota lo yenda chala ekkuva, mokkalu em cheyali?",
+    "response": "Shadow icche nets ammukuntaru, avi vaadithe yenda nundi rakshinchali."
+  },
+  {
+    "prompt": "Kobbari chokkala tho composting ela cheyali?",
+    "response": "Avi chinna mukkalu chesi, itara waste tho kalapali."
+  },
+  {
+    "prompt": "Ee chinna gaddi mokka peru emiti?",
+    "response": "Adhi coriander mokka anukunta, manam roju vaadedhe."
+  },
+  {
+    "prompt": "Nursery lo chinna patlu kuda ammuthara?",
+    "response": "Avunu, mokkalatho paatu, patlu kuda ammutharu."
+  },
+  {
+    "prompt": "Intlo chala mosquitos unnayi, citronella mokka pettamantava?",
+    "response": "Avunu, adhi mosquitos ni tharimestundhi."
+  },
+  {
+    "prompt": "Mokka roju peragadaniki em poshakalu kavali?",
+    "response": "Manchi neellu, yenda, inka compost saripothayi."
+  },
+  {
+    "prompt": "Mirchi mokkalu peragadaniki yenni rojulalu paduthundi?",
+    "response": "Konni nelalu paduthundi, taruvatha kayaalu vasthayi."
+  },
+  {
+    "prompt": "Compost pit ekkada pettali?",
+    "response": "Illu nundi dooram ga, shady place lo pettali."
+  },
+  {
+    "prompt": "Nenu kotha flower seeds konna, ippude natala?",
+    "response": "Avunu, ippudu natithe vasthundi varsham ki baga peruguthayi."
+  },
+  {
+    "prompt": "Nursery lo pakkaku oka restaurant kuda undha?",
+    "response": "Avunu, akkadiki vellina prathi saari tindi akkade tinnam."
+  },
+  {
+    "prompt": "Mokkalaaku puvulu raavadam ledu, enduku?",
+    "response": "Sari kani place lo pettavemo, yenda takkuva undachu."
+  },
+  {
+    "prompt": "Mana thota lo butterfly garden cheyali anukuntunna.",
+    "response": "Chala baguntundhi, butterflies ni attract chese mokkalu natali."
+  },
+  {
+    "prompt": "Organic fertilizers vaadadam manchida?",
+    "response": "Avunu, chemical fertilizers kanna organic chala manchivi."
+  },
+  {
+    "prompt": "Eelavadi nursery ekkada undhi?",
+    "response": "Bus stop daggarlo undhi, easy ga dorukuthundi."
+  },
+  {
+    "prompt": "Chinna mokkalu konnatlanu, varsham ki peddaga peruguthaya?",
+    "response": "Avunu, varsham neellu chala manchi mokkalaku."
+  },
+  {
+    "prompt": "Compost lo purugulu vasthayi, adhi normal eena?",
+    "response": "Avunu, purugulu composting process ki help chestayi, adhi normal e."
+  },
+  {
+    "prompt": "Vanda rojulalo tomatoes paniki vasthaya?",
+    "response": "Avunu, konni varieties vanda rojulalo ready avutayi."
+  },
+  {
+    "prompt": "Nursery lo seeds ammuthara?",
+    "response": "Avunu, seeds, chinna mokkalu, fertilizers anni ammutharu."
+  },
+  {
+    "prompt": "Tulasi mokka intlo pettukovadam manchida?",
+    "response": "Avunu, adhi chala pavithramainadhi, inka medicine ki kuda vaadatharu."
+  },
+  {
+    "prompt": "Mana thota lo weed control ela cheyali?",
+    "response": "Chethulatho theesi poyali, leda mulch vaadali."
+  },
+  {
+    "prompt": "Kobbari thonda composting ki vaadathaara?",
+    "response": "Avunu, adhi moisture ni retain cheyadanki help chestundi."
+  },
+  {
+    "prompt": "Nursery lo nallani matti dhorukuthundha?",
+    "response": "Avunu, manchi quality matti akkada ammutharu."
+  },
+  {
+    "prompt": "Mokka leaves pacha ga maruthunnayi, emiti problem?",
+    "response": "Iron deficiency undachu, konchem fertilizer add cheyali."
+  },
+  {
+    "prompt": "Rose mokkalaku roju fertilizer veyala?",
+    "response": "Ledhu, roju avasaram ledhu, nela ki oka saari saripothundhi."
+  },
+  {
+    "prompt": "Nenu ippudu dosa chesanu, kani motham chala soft ga vachay. Enduku ala?",
+    "response": "Avi sarigga crisp ga ravalante, batter consistency choodali."
+  },
+  {
+    "prompt": "Ninna rathri biryani chesa, kani konchem kalindhi. Em cheyali ila avvakunda?",
+    "response": "Biryani dum ki pedite, madhya madhya lo choodali. Leda bottom chala heat avthundhi."
+  },
+  {
+    "prompt": "Ee saari chicken curry chala baga vachindhi. Naku chala happy ga undhi.",
+    "response": "Oh avuna? Super! Em vesavu extra ga?"
+  },
+  {
+    "prompt": "Rojulu ga nenu chese roti asala round ga ravatledu. Edo map la undhi.",
+    "response": "Konchem practice cheste pakka round ga vasthai, don't worry."
+  },
+  {
+    "prompt": "Curry lo erraga undhi kani asala karam ledu. Chilli powder choodali emo.",
+    "response": "Avunu, oka saari chilli powder quality check chey. Appudappudu alage avthundhi."
+  },
+  {
+    "prompt": "First time cake chesa, kani adi madhyalo kurchunipoyindhi.",
+    "response": "Oven temperature ni sarigga maintain cheyali, leda ala avthundhi."
+  },
+  {
+    "prompt": "Andaru nenu chesina pappu chala taste ga undhi annaru. Naku chala anandanga undhi.",
+    "response": "Wow, super! Secret enti mari?"
+  },
+  {
+    "prompt": "Nenu chesina pulao chala loose ga vachindhi. Neellu ekkuva ayyay emo.",
+    "response": "Avunu, rice ki correct water proportion chala important."
+  },
+  {
+    "prompt": "Ee sari pakodi peddaga crunchiness raledu. Flour mix lo emaina thappu undha?",
+    "response": "Besan lo konchem corn flour add cheste chala crisp ga vastai."
+  },
+  {
+    "prompt": "Enni saarlu chesina, upma eppudu sticky ga avthundhi.",
+    "response": "Rava ni mundu konchem fry chesi chey, appudu baga vasthundhi."
+  },
+  {
+    "prompt": "Nenu chesina idli chala soft ga vachai. Chala happy ga undhi.",
+    "response": "Super! Batter ferment cheyadam lo ne undhi secret."
+  },
+  {
+    "prompt": "Curry lo namak ekkuva aipoindhi. Ippudu em cheyali?",
+    "response": "Konchem potato pieces petti, boil chey. Salt absorb cheskuntayi."
+  },
+  {
+    "prompt": "Motham paneer tikka kalchesanu. Oven lo time choodadam marchipoya.",
+    "response": "Oh no, nenu kuda appudappudu anthe chesthanu."
+  },
+  {
+    "prompt": "My first attempt at making rasam was a disaster. Taste asala raledu.",
+    "response": "Rasam ki correct masala chala mukhyam. Try chey malli."
+  },
+  {
+    "prompt": "Nenu chesina gulab jamun chala hard ga vachai. Ela soft ga cheyali?",
+    "response": "Mawa ni baga knead cheyali, appude soft ga vasthayi."
+  },
+  {
+    "prompt": "Chala rojula taruvatha, nenu chesina curry chala taste ga vachindhi.",
+    "response": "Great! Nenu kuda try cheyali oka saari."
+  },
+  {
+    "prompt": "Sambar lo sugar ekkuva aipoindhi. Evaru thinaru emo.",
+    "response": "Konchem tamarind paste add chey, taste balance avthundhi."
+  },
+  {
+    "prompt": "Nenu chesina roti lu chala peddaga unnayi. Chinnavi ela cheyali?",
+    "response": "Chinna dough balls tho chey, appudu chinnavi vasthayi."
+  },
+  {
+    "prompt": "Ninna chesina fried rice chala baga vachindhi. Nenu kuda surprise ayyanu.",
+    "response": "Awesome! Emaina kotha style lo chesava?"
+  },
+  {
+    "prompt": "Vegetable cutlets try chesa, kani avi frying lo virigipoyayi.",
+    "response": "Binding agent sarigga add cheyaledu emo. Breadcrumbs use cheyali."
+  },
+  {
+    "prompt": "Na first time preparing chicken dum biryani. It tasted heavenly.",
+    "response": "Adaragottesav! Naku kuda nerpali ela cheyalo."
+  },
+  {
+    "prompt": "I tried a new pasta recipe, and it turned out amazing!",
+    "response": "Wah! Em recipe? Nenu kuda try chesta."
+  },
+  {
+    "prompt": "Curry lo karam ekkuva aipoindhi. Mouth motham manduthundhi.",
+    "response": "Konchem milk or cream add cheste karam tagguthundhi."
+  },
+  {
+    "prompt": "Ee roju lunch ki chesina chapathi lu chala soft ga vachai.",
+    "response": "Super! Daily ilage cheyyali."
+  },
+  {
+    "prompt": "Nenu chesina palak paneer chala bland ga undhi. Masala lu taggayi emo.",
+    "response": "Avunu, spices correct ga padithe ne taste vasthundhi."
+  },
+  {
+    "prompt": "My first ever homemade pizza was perfect! Crust kuda chala crispy undhi.",
+    "response": "Wow, congrats! Next time naku party ivvali."
+  },
+  {
+    "prompt": "Rojulu ga nenu chese roti lu chala hard ga avthunnayi.",
+    "response": "Dough ni konchem warm water tho knead chey. Appudu soft ga vasthayi."
+  },
+  {
+    "prompt": "Ninna chesina dal makhani super ga vachindhi. Restuarant style lo.",
+    "response": "Naku kuda ivvali kada konchem."
+  },
+  {
+    "prompt": "Samosa chesa, kani adi ekkuva oil absorb chesindhi.",
+    "response": "Oil temperature sarigga ledemo, konchem high heat lo fry cheyali."
+  },
+  {
+    "prompt": "I made my favorite dessert, double ka meetha, and it was a hit!",
+    "response": "Ayyo, naku chala ishtam adi. Naku kuda try cheyali ani undhi."
+  },
+  {
+    "prompt": "Nenu chesina upma asala bagoledu. Mottam sticky ga ayipoindhi.",
+    "response": "Rava ni mundu oil tho fry chey. Appudu separate ga vasthundhi."
+  },
+  {
+    "prompt": "Ee roju nenu chesina chicken fry andaru chala ishtapaddaru.",
+    "response": "Great! Mari recipe enti cheppu."
+  },
+  {
+    "prompt": "Chekkalu chesa, kani avi chala hard ga unnayi. Pindi problem emo.",
+    "response": "Dough ni konchem soft ga knead cheyali, appudu soft ga vasthayi."
+  },
+  {
+    "prompt": "Naa scooty puncture ayyindi. Repair cheyinchali.",
+    "response": "Oh no! Ekkada ayyindi puncture? Nenu sahayam cheyamantava?"
+  },
+  {
+    "prompt": "Car washing ki vellali. Ippudu time undha neeku?",
+    "response": "Ledhu, ippudu busy ga unna. Konchem taruvatha choodam."
+  },
+  {
+    "prompt": "Engine oil change cheyinchala, marchipoyanu.",
+    "response": "Avunu, tappakunda cheyinchu. Adi chala mukhyam."
+  },
+  {
+    "prompt": "Driving license test kosam practice cheyali.",
+    "response": "Sare, nenu kooda neetho vasthanu, nuvvu practice chesedi chusthanu."
+  },
+  {
+    "prompt": "Pollution check cheyinchadam date pass ayyindi.",
+    "response": "Oh, thwaraga cheyinchu mari. Leda fine paduthundi."
+  },
+  {
+    "prompt": "Tyres lo air takkuva undi, choodali.",
+    "response": "Petrol pump daggara choodu. Akkada free ga chestaru."
+  },
+  {
+    "prompt": "Naa bike ki service cheyinchali. Ekkada baaga chestaru?",
+    "response": "Mana inti daggara oka workshop undi, akkadiki vellochu."
+  },
+  {
+    "prompt": "Break shoes change cheyinchali antunnadu mechanic.",
+    "response": "Avunu, safety ki adi chala avasaram."
+  },
+  {
+    "prompt": "Petrol tank full cheyinchala. Meeru vasthara?",
+    "response": "Nenu ippudu raanu, nuvvu velli raa."
+  },
+  {
+    "prompt": "Car lo battery discharge ayyindi, start avvatledhu.",
+    "response": "Service center ki phone chesi adugu. Vallu vachi chustaru."
+  },
+  {
+    "prompt": "Wiper blades maarathara, varsham lo baga kanapadatledhu.",
+    "response": "Avunu, kotha vi pettisthunna. Ippude order chesa."
+  },
+  {
+    "prompt": "Headlights adjust cheyinchali. Night driving ki kastam ga undi.",
+    "response": "Sare, repu morning showroom ki velladam."
+  },
+  {
+    "prompt": "Naa bike chain loosen ayyindi, sound vasthundi.",
+    "response": "Mechanic daggara tight cheyinchu, ledu ante problem avuthundi."
+  },
+  {
+    "prompt": "Coolant level takkuva undi, top-up cheyali.",
+    "response": "Nenu konchem thesthanu, nuvvu veyyi."
+  },
+  {
+    "prompt": "Clutch cable replace cheyinchali, chala stiff ga undi.",
+    "response": "Delayed cheyakunda thwaraga cheyinchu."
+  },
+  {
+    "prompt": "Horn pani cheyatledhu. Traffic lo chala kastam ga undi.",
+    "response": "Fuse poyinattundi. Electrician ki chupinchu."
+  },
+  {
+    "prompt": "Seat cover kottinchali. Paatha di chala rough ga ayyindi.",
+    "response": "Shop ki velli manchi design choodu."
+  },
+  {
+    "prompt": "Mud flaps irigipoyayi, kotha vi veyyinchali.",
+    "response": "Avunu, varsham vachinappudu adi mukhyam."
+  },
+  {
+    "prompt": "Service indicator light vasthundi. Service cheyinchala?",
+    "response": "Avunu, ade signal. Thwaraga cheyinchu."
+  },
+  {
+    "prompt": "Shock absorbers bagolevu, guntalaki chala jump avuthundi.",
+    "response": "Kotha vi pettisthava leda repair cheyinchava?"
+  },
+  {
+    "prompt": "Indicators pani cheyatledhu. Chupinchali.",
+    "response": "Adi chala risk. Ventane choodu."
+  },
+  {
+    "prompt": "Side mirror irigipoyindi. Kotha di pettinchali.",
+    "response": "Accident em kaaledu kadha? Careful ga undu."
+  },
+  {
+    "prompt": "Number plate loose ayyindi. Tight cheyali.",
+    "response": "Nenu ippude tools thesthannu, nene chesthanu."
+  },
+  {
+    "prompt": "Gear shift smooth ga ledhu. Lubrification cheyinchala?",
+    "response": "Mechanic ni adigi, em cheyalo thelusukundam."
+  },
+  {
+    "prompt": "Air filter clean cheyinchali. Dusty ga undi road lo.",
+    "response": "Sare, service cheyinchinappudu adhi kooda cheyinchu."
+  },
+  {
+    "prompt": "Silencer ki konchem rust pattindi. Paint cheyinchali.",
+    "response": "Chinna pani. Workshop lo cheyinchu."
+  },
+  {
+    "prompt": "Radiator cap marchali antunnadu mechanic.",
+    "response": "Ok, vallu cheppindhe correct anukunta."
+  },
+  {
+    "prompt": "Tyre pressure monitoring system light vasthundi.",
+    "response": "Tyre lo air check cheyinchu. Ledante puncture undachu."
+  },
+  {
+    "prompt": "Spark plug clean cheyinchali. Engine sound change ayyindi.",
+    "response": "Avunu, adhi performance ki mukhyam."
+  },
+  {
+    "prompt": "Fuel filter change cheyinchala? Last time eppudu cheyinchavo gurthu ledhu.",
+    "response": "Service records choodu, appudu thelustundi."
+  },
+  {
+    "prompt": "Car lock pani cheyatledhu, remote tho kooda.",
+    "response": "Battery poyinda remote lo? Leda wire problem aa?"
+  },
+  {
+    "prompt": "Dashboard lo engine light vasthundi, enduku?",
+    "response": "Adi problem indicator. Service center ki velli chupinchu."
+  },
+  {
+    "prompt": "AC gas refill cheyinchali. Cooling chala takkuva undi.",
+    "response": "Yenda season mundhu cheyinchadam manchidi."
+  },
+  {
+    "prompt": "Mirrors adjust cheyinchali. Pakkana choodadaniki kastam ga undi.",
+    "response": "Nuvvu drive cheyyi, nenu adjust chesthanu."
+  },
+  {
+    "prompt": "Ekkada manchi fresh vegetables dorukuthaayi?",
+    "response": "Rythu bazar lo chala manchi fresh vegetables untayi."
+  },
+  {
+    "prompt": "Ikkada emina famous local market undha?",
+    "response": "Avunu, ikkada old city market chana famous."
+  },
+  {
+    "prompt": "Ee area lo emina choodali anukunte em choodali?",
+    "response": "Charminar ki vellu, chana baguntundi."
+  },
+  {
+    "prompt": "Street shopping ki ekkada baguntundi?",
+    "response": "Koti area lo chala variety untundi."
+  },
+  {
+    "prompt": "Ee sandai lo manam bargaining cheyyacha?",
+    "response": "Avunu, konchem bargaining cheste baga istharu."
+  },
+  {
+    "prompt": "Ikkada traditional items emina dorukuthaaya?",
+    "response": "Laad bazaar lo bangles mariyu pearls choodu."
+  },
+  {
+    "prompt": "Cinema ki velladaniki ekkada manchi theatres unnayi?",
+    "response": "Prasad's IMAX theatre chana peddadi mariyu baguntundi."
+  },
+  {
+    "prompt": "Intiki emaina souvenirs konukovali ante ekkada choodali?",
+    "response": "State emporium lo local crafts untayi."
+  },
+  {
+    "prompt": "Puvvula market ekkada untundi? Eppudu open chestharu?",
+    "response": "Begum Bazaar lo untundi, poddunne open chestharu."
+  },
+  {
+    "prompt": "Bus stop ki ekkada vellali?",
+    "response": "Konchem munduku vellu, akada oka pedda bus stop undi."
+  },
+  {
+    "prompt": "Ee roju weather ela undi? Yenda ekkuva unda?",
+    "response": "Konchem yenda undi, kani varsham raadu emo."
+  },
+  {
+    "prompt": "Manam naduchukuntu vellagalama?",
+    "response": "Ledu, chala dhooram untundi, auto theesko."
+  },
+  {
+    "prompt": "Ee pakka emaina historical place undha?",
+    "response": "Golconda Fort daggarlo undi, adhi choodu."
+  },
+  {
+    "prompt": "Ekkada local tindi baguntundi?",
+    "response": "Shah Ghouse lo biryani chana famous."
+  },
+  {
+    "prompt": "Paina edho building kanipisthundi, adhi emiti?",
+    "response": "Adhi Birla Mandir, chana manchi place."
+  },
+  {
+    "prompt": "Ikkada parking facility undha?",
+    "response": "Avunu, market pakkane parking space untundi."
+  },
+  {
+    "prompt": "Shopping cheyyadaniki sunday market untunda?",
+    "response": "Avunu, Sunday market peddaga untundi, chala items dorukuthaayi."
+  },
+  {
+    "prompt": "Ekkada nenu manchi coffee theeskovachu?",
+    "response": "CCD corner lo undi, akkadiki vellu."
+  },
+  {
+    "prompt": "Museum ikkadi nunchi entha dhooram?",
+    "response": "Oka 2-3 kilometers untundi, auto lo vellu."
+  },
+  {
+    "prompt": "Ee roju traffic ela undi?",
+    "response": "Ippudu traffic konchem ekkuvaga undi."
+  },
+  {
+    "prompt": "Manam ikkada photos theeyyacha?",
+    "response": "Avunu, theeyyachu, kani konni places lo allow cheyaru."
+  },
+  {
+    "prompt": "Ikkada Wi-Fi undha?",
+    "response": "Ledu, public Wi-Fi ikkada undadu."
+  },
+  {
+    "prompt": "Na battery low ayyindi, ekkada charging point untundi?",
+    "response": "Oka cafe lo adugu, vallu allow cheyyochu."
+  },
+  {
+    "prompt": "Ee market lo books dorukuthaaya?",
+    "response": "Koti lo old books market untundi, akkada choodu."
+  },
+  {
+    "prompt": "Evaina paatalu vinadaniki live music untunda?",
+    "response": "Konni pubs lo untundi, kani ikkada market lo undadu."
+  },
+  {
+    "prompt": "Naku konchem neellu kaavali, ekkada dorukuthaayi?",
+    "response": "Pakkana shop lo water bottles untayi."
+  },
+  {
+    "prompt": "Ikkada ATM undha?",
+    "response": "Avunu, konchem munduku vellu, oka bank ATM undi."
+  },
+  {
+    "prompt": "Ee area lo rent ki flat dorukutunda?",
+    "response": "Konni apartments unnayi, agents ni adugu."
+  },
+  {
+    "prompt": "Nenu ee place gurinchi inka ekkuva thelusukovali ante em cheyyali?",
+    "response": "Tourist information center ki vellu, vallu details istharu."
+  },
+  {
+    "prompt": "Cheppulu ekkada baga dorukuthaayi?",
+    "response": "Pathergatti market lo chala variety untundi."
+  },
+  {
+    "prompt": "Ikkada emaina art galleries unnayi?",
+    "response": "Lalit Kala Thoranam daggara oka art gallery undi."
+  },
+  {
+    "prompt": "Naku kotha phone kaavali, ekkada konali?",
+    "response": "Kothapet lo chala mobile shops unnayi."
+  },
+  {
+    "prompt": "Ikkada medicine shops untaaya?",
+    "response": "Avunu, prati gully lo oka medicine shop untundi."
+  },
+  {
+    "prompt": "School kosam bags ekkada konali?",
+    "response": "Abids lo chala school bags shops unnayi."
+  },
+  {
+    "prompt": "Mana smart TV lo kotha apps ela download cheyali?",
+    "response": "Settings loki velli app store open chesi download cheyali."
+  },
+  {
+    "prompt": "Washing machine lo colours ki separate cycle emaina undha?",
+    "response": "Avunu, colours kosam gentle wash setting undhi."
+  },
+  {
+    "prompt": "Microwave oven lo food thwaraga heat cheyadaniki tip emaina cheppava?",
+    "response": "Food ni chinna parts ga chesi pettochu, appudu thwaraga heat avthundi."
+  },
+  {
+    "prompt": "Power cut vasthe fridge lo food baga undali ante em cheyali?",
+    "response": "Fridge door asala open cheyoddu, cool ga untundi."
+  },
+  {
+    "prompt": "Smart TV lo resolution change cheyadaniki em cheyali?",
+    "response": "Display settings loki velli resolution ni adjust cheyali."
+  },
+  {
+    "prompt": "Washing machine drum ni clean cheyadaniki special cycle undha?",
+    "response": "Avunu, self-clean cycle ni use cheyochu."
+  },
+  {
+    "prompt": "Microwave oven lo glass utensils vaadadam safe ee kada?",
+    "response": "Avunu, microwave-safe glass utensils vaadadam safe."
+  },
+  {
+    "prompt": "Power cut time lo phone charger ki power bank undatam chala important kada?",
+    "response": "Avunu, phone charge cheyadaniki power bank chala helpful."
+  },
+  {
+    "prompt": "Mana smart TV lo screen mirror ela cheyali phone nunchi?",
+    "response": "Phone lo cast option ni use chesi TV ki connect cheyochu."
+  },
+  {
+    "prompt": "Washing machine lo detergent ekkuva vaadithe emavthundi?",
+    "response": "Kleedalu baga clean avvavu, residue undipothundi."
+  },
+  {
+    "prompt": "Microwave oven lo mettal containers use cheyakudadu kada?",
+    "response": "Avunu, mettal containers sparks ki reason avthayi."
+  },
+  {
+    "prompt": "Power cut vasthe inverter konukkundama?",
+    "response": "Avunu, manchi inverter undali, current untundi."
+  },
+  {
+    "prompt": "Smart TV lo internet connect avvatledu, em cheyali?",
+    "response": "Wi-Fi router ni restart chesi choodu, pani cheyochu."
+  },
+  {
+    "prompt": "Washing machine drain pipe clean cheyadam ela?",
+    "response": "Pipe ni disconnect chesi water tho clean cheyochu."
+  },
+  {
+    "prompt": "Microwave oven lo food ni cover chesi cook cheyala?",
+    "response": "Avunu, cover chesthe food evenly heat avthundi."
+  },
+  {
+    "prompt": "Power cut time lo torch ekkada undho telida?",
+    "response": "Drawer lo choodu, akkade peduthuntaanu."
+  },
+  {
+    "prompt": "Smart TV remote pani cheyatledu, battery maaruddama?",
+    "response": "Avunu, battery maarithe remote pani cheyochu."
+  },
+  {
+    "prompt": "Washing machine lo hot water cycle deniki use avthundi?",
+    "response": "Baga mudda baddina kleedalu clean cheyadaniki use avthundi."
+  },
+  {
+    "prompt": "Microwave oven clean cheyadaniki lemon water use cheyochu kada?",
+    "response": "Avunu, lemon water tho clean chesthe vasana kuda pothundi."
+  },
+  {
+    "prompt": "Power cut eppudu vasthe chala irritating ga untundi kada?",
+    "response": "Avunu, chala disturbing ga untundi, pani apeskovaali."
+  },
+  {
+    "prompt": "Smart TV lo external speakers ela connect cheyali?",
+    "response": "Audio output port lo connect cheyali, leda Bluetooth vaadochu."
+  },
+  {
+    "prompt": "Washing machine lo delicate kleedalu elasthiri cheyali?",
+    "response": "Delicate cycle ni use cheyali, ledante kleedalu damage avthayi."
+  },
+  {
+    "prompt": "Microwave oven lo popcorn cheyadam chala easy kada?",
+    "response": "Avunu, popcorn button okkati press chesthe chalu."
+  },
+  {
+    "prompt": "Power cut vasthe AC panicheyadu kada?",
+    "response": "Avunu, AC ki chala power kavali, panicheyadu."
+  },
+  {
+    "prompt": "Smart TV lo browser undha, web surfing cheyochu kada?",
+    "response": "Avunu, browser undhi, kani phone lo chesinantha smooth ga undadu."
+  },
+  {
+    "prompt": "Washing machine lo noise ekkuva vasthe em cheyali?",
+    "response": "Kleedalu evenly distribute cheyale, or machine balance check cheyali."
+  },
+  {
+    "prompt": "Microwave oven lo vegetables steam cheyadam elasthiri?",
+    "response": "Konchem neellu add chesi container lo petti steam cheyochu."
+  },
+  {
+    "prompt": "Power cut vasthe candle torch ready ga pettuko kada?",
+    "response": "Avunu, edaina emergency ki ready ga untayi."
+  },
+  {
+    "prompt": "Smart TV lo parental controls pettadam ela?",
+    "response": "Settings loki velli parental control option ni enable cheyali."
+  },
+  {
+    "prompt": "Washing machine filter ni eppudu clean cheyali?",
+    "response": "Prati few washes taruvatha clean chesthe machine life ekkuva untundi."
+  },
+  {
+    "prompt": "Microwave oven lo food ni defrost cheyadaniki separate option undha?",
+    "response": "Avunu, defrost button ni use cheyochu."
+  },
+  {
+    "prompt": "Power cut time lo phone charge ki power bank use cheyali kada?",
+    "response": "Avunu, power cut vasthe ade sahayam chestundi."
+  },
+  {
+    "prompt": "Mana smart TV lo voice assistant vadadam chala convenient kada?",
+    "response": "Avunu, remote tho type cheyyakunda voice tho commands ivvochu."
+  },
+  {
+    "prompt": "Washing machine lo kleedalu machine nunchi theesina ventane aaravettali kada?",
+    "response": "Avunu, ledante vasana vasthayi, mukkalu pattukuntayi."
+  }
+]
