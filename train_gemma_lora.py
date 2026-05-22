@@ -15,16 +15,47 @@ from transformers import (
 from trl import SFTTrainer, SFTConfig
 
 
+SYSTEM_PROMPT = """
+You are a 25 year old native Telugu speaker from Hyderabad.
+
+Rules:
+- Respond only in natural romanized Telugu
+- Telugu should be the matrix language
+- English should be the embedded language
+- English words should appear naturally inside Telugu sentences
+- Do not make English the dominant language
+- Do not use Telugu script
+- Sound like casual real-life conversation between Telugu friends
+- Use modern Hyderabad/Telangana urban speech patterns
+- Keep responses short and conversational
+- Keep responses to 1-2 lines maximum
+- Avoid formal Telugu
+- Avoid bookish Telugu
+- Avoid translation-style wording
+- Avoid repetitive phrases
+- Avoid assistant-like tone
+- Do not explain yourself
+- Do not switch fully into English
+- Responses should feel like WhatsApp or casual spoken conversation
+"""
+
+
 def load_local_dataset(json_path: str) -> Dataset:
     if not os.path.exists(json_path):
         raise FileNotFoundError(f"Dataset file not found at: {json_path}")
     with open(json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
     print(f"Loaded {len(data)} examples from {json_path}")
-    # Convert list of dicts to Hugging Face Dataset with columns 'prompt' and 'completion'
-    prompts = [x["prompt"] for x in data]
-    completions = [x["response"] for x in data]
-    return Dataset.from_dict({"prompt": prompts, "completion": completions})
+    
+    messages_list = []
+    for x in data:
+        messages = [
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": x["prompt"]},
+            {"role": "assistant", "content": x["response"]}
+        ]
+        messages_list.append(messages)
+    return Dataset.from_dict({"messages": messages_list})
 
 def get_device_info() -> str:
     if torch.cuda.is_available():
@@ -53,7 +84,7 @@ def main():
     parser.add_argument("--output_dir", type=str, default="./gemma_lora_output", help="Directory to save the fine-tuned model and checkpoints")
     parser.add_argument("--epochs", type=int, default=3, help="Number of training epochs")
     parser.add_argument("--batch_size", type=int, default=4, help="Batch size per device")
-    parser.add_argument("--lr", type=float, default=2e-4, help="Learning rate")
+    parser.add_argument("--lr", type=float, default=1e-4, help="Learning rate")
     parser.add_argument("--lora_r", type=int, default=16, help="LoRA rank")
     parser.add_argument("--lora_alpha", type=int, default=32, help="LoRA alpha parameter")
     parser.add_argument("--max_steps", type=int, default=-1, help="If > 0, limit the number of training steps and ignore epochs")
@@ -98,10 +129,19 @@ def main():
     # 2. Load dataset
     if args.dry_run:
         print("Dry-run mode: generating a tiny mock dataset (bypassing local file).")
-        full_dataset = Dataset.from_dict({
-            "prompt": ["hello how are you", "what is your name"],
-            "completion": ["nenu chala bagunnanu, nuvvu ela unnav?", "na peru AI assistant andi, cheppandi."]
-        })
+        mock_data = [
+            {"prompt": "hello how are you", "response": "nenu chala bagunnanu, nuvvu ela unnav?"},
+            {"prompt": "what is your name", "response": "na peru AI assistant andi, cheppandi."}
+        ]
+        messages_list = []
+        for x in mock_data:
+            messages = [
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": x["prompt"]},
+                {"role": "assistant", "content": x["response"]}
+            ]
+            messages_list.append(messages)
+        full_dataset = Dataset.from_dict({"messages": messages_list})
     else:
         print(f"Loading dataset: {args.dataset_path}")
         full_dataset = load_local_dataset(args.dataset_path)
@@ -118,7 +158,12 @@ def main():
 
     # 3. Load model
     print(f"Loading model: {model_id}")
-    torch_dtype = torch.bfloat16 if (device in ["cuda", "mps"] and torch.cuda.is_bf16_supported() if device == "cuda" else True) else torch.float16
+    if device == "cuda":
+        torch_dtype = torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16
+    elif device == "mps":
+        torch_dtype = torch.bfloat16
+    else:
+        torch_dtype = torch.float32
     
     # MPS does not support 8-bit/4-bit quantization natively via bitsandbytes well, so we load in half-precision.
     model = AutoModelForCausalLM.from_pretrained(
@@ -168,6 +213,7 @@ def main():
         per_device_eval_batch_size=args.batch_size if not args.dry_run else 1,
         gradient_accumulation_steps=2 if not args.dry_run else 1,
         learning_rate=args.lr,
+        warmup_ratio=0.05,
         num_train_epochs=args.epochs if not args.dry_run else 1,
         logging_steps=1 if args.dry_run else 5,
         eval_strategy="epoch",
