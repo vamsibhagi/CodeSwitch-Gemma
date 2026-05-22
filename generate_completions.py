@@ -35,10 +35,12 @@ Rules:
 """
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate completions for Telglish prompts.")
-    parser.add_argument("--prompts_path", type=str, default="data/eval_prompts.json", help="Path to prompts JSON file")
-    parser.add_argument("--output", type=str, default="outputs/finetuned_gemma.json", help="Path to save output results")
-    parser.add_argument("--baseline", action="store_true", help="Run baseline model without adapters")
+    parser = argparse.ArgumentParser(description="Generate completions for base or fine-tuned models")
+    parser.add_argument("--model_id", type=str, default="google/gemma-4-e4b-it", help="Hugging Face model ID")
+    parser.add_argument("--adapter_id", type=str, default="./gemma_lora_output", help="Path to PEFT adapters")
+    parser.add_argument("--prompts_path", type=str, default="data/eval_prompts.json", help="Path to evaluation prompts file")
+    parser.add_argument("--output", type=str, default="outputs/baseline_gemma.json", help="Path to save the generated completions")
+    parser.add_argument("--baseline", action="store_true", help="Run evaluation on baseline model without PEFT adapters")
     args = parser.parse_args()
 
     # Load prompts
@@ -47,8 +49,8 @@ def main():
     with open(args.prompts_path, "r", encoding="utf-8") as f:
         prompts = json.load(f)
 
-    model_id = "google/gemma-4-e4b-it"
-    adapter_id = "./gemma_lora_output"
+    model_id = args.model_id
+    adapter_id = args.adapter_id
     
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"Using device: {device}")
@@ -78,13 +80,14 @@ def main():
     
     results = []
     
-    # Set up end of sequence stop IDs
-    turn_token_id = tokenizer.convert_tokens_to_ids("<turn|>")
-    print(f"Detected <turn|> token ID: {turn_token_id}")
-    
+    # Set up end of sequence stop IDs dynamically
+    stop_tokens = ["<turn|>", "<|END_OF_TURN|>", "<|end_of_turn|>", "<|im_end|>"]
     eos_token_ids = [tokenizer.eos_token_id]
-    if turn_token_id is not None and turn_token_id != tokenizer.unk_token_id:
-        eos_token_ids.append(turn_token_id)
+    for stop_tok in stop_tokens:
+        tok_id = tokenizer.convert_tokens_to_ids(stop_tok)
+        if tok_id is not None and tok_id != tokenizer.unk_token_id:
+            eos_token_ids.append(tok_id)
+            print(f"Registered additional stop token: '{stop_tok}' (ID: {tok_id})")
         
     print(f"Using EOS token IDs: {eos_token_ids}")
     
