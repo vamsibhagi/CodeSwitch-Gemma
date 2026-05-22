@@ -132,10 +132,25 @@ def main():
     
     # 4. Configure LoRA
     # Target attention projection layers and MLP/Feed-forward layers
+    # Dynamic target modules: Gemma 4 wraps Linear layers in Gemma4ClippableLinear, so we append ".linear"
+    # to target the inner torch.nn.Linear layer. Other models (like LLaMA in dry-run) use standard nn.Linear.
+    is_gemma4 = False
+    for name, module in model.named_modules():
+        if module.__class__.__name__ == "Gemma4ClippableLinear":
+            is_gemma4 = True
+            break
+            
+    base_targets = ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+    if is_gemma4:
+        print("Detected Gemma 4 architecture. Appending '.linear' to target modules to target inner Linear layers.")
+        target_modules = [f"{t}.linear" for t in base_targets]
+    else:
+        target_modules = base_targets
+
     peft_config = LoraConfig(
         r=args.lora_r,
         lora_alpha=args.lora_alpha,
-        target_modules=["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"],
+        target_modules=target_modules,
         lora_dropout=0.05,
         bias="none",
         task_type=TaskType.CAUSAL_LM
@@ -174,7 +189,7 @@ def main():
         model=model,
         train_dataset=train_dataset,
         eval_dataset=val_dataset,
-        peft_config=peft_config,
+        peft_config=None, # Already wrapped manually with get_peft_model
         args=sft_config
     )
     
