@@ -316,6 +316,10 @@ CRITICAL JUDGING GUIDELINES:
                 except Exception as e:
                     # Parse status code to display clearer errors
                     status_msg = str(e)
+                    # Sanitize any API keys from the error message to prevent logs leakage
+                    for key in [api_key, GEMINI_API_KEY, ANTHROPIC_API_KEY, OPENAI_API_KEY]:
+                        if key:
+                            status_msg = status_msg.replace(key, "REDACTED_API_KEY")
                     print(f"    Attempt {attempt+1} failed: {status_msg}")
                     if attempt < retries - 1:
                         sleep_time = (attempt + 1) * 2
