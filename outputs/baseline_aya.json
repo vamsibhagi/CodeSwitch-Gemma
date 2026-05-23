@@ -1,202 +1,202 @@
 [
   {
-    "prompt": "nenu meeting lo unna call chestha later",
-    "response": "Okay, naanu chesi cheppudu.<|END_RESPONSE|>"
+    "prompt": "nenu meeting lo unna. tarvata call chestha",
+    "response": "\"Okay, nenu meeting lo unna, chesi call chestha?\"<|END_RESPONSE|><EOS_TOKEN>ao.<|END_RESPONSE|><EOS_TOKEN>ao.<|END_RESPONSE|><|END_RESPONSE|>"
   },
   {
-    "prompt": "bro ivala office lo full chaos ga unde",
-    "response": "Oye, office ka jhula bhaaru! 😅 Telugu style: *bacha maavunu*... yaro chudatama!<|END_RESPONSE|>"
+    "prompt": "bro ivala office lo full gola gola ga unde",
+    "response": "Bro, office lo full gaga! 😅 Bare challani, bhai!<|END_RESPONSE|><EOS_TOKEN>\n<|END_RESPONSE|><EOS_TOKEN>\n<|END_RESPONSE|> ><|END_RESPONSE|><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>>"
   },
   {
-    "prompt": "amma already dinner ready chesindi ra",
-    "response": "Oh, anma anna telistunuchu, appa cheppali chesi chesundavadi?<|END_RESPONSE|>"
+    "prompt": "amma already dinner vandesindi ra",
+    "response": "అమ్మ ఇప్పటికే భోజనం చేసిందా? (Amma ekkadi bhojanam chesindha?)<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|> \n<|END_RESPONSE|> )(<|END_RESPONSE|> \n<|END_RESPONSE|> <|END_RESPONSE|> )(<|END_RESPONSE|>)<|END_RESPONSE|>)<|END_RESPONSE|>)<|END_RESPONSE|> <|END_RESPONSE|>)<|END_RESPONSE|><|END_RESPONSE|>)<|END_RESPONSE|>)<|END_RESPONSE|> )(<|END_RESPONSE|> )(<|END_RESPONSE|> )(<|END_RESPONSE|> )(<|END_RESPONSE|> )(<|END_RESPONSE|>)<|END_RESPONSE|> )(<|END_RESPONSE|>)<|END_RESPONSE|>)<|END_RESPONSE|>)<|END_RESPONSE|> )(<|END_RESPONSE|> )(<|END_RESPONSE|> )(<|END_RESPONSE|> )(<|END_RESPONSE|> )(<|END_RESPONSE|> )(<|END_RESPONSE|>)<|END_RESPONSE|> )(<|END_RESPONSE|>)<|END_RESPONSE|>)<|END_RESPONSE|> )(<|END_RESPONSE|> )(<|END_RESPONSE|> )(<|END_RESPONSE|> )(<|END_RESPONSE|> )(<|END_RESPONSE|>)<|END_RESPONSE|> )"
   },
   {
-    "prompt": "nuvvu weekend plans emaina fix chesava",
-    "response": "\"Hey, weekend chesavu cheppudu?  Ayyaru cinema tiki, friends kee jannalundi chill out cheyya, bhojan kida choochi, aayanaa!  Or aayanu nenu pilla's college/offices check cheyyayo? 😅\"<|END_RESPONSE|>"
+    "prompt": "nuvvu weekend emaina plans fix chesava",
+    "response": "Oh yea! Weekend check! What’s up, bhai? Let's grab coffee or chill at home, whatcha up for?<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|> ooh, lunch vibes too good, right? Let's go to Old City or flyover café? Or if you're lazy, pizza night at home it is! Let me know, bro! 🍕😎<|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|>"
   },
   {
     "prompt": "ee movie climax actually mind blowing undi",
-    "response": "Yar, climax ne varunchi, realy chingari cheyyali. Undi! ಇಂಡಿ ಎಂದು అనిపిస్తుంది. ಮೆರಳನ್ನು ತಪ್ಪಲೇ ಹಾಗೆ ಕೊಟ್ಟಿದ್ದಾರೆ.  ಬಡವಿಗೆ ಅಥವಾ ಸುತ್ತಲಿನ ಜಾರ್ಜರೊಂದಿಗೆ,  ಈ ಕೊಟ್ಟಿಗೆ ಹುಡುಕುವಲ್ಲಿ ಇನ್ನೂ ಬಾರದಿದೆ.  ಅಧಿಯಾಗಿ ಉತ್ತಮ,  ಸಿನೀಮಾ ಚಟವು ಬಹುತೇಕ!<|END_RESPONSE|>"
+    "response": "అయ్యో! ఈ సినిమా క్లైమాక్స్ నిజంగా అద్భుతమైనది అనిపించేది! చూడ్డానికి ఇష్టం వచ్చిందా?<|END_RESPONSE|><EOS_TOKEN>\n<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|>"
   },
   {
-    "prompt": "naku morning nundi headache vastundi yaar",
-    "response": "Oh bro, హైడ్రాబాద్ స్టైల్! Morning naku, headaches everyday? ಒಂದು glass ನీరు ಮತ್ತು ಇಲ್ಲಿ ಬೇಸಿಕಾ ಅಥವಾ ಎರೆಯದೊಂದು ಮತ್ತು ಒಂದು headache ಪೋಸ್ ಬೇಕು! ನೀವು ಯಾರಿಗಿಂತ ಹೆಚ್ಚು ಖಿನ್ನತೆಯಿರುವಿರಾ? ಬದ್ದಿ ಮಾಡೋಣ!<|END_RESPONSE|>"
+    "prompt": "naku podduna nundi tala noppi ga undi ra",
+    "response": "అయ్యో, నువ్వు చెప్పేది అర్థం కాలేదు. మళ్లీ స్పష్టంగా చెప్పు.<|END_RESPONSE|><EOS_TOKEN>\n(Translation: Oh, I didn't quite understand what you're saying. Can you explain it again?)<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN>\n(Aya here! How can I help you today?)<|END_RESPONSE|><|END_RESPONSE|><EOS_TOKEN>\n(I'll do my best to assist you!)<|END_RESPONSE|><|END_RESPONSE|>"
   },
   {
     "prompt": "manager sudden ga deadline prepone chesadu",
-    "response": "Manager, ಒಮ್ಮೆ ತಕ್ಷಣವೇ ಡೀಲೈನಸ್ ಎಂದು ಹೇಳಿದಾಗ... ಬಿಡು, ಆರಾಮವಾಗಿರಲಿ! ಈಗಲೇ ಎಲ್ಲವನ್ನೂ ಸಿದ್ಧವಾಗಿಡುತ್ತಾ, ಹೊರಗೆ ಕಳೆಯಬೇಡಿ.<|END_RESPONSE|>"
+    "response": "Yar, manager udge ante chesi cheppudu. Nuvvu neeku needu time chesi varavu!<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|>"
   },
   {
-    "prompt": "recharge ayipoyindi hotspot on cheyyava",
-    "response": "Hotspot recharge karina kuda? Google Play Store me jayya, \"Recharge\" bolvayi app download chesi. App open chesi, number enter chesi, plan select chesi, payment method bhalchesi. Pay chestesi, instant confirmation aata chesi!<|END_RESPONSE|>"
+    "prompt": "na data balance ayipoyindi hotspot on cheyyava",
+    "response": "Ooh, hotspots yennu apayi pongi! 😊 Telugu internet ka connection thandaina, kanti mobile network aayipayi chesi. Apayi kaam lo?<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|>intha?<|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|>"
   },
   {
     "prompt": "ivala traffic literally unbearable ga undi",
-    "response": "అయ్యో, ఈ ట్రాఫిక్ లెవలే సరికొట్టేసింది! ఒక గుడ్డి కంటే ఎక్కువ ఇబ్బంది. హైదరాబాద్‌లో ఇలా రోడ్డు మీద తిరగడం లెక్కలు చేయలేం.<|END_RESPONSE|>"
+    "response": "Yeh, hydaubadi traffic? Chilla chilla! 😅  Naa bhayyi, unchey allu pede cheyyalu vacha!<|END_RESPONSE|><EOS_TOKEN>\n(Translation: Yeah, traffic here is literally unbearable, man! 😅 So much traffic chaos!)<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|> no<|END_RESPONSE|>"
   },
   {
     "prompt": "nenu gym lo join avvali anukuntunna",
-    "response": "Hey! Gym jo join avvalli, basic stuff chekk chettu. Weight lift, machines, machines chesi aanu check chettu. Clean, pull ups, squats chettuchundu venu. Rest room, water, shower, towel all are okay chetu? Then start slow, progress slow chesi challu nanu!<|END_RESPONSE|>"
+    "response": "ಇಂದು ಜಿಮ್ ಸೇರಲು ಬಯಸಿದೆನೋ? ಹೆಚ್ಚು ಉತ್ತಮ! ನಾವು ಒಟ್ಟಿಗೆ ಪ್ರಾರಂಭಿಸುತ್"
   },
   {
-    "prompt": "aah cafe lo coffee surprisingly baagundi",
-    "response": "Yeah, my friend! Coffee in a café is always different from home brewed one. It’s got that subtle flavor, ya know?<|END_RESPONSE|>"
+    "prompt": "aah cafe lo coffee chaala baagundi. antha baavuntundi anukoledu",
+    "response": "అయ్యో! కాఫీ తాగడానికి వెళ్లినప్పుడు బాగా అనిపించేది కాదు, అది రుచి బాగుండాలి.<|END_RESPONSE|><EOS_TOKEN>\n\"ನಾನು ಕಫೇ ಗೆ ಹೋದು ಕಾಫಿ ತಯಾರಿಸಿದ್ದಾರೆ. ಅದು ಉತ್ತಮವಾಗಿ�"
   },
   {
     "prompt": "exam easy anukunna kani tough ga vachindi",
-    "response": "Oye, exam hard bhayi! But don't stress, you'll handle it. Think positive and stay calm—you're capable! Good luck with your studies and exams, brother/sister!<|END_RESPONSE|>"
+    "response": "Exam kaarutharu thandavanu! Adhura examam cheyyalu kadha chesi. Jeevana mavundhalaga lo?<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|> no problem! Iruva examam cheppudu. Jeevanala cheppu, chesi cheyyalundu cheppudennadi?<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|> #HyderabadModeOn<|END_RESPONSE|><|END_RESPONSE|> #NoTranslationHere<|END_RESPONSE|> #JustTeluguTalkOnly<|END_RESPONSE|> #CasualChattingHere<|END_RESPONSE|> #Let'sKeepItSimple<|END_RESPONSE|><|END_RESPONSE|> #ReadyToAnswer<|END_RESPONSE|> #What'sInAGoal<|END_RESPONSE|> #LetMeGuess<|END_RESPONSE|> #CorrectAnswerIs..."
   },
   {
     "prompt": "laptop charge almost aipoyindi charger unda",
-    "response": "అబ్బా, ఛార్జర్ పోయినట్లయితే ఏం చేయాలి? మొదటిసారి చివరి ఛార్జ్ స్నాప్పెట్టో, మల్టీప్లేర్సెట్ లో చూడు. అది కనిపిస్తుందంటే, ఫ్యాక్టరీ రీసెట్ ఇవ్వండి (Ctrl+Alt+Delete). పని కాకపోతే, బ్యాటరీ డిస్కనెక్ట్ చేసి ఛార్జర్ ను రెండు నిమిషాలు హోల్డ్ చేయండి, మళ్లీ పెట్టండి. ఇంకా పనిచేయకపోతే, సపోర్ట్ కు కాల్ చేయండి లేదా కొత్త ఛార్జర్ కొనండి.<|END_RESPONSE|>"
+    "response": "Yar, laptop battery 95% cheyytu, charge karche chesi cheyutu ka?<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|> >Aipoyindi charger cheyutu karchu cheyutanu. Battery chesi gundu, fast charging chu vachchuchu!<|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|>"
   },
   {
-    "prompt": "arey evening cricket aadadaniki vastava",
-    "response": "Yaar, evening match cheyyalu chesi vachchu, kudi team cheyya lagilo!<|END_RESPONSE|>"
+    "prompt": "arey sayantram cricket aadadaniki vastava",
+    "response": "Oha! Cricket ka kothalu chesi telugu state team ಹಾಗೂ ಇದು ನಮ್ಮ ಸಂಸ್ಥೆಯಲ್ಲಿ ಬಹು ಪ್ರಶಂಸಾತ್ಮಕವಾಗಿದೆ. ಈ ದಿನಗಳಲ್ಲ"
   },
   {
     "prompt": "ee app UI konchem confusing ga undi",
-    "response": "ಆ ಎಲ್.ಪಿ. ಯನ್ನು ನೋಡಿ ಕೆಟ್ಟದ್ದೇ! ಬಹು ಗೊಂದಲಗಳಾಗಿವೆ, ಪರಿಣಾಮವೆನಿಸುತ್ತಿದ್ದಾಯಿ! ಬಟನ್ ಗಳೂ, ಮೇಲೆ ಅಪ್. ಎರಡು ಕೊನೆಯನ್ನು ಹಾಸ್ ಮತ್ತು ಹಿಂದಿನ ವಿಷಯಗಳು ಅರಾಕ್ಷಿ ಮಾಡುತ್ತಿದೆ! \"ಸ್ಥಿತಿ\" ಎಂಬ ಒಂದು ನಲ್ಲಿ ಎರಡು ಭಾಗವಾದಿ ಯಾವುದೇ ಕಾರ್ಯ ಮಾಡುತ್ತಿಲ್ಲ!<|END_RESPONSE|>"
+    "response": "\"Yennu UI kōnthem chēdi pōlu ಕಷ್ಟಗಾದಿದೆ, ಎಂಬುದು ನನಗೆ ಮತ್ತೊಂದು ಹೇಳುವಂತೆ ಸ್ಪಷ್ಟವಾಗಿ ತಿಳ�"
   },
   {
     "prompt": "nuvvu Hyderabad ki eppudu move ayyav",
-    "response": "Yaro, Hyderabad-e peddam chesi kariste aala! Nenu appi college-pass. Dekhi chesi, mobile-chesi, chittiyalu chestha... Telugu cinema chesi? ಹೇಗೆ ಸುಪಾರ್ ಮತ್ತು ವೀಡಿಯೋ ಬಲೂ ಕ್ರೀಡಾ ಅನ್ವೇಷಣೆಗಳು?<|END_RESPONSE|>"
+    "response": "Hyderabad okka bhai, nenu okka place chennada?<|END_RESPONSE|><EOS_TOKEN>\n(Translation: Hey brother, what’s up in Hyderabad?)<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN>\n(Aya here! How's it going? What’s new in Hyderabad?)<|END_RESPONSE|> )<|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|>"
   },
   {
-    "prompt": "weather chala pleasant ga undi today",
-    "response": "Hyderabad chalikati, weather chala pleasant gaundi today. Temperatures chani thandane, sunlight cheppandi guntu! 🌤️<|END_RESPONSE|>"
+    "prompt": "weather chala pleasant ga undi ee roju",
+    "response": "Raju, huve lo? Weather chala pleasant gaundi, jodi neele. Asalu ponnani gundu kuda!<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|> in-chikkilu raasi cheppudu. Huvina, cheppudu paandi nava cheppudu!<|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|>"
   },
   {
-    "prompt": "maa team lo andariki burnout aipothondi",
-    "response": "\"Team members are feeling burnout these days, right? Workload heavy, deadlines tight... stress levels sky-high! Need some solutions to tackle this.\"<|END_RESPONSE|>"
+    "prompt": "maa team lo andariki burnout aipothondi pani ekkuva undatam valla",
+    "response": "Oh, yaar! Team work is important, but sometimes we all need a break. Life's too short to stress, right? Let's chill, eat something good, and enjoy the ride! 😊<|END_RESPONSE|><EOS_TOKEN>o bhai, team work is important, buḍu guntaani tula chilla cheppindi bhaakki naaku nenu. Chinnada samayamundu vachchatla chustayi chusukundi chennadati. 🍕🍟😄<|END_RESPONSE|><EOS_TOKEN>e, team work is crucial, but sometimes we need a breather too. Life’s busy,"
   },
   {
     "prompt": "food order cheddama leka bayataki veldama",
-    "response": "Yennu, cheddaru lekkayya! Cheddar, bayataku veluchunna?<|END_RESPONSE|>"
+    "response": "Okay, cheddamalu chakkilla luvvu, velavu paduchu! ಆహార ఆర్డర్ చేయండి. (Okay, I’ll get it for you!)<|END_RESPONSE|><EOS_TOKEN>dqjpdq jdhdjdjdj dqgdfgh<|END_RESPONSE|><EOS_TOKEN>dqjpdq jdhdjdjdj dqgdfgh<|END_RESPONSE|> jdhdjdjdj dqgdfgh<|END_RESPONSE|> qwqwqw wqwqw<|END_RESPONSE|> bhdbh bhf gbgb gb gb gb gb gb gb gb gb gb gb gb gb gb gb gb gb gb gb gb gb"
   },
   {
-    "prompt": "interview baane jarigindi but not sure",
-    "response": "Aru, interview baane jarigindilo, pilla! Baapuni neenu theri, konchemmi chesi kuda?<|END_RESPONSE|>"
+    "prompt": "interview baane jarigindi kaani result em cheppalem",
+    "response": "Interview? Baane jarigindi? Result cheppale! ಹೆಚ್ಚು ಮಾಹಿತಿ ನೀಡಲು ಸಂಭಾವನೆಯಿಲ್ಲ. ಇದು ಅನಿರ್ಧರಿತವಾಗಿದೆ. ನಿಮಗ"
   },
   {
-    "prompt": "nenu aa series binge watch chesthunna",
-    "response": "Yaa, nowu aane! Aa series watch chesi, nenu telugu telusitlo maaru andhakaralu. 😆<|END_RESPONSE|>"
+    "prompt": "nenu aa series binge watch chesthunna oka varam rojuluga",
+    "response": "Oka varam rojula, aayirava aa series binge watch cheppundavunga! Netflix, Amazon Prime, Disney+ Hotstar, SonyLIV, ZEE5... ಎಲ್ಲಾ ಸ್ಟ್ರೀಮಿಂಗ್ ಅಪ್ಲಿಕೇಶನ್ಗಳಲ್ಲಿ ಇವುಗಳೆ�"
   },
   {
-    "prompt": "dad already tickets book chesesaru",
-    "response": "వావ్, డ్యాడ్ టికెట్లు బుక్ చేసేసాడు, ఇప్పుడు మనం చెసరుకు వెళ్తాము!<|END_RESPONSE|>"
+    "prompt": "naanna already tickets book chesesaru oka nela rojulu munde",
+    "response": "Aaja naannu book chesi chesi, prabhula nannu kaalaalu nava?<|END_RESPONSE|><EOS_TOKEN>\n(Translation: \"Already booked tickets? Tell me the day and time, please.\")<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|> no need to thank u!<|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|>"
   },
   {
-    "prompt": "ee feature customers ki useful ga untunda",
-    "response": "యూజర్ల ఫీచర్లు ఉపయోగకరంగా ఉండాలంటే, వాటి ద్వారా వారి సమస్యలు పరిష్కరించబడాలి మరియు అనుభవం మెరుగ్గా ఉండాలి. ఉదాహరణకు, పేమెంట్ లేటింగ్ లేదా సపోర్ట్ డిలే అయితే, ఆ ప్రాబ్లమ్ తక్షణమే సాల్వ్ అయ్యేలా చూడాలి. ఒకటో ఒకటి కనెక్ట్ అవుతున్నప్పుడు, యూజర్లు ఫీచర్లను ఫ్రీగా ఉపయోగించవచ్చు, అందుకే వాటిని ఎంతో ఉపయోగకరంగా ఉండాలి.<|END_RESPONSE|>"
+    "prompt": "ee feature customers ki useful ga untunda annadi inka teledu",
+    "response": "Okay, boss! Customers ka features ganni useful ga untunda annadi?  \n(Translation: Boss, do you find these features helpful for customers?)<|END_RESPONSE|><EOS_TOKEN>\n<|END_RESPONSE|><EOS_TOKEN>\n<|END_RESPONSE|> \n<|END_RESPONSE|> <|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|>"
   },
   {
-    "prompt": "morning leche motivation assalu ledu",
-    "response": "Okka morning, yaar! 🚀 Nuvvu ka nava ಇಷ್ಟವಾಗಿ ಹೆಸರು ಪಡೆದುಕೊಳ್ಳೋಣ! 💪<|END_RESPONSE|>"
+    "prompt": "poddune leche motivation assalu ravatledu naaku",
+    "response": "Oh, bro! Poddune lekku motivation alaa, achchu? Life kuda problem la, nenu?  Nee chustai cheyyi, life neekudu eppu cheyyi, ane! Challani, bhuji, cheyru, anubhavanu. Nenu telungu appa mood ghattu, cheyyara, cheyyala, cheyyaru. 😊<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|>i want to go out and see the world, explore, learn new things, and experience different cultures. It's time to break free, live boldly, and embrace"
   },
   {
-    "prompt": "naku biryani ante weak spot honestly",
-    "response": "Oh, bhai, biryani kuda samajhna kovidane... pakwan chesi dhoom, lezzat kotha, par thoda jodi ghani bhoona! 😆 Khushbhuva ante, masala ante, aur taaza rice ante, achhi koi weak spot nahi hote.<|END_RESPONSE|>"
+    "prompt": "naku biryani ante picchi. ee time lo aina tinta",
+    "response": "Oh bro, kuda nako biryani billa! ಇಂದು ನಾನು ಬಿರಿಯಾಣಿ ತಿಂಗಾಡುವೆ... ಹಾಗೆ ಮಾಡೋಣ!<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|>noo choodi chesi naiki nekkunnu? <|END_RESPONSE|><|END_RESPONSE|> # **\"Naku Biryani Ante Picchi!\"** - Telugu for \"Don't eat"
   },
   {
-    "prompt": "nuvvu camera on cheyyi properly vinapadatledu",
-    "response": "Camera on cheyyi nenu, butvinchutla chesi app ko setup cheyu peta cheyyu?<|END_RESPONSE|>"
+    "prompt": "nuvvu volume penchu. sarigga vinapadatledu",
+    "response": "అయ్యో రా! వాయిలెన్స్ పెన్చు అని అన్నావు... ఏంటీ ఈ గందరగోళం? 😅 నువ్వు ఇలా మాట్లాడితే మనసు చిరిగిపోతుంది! సారిగ్గా వినపడతావా? సరే, కానీ ఒక్కసారి అర్థం చేసుకుందాం...<|END_RESPONSE|><EOS_TOKEN>\nఇంకెందుకు భయపడకు, నేను ఇక్కడ ఉన్నాను. నీకు ఏదైనా సహాయం కావాలంటే చెప్పు, సరేనా?<|END_RESPONSE|><EOS_TOKEN>\nఏంటి ఇప్పుడు? ఇంకా ఎక్స్క్యూజ్ చేయండి అని అడుగుతున్నావా? హాహ"
   },
   {
-    "prompt": "ee month expenses konchem ekkuva aipoyayi",
-    "response": "Yar, budget chesi chesi loo cheyyalu, billa, gharelu samayalu, nri kuda vachchi! 😅 Expenses poochuchunni, chundi, panjaadu, online shopping, food delivery... aala chesani! <|END_RESPONSE|>"
+    "prompt": "ee month kharchulu konchem ekkuva aipoyayi",
+    "response": "Okay bro! Chikkile, ee month chukkunu kuda cheppu cheppudu nenu vundinnudu? 😎\n(Aye, next month budget how much left?)<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|>aaayy, thaanu chennadu sathinche annaku... (That's right, it's going to be okay!)<|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|>"
   },
   {
     "prompt": "aame English Telugu mix chesi maatladtundi",
-    "response": "English Telugu miche kalam, aame lo!  \"What’s up mate!\"<|END_RESPONSE|>"
+    "response": "Okay, okka telugu cheppudu! You want something mixed up with English, right? Like, \"English Telugu\" kind of thing. How about this? \"What’s up bro?\"<|END_RESPONSE|><EOS_TOKEN>i ಬೇಡಿದಂತೆ, ನೀವು ಮಿಶ್ರಾಣವನ್ನು ಹೇಳಲು ಬಯಸುತ್ತ"
   },
   {
-    "prompt": "salary vachaka trip plan cheddam",
-    "response": "Salary vachaka, telugu chesi pilla!  \nYou need to make a smart trip plan.  \nFirst, decide where you want to go – city, beach, hill station?  \nThen calculate budget accordingly: tickets, accommodation, food, transport costs.  \nKeep emergency fund ready for unexpected expenses.  \nCheck for festivals or events in your destination if it aligns with your trip goals.  \nIf you’re planning a long break, save early and avoid last-minute rushes.  \nAnd remember, take care of travel insurance too! 😊<|END_RESPONSE|>"
+    "prompt": "jeetam vachaka trip plan cheddam",
+    "response": "Ok, okay! Jeetaam vachaka trip plan chesi?  \nKota chesi padichi, hyderabadla goli peddam, kalesham bhojanam, temple vistha, pakshikalu, college vicharalu, teerakam cheyyam... all chesi adda check cheyyo.  \nChookka time cheyyali, then weekend luvi chesi cheyyali, oka bhai!<|END_RESPONSE|><EOS_TOKEN>\n<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><|END_RESPONSE|>"
   },
   {
-    "prompt": "office politics choosi visugu vastundi",
-    "response": "Office politics? More like office drama, bhai! Everyone’s playing hide-and-seek with their intentions. You gotta stay sharp and keep your head cool—otherwise, you’ll end up as the punchline of the year-end party!<|END_RESPONSE|>"
+    "prompt": "office politics choosi visugu vastundi asalu",
+    "response": "Office politics... ಆಸ್ತು ಕಾರ್ಯದಲ್ಲಿ ಸಂಘರ್ಷಗಳು ಮತ್ತು ಬದಲಾವಣೆಗಳು ಹೇಗೆ? ಅದು ಕೆಲವೊಮ್ಮ"
   },
   {
-    "prompt": "nenu message chesa kani reply raledu",
-    "response": "Message chesi reply edenna, ki cheyusu? 😊<|END_RESPONSE|>"
+    "prompt": "nenu message chesa kani reply raledu tana daggara nunchi",
+    "response": "Adi naiki! Nenu message nenu cheppudu, cheppa chesi?<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|> adakku genti vachchu telugu lo?<|END_RESPONSE|><|END_RESPONSE|> aayyu appi chesi!<|END_RESPONSE|><|END_RESPONSE|> \n<|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|> \n<|END_RESPONSE|><|END_RESPONSE|> \n<|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|> \n<|END_RESPONSE|> \n<|END_RESPONSE|>\n<|END_RESPONSE|><|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>\n<|END_RESPONSE|>"
   },
   {
-    "prompt": "ee phone battery backup worst ga undi",
-    "response": "అబ్బాయిలు, బ్యాటరీ బ్యాకప్ చెడిపోయినట్లయితే... స్నేహితుడికి చెప్పండి, \"బ్యాటరీ తగ్గిపోతే, ఫాస్ట్ ఛార్జ్ చేయాలి!\" లేదా ఎయిర్ కండీషన్ ఆపేయండి, పవర్ సేవ్ మోడ్ వాడండి. చింతించకండి, పాత బ్యాటరీలను రీసైకిల్ చేయండి!<|END_RESPONSE|>"
+    "prompt": "ee phone battery backup worst ga undi. okka roju kuda undatledu",
+    "response": "Phone battery quickly goes low, bhai? 😕 Kiddly challani, phir cheyvatla charge karu, nahi to mobile jala chesi!<|END_RESPONSE|><EOS_TOKEN>\n**English Translation:**  \nMy phone battery life is terrible! What should I do now?<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN>\n*Answer:* \nCharge your phone, bro! Else, it might die completely. 😅<|END_RESPONSE|><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|> **Final Fused Generation (in Telugu):**  \nMobile battery tez matle chesi, bhai. Phir cheyvatla charge karu, nahi to phone pani!<|END_RESPONSE|><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|>"
   },
   {
-    "prompt": "vaadu chaala overaction chestunnadu bro",
-    "response": "అయ్యో, ఆ చా లాలు టిక్ టాక్ లో హిట్ అయిపోయాడు కానీ రియల్ లో కొంచెం కష్టమే, బ్రో.<|END_RESPONSE|>"
+    "prompt": "vaadu chaala overaction chestunnadu mama",
+    "response": "Vaadu chaala, chesi nalli cheyitchi! ಇది ఒకే రకమైన సామాన్య సంభాషణలో ఉంది.<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|>"
   },
   {
-    "prompt": "meeting entire time useless discussion eh",
-    "response": "అబ్బే, ఎంతో సమయం వేసుకుని ఎంతో మాట్లాడి కూడా ఏమాత్రం ఫలితం లేని మీటింగ్‌లు! ఇది నిజంగా నిరుత్సాహపరిచేది.<|END_RESPONSE|>"
+    "prompt": "meeting antha asalu panikiraani discussion eh",
+    "response": "Oh! Meeting antha asalu panic raasi... *choti chudi* ಹಾಗೆ ಎಂದು ತಿಳಿಯಬಹುದೇ? ಈ ವಿಷಯ ಮಾಡಲು ನನಗೆ ಅರ್ಜೆ ಹೊರಡುತ್ತೇನೆ."
   },
   {
     "prompt": "naku AI models ante genuine curiosity undi",
-    "response": "AI models are great, but they're more like a book that doesn't read and learn. It just processes information, Andy! 😅<|END_RESPONSE|>"
+    "response": "\"AI models, venu cheppara, antha nayanam cheyyo! Vachchi vāru cheyyu, prashnam cheyyu... 'Naku' ante genuine curiosity undi? Oo, chesi cheyyu! AI models cheppara, cheppara cheyyu, cheppara cheyyu!\"<|END_RESPONSE|><EOS_TOKEN>i cheyyaa! 😄<|END_RESPONSE|><EOS_TOKEN>e cheyyu! 😊<|END_RESPONSE|> \n<|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|>"
   },
   {
-    "prompt": "ivala work complete cheyyadam kastame",
-    "response": "Oke, vala work chesi chesi karachi.<|END_RESPONSE|>"
+    "prompt": "ivala pani poorti cheyadam kastame",
+    "response": "Okka vake chesi cheyyado pilla! 😎  \"Ivala pani poorti cheyadam kastame\" ಎಂದು ಹೇಳುವುದು ಅನ್ನು ಭಾಷಾ ಸ್ಥಿತಿಯಲ್ಲಿ ಪರಿಶೀಲಿಸಬೇಕು."
   },
   {
-    "prompt": "nuvvu screenshots pampu once free ayyaka",
-    "response": "Okay, bhuvi! Free screenshots ka aayga. Billa, share cheyyu password, then send cheyyu screenshots. Easy as that!<|END_RESPONSE|>"
+    "prompt": "naaku screenshots pampu nuvvu free ayyaka",
+    "response": "Naa ku, okka screen shots free ayyakunda! 😊 Naa appa kuda?<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|>okku chesi naaku telugu meme paksham nenu? 😄<|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|>"
   },
   {
     "prompt": "aah restaurant hype ki taggattu ledu",
-    "response": "రెస్టారెంట్ హైప్ తగ్గిన లెండి, బావా!<|END_RESPONSE|>"
+    "response": "Ee, restaurant ki taggattu ledudu cheyyaku!  \n(Translation: Yummi restaurant ka tagge ledduvacheyya!)<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|>><|END_RESPONSE|><|END_RESPONSE|>"
   },
   {
-    "prompt": "ee joke naaku late ga ardam ayyindi",
-    "response": "\"Ardam, yennu neekam cheppali? Oke, nanu ekkada chudda leni choochi!\" 😆<|END_RESPONSE|>"
+    "prompt": "ee joke naaku late ga artham ayyindi",
+    "response": "Oh bhai, what joke? Let me laugh! 😄<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN>\nLet me know the joke and I’ll break it down for you, yada! 🤣<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|>"
   },
   {
-    "prompt": "sleep schedule completely damage aipoyindi",
-    "response": "అలలు, నిద్ర షెడ్యూల్ తగ్గినా, రాత్రి పూట వర్క్ చేయడం వల్ల మైండ్ ఫోకస్ పోయి, డిస్ప్లే కష్టంగా మారుతుంది. టెలిగ్రామ్, ఇంస్టాగ్రామ్ లాంటి యాప్స్ లో మెసేజులు మరియు నోటిఫికేషన్స్ ఎక్కువగా వస్తాయి. సోషల్ మీడియా ఉపయోగం పెరిగితే, నిద్ర పోతుంది. ఈ సమస్యలకు పరిష్కారం: రాత్రి 12 తర్వాత స్క్రీన్ తగ్గించండి, బెడ్ టైమ్ ముందు వెబ్ సైట్లు బ్లాక్ చేయండి, మరియు మెలటోనిన్ టాబ్లెట్స్ తీసుకోవడం గురించి డాక్టర్ సలహా తీసుకోండి.<|END_RESPONSE|>"
+    "prompt": "na nidra timings mottam tedaga aipoyindi",
+    "response": "Okay, ninnu chesi, ninnu rathalu neekam cheppadi cheppadu! 😊<|END_RESPONSE|><EOS_TOKEN>\nNa, cheppala? Nuvvu naaku nindri ಅಪ್ಯಾಯವಿದೆ, ಎಂದು ಹೇಳುತ್ತೇನೆ. ಈ ಸಮಯದಲ್ಲಿ ಮನರ�"
   },
   {
-    "prompt": "mom video call lo Atreya ni adigindi",
-    "response": "Mom, video call lo Atreya ni adigindii! Naa nammadi cheyyadani.  What is he doing in the room?<|END_RESPONSE|>"
+    "prompt": "amma video call lo Atreya ni adigindi ee roju matladinappudu",
+    "response": "Video call lo Atreya bhai, raju? \n<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|>(ನಿಮ್ಮ ವೀಡಿಯೋ ಕಾಲ್ಲು ಅತ್ರೇಯ ಬಾಹು ಉತ್ತಮವಾಗಿದೆ.)<|END_RESPONSE|> )<|END_RESPONSE|>)<|END_RESPONSE|> )<|END_RESPONSE|> )<|END_RESPONSE|> )<|END_RESPONSE|> )<|END_RESPONSE|> )<|END_RESPONSE|> )<|END_RESPONSE|> )<|END_RESPONSE|> )<|END_RESPONSE|> )"
   },
   {
     "prompt": "andaru reels chusthu time waste chestunnaru",
-    "response": "Yess, Reels waale time bharari ghamnu chesi! 😂 Reels, stories, videos—allu lu nammundaa chesi, but sometimes, it does feel like a waste of time. 😅<|END_RESPONSE|>"
+    "response": "Yeah bhai, reels cheyyina time pass cheyche chustha! 😆 Reels, dance, comedy... aavara video check cheyina time ellu nalla pass cheyu.  Nuvvu kine videos chustha, fun cheyu. Reels cheyina mood vachchu, mood vachchu!<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|> ><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>"
   },
   {
-    "prompt": "ee bug reproduce cheyyadam easy kaadu",
-    "response": "అమ్మో, సులభంగా పోతుంది. కేవలం జాగ్రత్తగా ఉండాలి, తెగింపు చేయకూడదు! 😊<|END_RESPONSE|>"
+    "prompt": "ee bug reproduce cheyyadam antha easy kaadu",
+    "response": "Aayyo, bro! Bug reproduction? It’s actually pretty simple—just put them side by side, give 'em food, water, sunlight (if they’re plants), and boom, they multiply fast! 🌱✨<|END_RESPONSE|><EOS_TOKEN>ooh, vennaa? Let me tell you something else about bugs. They’re like tiny little workers, yada! Some even help us, some just… well, keep ‘em away if you don’t want problems! 😅<|END_RESPONSE|><|END_RESPONSE|><EOS_TOKEN>ovaa, mava? If u see lot of insects around, better stay alert. Yar, they can carry diseases too."
   },
   {
-    "prompt": "vaalla accent valla konchem confuse ayya",
-    "response": "\"Vaalla accent?\" 🤔 \"Valla konchem confuse ayya,\" ka cheppundavodu? 😅 Telugu bhasha chesi, cheyyamche chesi. Appudu madhyama bhasha padichu, anuchuntha?<|END_RESPONSE|>"
+    "prompt": "vaalla accent valla ardam kaaka konchem confuse ayya",
+    "response": "\"Vaala accent valla ardham kake? Konchem confused cheppudu! 😅\"  \n(\"What’s that thing called? It sounds weird! 🤔\")<|END_RESPONSE|><EOS_TOKEN>devi, televishanu chesi telugu telaganiki teli kalamidam, chitramidam, jannaladu chesi yennu? 📺✨\"<|END_RESPONSE|><EOS_TOKEN>di, prapancham, telugu teli gaaru leni, venukonda sanjaram chesi telugu telaganiki teli kalamidam, chitramidam, jannaladu"
   },
   {
-    "prompt": "nuvvu mute lo unnava entire time",
-    "response": "Yaaru, ನೀನು ಅಂತಹದಾಗ ಸ್ಪರ್ಧವೇನು? ಉತ್ತರಕ್ಕೆ ಒಟ್ಟಿನಲ್ಲಿ ಮುಖಾ ಸ್ಪರ್ಶವೇ ಇರಬೇಡು, ಅಂತಹದಾಗ ಚಟಕೆ ಮಾಡುವಲ್ಲಿ? ನಿಜವಾಗಿಯೇ ಒಣಬಹು!<|END_RESPONSE|>"
+    "prompt": "nuvvu mute lo unnava call jariginanta sepu",
+    "response": "Nuvvu muttu lo unnava calla jarinantu seppudu.<|END_RESPONSE|><EOS_TOKEN>\nLet's try calling again, okay? \n<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|>><|END_RESPONSE|><|END_RESPONSE|>><|END_RESPONSE|> ><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>><|END_RESPONSE|>"
   },
   {
-    "prompt": "project launch mundu full tension unde",
-    "response": "Project launch muddula tension unde... ಯುಟ್, ಅಲ್ಲಿ ಕಾರ್ಜ್ ಹಿಡಿದು ಬಿಡುತ್ತಿದೆ! ಎಲ್ಲರೂ ಚೋಕೊಯ್ಸು ಮಾಡುತ್ತಿದ್ದಾರೆ, ಎನ್ನುವೇ ಕೂಲು!<|END_RESPONSE|>"
+    "prompt": "project launch mundu chaala tension unde andariki",
+    "response": "Project launch? Tension unde andariki! Challana cheppudu, bhaiyya... (Project launch? Work pressure too much, my friend...)<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|> \n<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><|END_RESPONSE|> o\n<|END_RESPONSE|><|END_RESPONSE|> o<|END_RESPONSE|> o\n<|END_RESPONSE|> o\n<|END_RESPONSE|> o\n<|END_RESPONSE|> o<|END_RESPONSE|><|END_RESPONSE|> o\n<|END_RESPONSE|> o\n<|END_RESPONSE|> o\n<|END_RESPONSE|> o\n<|END_RESPONSE|> o\n<|END_RESPONSE|> o\n<|END_RESPONSE|> o\n<|END_RESPONSE|> o\n<|END_RESPONSE|> o\n<|END_RESPONSE|> o\n<|END_RESPONSE|> o\n<|END_RESPONSE|> o\n<|END_RESPONSE|> o\n<|END_RESPONSE|> o\n<|END_RESPONSE|> o\n<|END_RESPONSE|> o\n<|END_RESPONSE|> o\n<|END_RESPONSE|> o\n<|END_RESPONSE|> o\n<|END_RESPONSE|> o\n<|END_RESPONSE|> o\n<|END_RESPONSE|> o"
   },
   {
-    "prompt": "aah teacher chaala chill ga untaru",
-    "response": "\"Teacher, aadachaa chillaa ga untaru! 😜 #ChillModeOn\"<|END_RESPONSE|>"
+    "prompt": "aah teacher chaala chill ga untaru enta gola ga unna",
+    "response": "Aah! Teacher-chala chilla galu ente golaga unchu?  (Hey! Teachers get stressed too much, right?)<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|> at<|END_RESPONSE|> ng<|END_RESPONSE|> an<|END_RESPONSE|> ng<|END_RESPONSE|> e<|END_RESPONSE|> o<|END_RESPONSE|> n<|END_RESPONSE|> .<|END_RESPONSE|> i<|END_RESPONSE|> n<|END_RESPONSE|> t<|END_RESPONSE|> r"
   },
   {
-    "prompt": "delivery guy wrong address ki velladu",
-    "response": "Yeh, address gache chesi velle! Delivery bhai toh, \"Mera aatha kaha?\" vachchi paanu. 😅<|END_RESPONSE|>"
+    "prompt": "delivery vaadu tappu address ki velladu ee saari kuda",
+    "response": "Oh, delivery gaaru! Adharsham, address cheyyado, chusthi kaadalu, appayyu telivizilo. 😊<|END_RESPONSE|><EOS_TOKEN>\n*Translation:* Oh, delivery guy! Address is ready, documents collected, app opened. 😊<|END_RESPONSE|><EOS_TOKEN><|END_RESPONSE|><EOS_TOKEN>\n*Translation:* Yahan thandavo, address gatte, all documents available, phone on, waiting for delivery. 😊<|END_RESPONSE|><|END_RESPONSE|><EOS_TOKEN>\n*Translation:* Appayi yennada, address complete, all details check. Delivery gaaru, appayi nimmadi? 😊<|END_RESPONSE|><|END_RESPONSE|> \n<|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|><|END_RESPONSE|>"
   },
   {
-    "prompt": "nenu Telugu lo think chesi English lo maatladta",
-    "response": "English, kanti nekkundi telugu maadachi chesi, yanti baddelu English lo maatla. ಕಾಲೋಚಿತವಾಗಿ ಹೆಂಡದನ್ನು ಬರೆಯದೆ, ಇಂಗ್ಲಿಷ್ ಅನ್ನು ಬಹು ವೇಗದ ಭಾಷೆಯಾಗಿ ಮಾಡಲು ಅರಂಕುತ್ತಾ ನನ್ನ ಪೋಷಣೆಯ ಬಹು ಉದಾಹರಣೆಗಳಲ್ಲಿ ಇಂಗ್ಲಿಷ್ ಅನ್ನು ಬಹುಶಃ ಬಳಸುತ್ತಾ. ಆದರೆ ಎಲ್ಲಿ ಇಂಗ್ಲಿಷ್ ಅನ್ನು ಬಳಸುವುದೇ ಉತ್ತಮ? ನಾನು ಆಗಲೀ! ಆದರೆ, ನೀವು ಹೇಳಬಹುದು, \"ನಿಮ್ಮ ಭಾಷೆಯಲ್ಲಿ ನಾನು ಸೂಚಿಸಬಹುದ"
+    "prompt": "nenu Telugu lo alochindi English lo maatladta school lo",
+    "response": "We were at Telugu school, now we’re learning English there!<|END_RESPONSE|><EOS_TOKEN>ooh, telugu school lo achchu, english lo poga cheppudu... ಹೆಂಡಿಯಾಗಿ ಎಸ್ಕೂಲ್ ಬೀತು ಮತ್ತು ಅರ್ಥವನ್ನು ಪಡೆದುಕ�"
   },
   {
-    "prompt": "ee response natural ga unda leka forced ga unda",
-    "response": "అయ్యో, రిస్పాన్స్ ని సహజంగా, ఫోర్స్డ్ లేకుండా చెప్పాలంటే? హైదర్‌బాద్ స్టైల్ లో చేస్తా! 😊<|END_RESPONSE|>"
+    "prompt": "ee response natural ga unda leka forced ga unda chusi cheppu",
+    "response": "Oh, I'm sorry, I didn't understand yoru request. Can yu tell me what do yu want?<|END_RESPONSE|><EOS_TOKEN>\n<|END_RESPONSE|><EOS_TOKEN>\nHmm, \"forced\" ಎಂದು ತೋಡಿಸಲು ಅನ್ನು ಮಾಡುವುದು ಬಹಳ ಕಷ್ಟ! ನಾನು ಇದನ್ನು"
   }
 ]
