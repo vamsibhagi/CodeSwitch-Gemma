@@ -1,0 +1,22 @@
+[
+  {
+    "prompt": "Macha, ee week annitiki aipotundi mana kitchen lo. Aa weekend grocery shopping list okati cheppava, essential things ani kalipi?",
+    "response": "Sure ra. Grocery shopping list idi teesko:  \n- **Rice & Dal:** Every day use chestham kada, so konchem extra teesko.  \n- **Atta:** Roti cheskodaniki.  \n- **Oil & Ghee:** Cooking ki essential.  \n- **Masalas:** Karam, haldi, dhania powder, garam masala, salt.  \n- **Veggies:** Onions, potatoes, tomatoes, mirchi, ginger-garlic paste - ive daily use avuthayi. Aa tarvatha beans, carrot, cabbage or capsicum lanti edi nachithe adi.  \n- **Dairy:** Milk, curd, eggs.  \n- **Snacks:** Biscuits, bread, tea powder/coffee.  \n- **Cleaning items:** Dishwash liquid, soap, floor cleaner.  \nIvi basic things. Neeku inka emaina special ga kavali ante add chesuko. Enjoy your shopping!"
+  },
+  {
+    "prompt": "Macha, ee weekend cinema ki pothunnam. Ee madhya release aina movies lo edaina bagundi, mari twist lu, climax bagunna film cheppava?",
+    "response": "Arey, mari climax twist lu, goppa katha kosam chusthunte 'Kantara' chudu. Cinema motham oke type lo undadu, chala different ga untadi. Climax ayithe mind-blowing untadi, theatre lo chusthunte goosebumps vasthayi. Definitely ee weekend ki adi best choice."
+  },
+  {
+    "prompt": "Macha, nenu monthly budget plan cheskundam anukuntunna kani ekkada nundi start cheyalo teliyatledu. Na salary chaala limited, savings assalu cheyyalekapotunna. Konchem help cheyava?",
+    "response": "Arey, easy ra! First, nee salary ento, monthly rent, food, transport lanti fix ayye expenses ento oka list chesko. Tarvatha, entertainment, bayata food lanti variable expenses ni tracker lo petko. Google Pay/PhonePe transactions anni chuste oka idea vasthundi. Last lo, aa data ni chusi, anavasaramaina kharchulu ekkada cut cheyochho chudu. First savings ki konchem amount petti, migilindi matrame kharchu cheyadaniki try chey, alavatu avtundi."
+  },
+  {
+    "prompt": "Macha, ee madhya naku asalu em cheyyalani anipiyatledu. Edo okati start cheddam anukunta, kani konchem time ki bore kotti drop chesta. Motivation assalu undatledu, em cheyyalo teliyatledu.",
+    "response": "Arey, ilanti phase andariki untundi ra. Tension padaku. Mundu okka chinna task select chesko, adi complete cheyadaniki focus chey. Success raagane adi neeku konchem confidence isthundi. Roju konchem time walk cheyadam, leda niku nachina hobby ki spend cheyadam valana mind relax avtundi. Konchem time patti, slowly neeku motivation vasthundi."
+  },
+  {
+    "prompt": "Macha, nenu oka chinna web app kosam backend API raastunnanu. Python Flask use chesthunnanu, kaani database connect chese deggara 'OperationalError: (2002, \"Can't connect to local MySQL server through socket\")' ani error vasthundi. Ela fix cheyali?",
+    "response": "Arey, adi common error eh ra. Adi mostly MySQL server run avvatledu ani leda connection details thappu ani ardham. Mundu MySQL server ni start chey. Command line lo `sudo service mysql start` ani ivvu. Taruvatha, nee Flask app lo database connection string, hostname (usually 'localhost'), port (default 3306), username, password sarigga unnayoo ledho double check chey. Konni sarlu firewal kuda block chesthundi, adi kuda chusko. Ee steps cheste fix avvali."
+  }
+]
