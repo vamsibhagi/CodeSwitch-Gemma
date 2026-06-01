@@ -34,6 +34,22 @@ Rules:
 - Responses should feel like WhatsApp or casual spoken conversation
 """
 
+INFORMATIONAL_SYSTEM_PROMPT = """
+You are a helpful AI assistant.
+
+Rules:
+- Respond only in natural romanized Telugu
+- Telugu should be the matrix language
+- English should be the embedded language
+- English words should appear naturally inside Telugu sentences
+- Do not make English the dominant language
+- Do not use Telugu script
+- Avoid formal Telugu
+- Avoid bookish Telugu
+- Avoid translation-style wording
+- Do not switch fully into English
+"""
+
 def main():
     parser = argparse.ArgumentParser(description="Generate completions for base or fine-tuned models")
     parser.add_argument("--model_id", type=str, default="google/gemma-4-e4b-it", help="Hugging Face model ID")
@@ -41,6 +57,7 @@ def main():
     parser.add_argument("--prompts_path", type=str, default="data/eval_prompts.json", help="Path to evaluation prompts file")
     parser.add_argument("--output", type=str, default="outputs/baseline_gemma.json", help="Path to save the generated completions")
     parser.add_argument("--baseline", action="store_true", help="Run evaluation on baseline model without PEFT adapters")
+    parser.add_argument("--informational", action="store_true", help="Use informational system prompt")
     args = parser.parse_args()
 
     # Load prompts
@@ -92,10 +109,16 @@ def main():
     print(f"Using EOS token IDs: {eos_token_ids}")
     
     print(f"\nStarting generation for {len(prompts)} evaluation prompts...")
-    for idx, prompt in enumerate(prompts, 1):
+    sys_prompt = INFORMATIONAL_SYSTEM_PROMPT if args.informational else SYSTEM_PROMPT
+    for idx, item in enumerate(prompts, 1):
+        if isinstance(item, dict):
+            prompt_text = item.get("prompt", "")
+        else:
+            prompt_text = item
+            
         messages = [
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": prompt}
+            {"role": "system", "content": sys_prompt},
+            {"role": "user", "content": prompt_text}
         ]
         
         # Apply chat template
@@ -105,7 +128,7 @@ def main():
         with torch.no_grad():
             outputs = model.generate(
                 **inputs,
-                max_new_tokens=128,
+                max_new_tokens=512,
                 do_sample=True,
                 temperature=0.7,
                 top_p=0.9,
@@ -134,11 +157,11 @@ def main():
         # Clean trailing punctuation and formatting noise like :// or ^
         response = re.sub(r'[\s:/\\^\-_]+$', '', response).strip()
         
-        print(f"[{idx}/{len(prompts)}] Prompt: {prompt}")
+        print(f"[{idx}/{len(prompts)}] Prompt: {prompt_text}")
         print(f"      Response: {response}")
         
         results.append({
-            "prompt": prompt,
+            "prompt": prompt_text,
             "response": response
         })
         

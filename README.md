@@ -14,81 +14,127 @@ language:
 - en
 ---
 
-# CodeSwitch-Gemma: Romanized Telugu (Telglish) Fine-Tuning
+# CodeSwitch-Gemma: Romanized Telugu-English (Telglish) Fine-Tuning
 
 This repository contains the dataset, evaluation pipeline, and fine-tuning scripts to train a conversational AI model (specifically **Gemma-4-e4b-it**) to speak natural, conversational **Romanized Telugu (Telglish)**.
 
-The model is optimized to use **Telugu as the Matrix Language** (handling grammar, Subject-Object-Verb word order, and verbal helpers) and **English as the Embedded Language** (handling nouns, active verbs, and technical terms) in a WhatsApp-style casual tone.
+The model is optimized to use **Telugu as the Matrix Language** (handling grammar, Subject-Object-Verb word order, and verbal helpers) and **English as the Embedded Language** (handling nouns, active verbs, and technical terms).
 
 ---
 
-## 📊 Project Overview & Baseline Comparison
+## 📊 Evaluation & Metrics (LLM-as-a-Judge)
 
-We evaluated two baseline models (**Gemma-2b-it** and **tiny-aya-fire**) on a test set of 50 conversational prompts using an LLM-as-a-judge setup. The evaluation judged responses across two non-overlapping axes:
+We evaluated the model across two different distributions: **Casual Chat** (WhatsApp-style conversational prompts) and **Informational Queries** (technical and explanatory prompts matching the fine-tuning distribution).
+
+The evaluation is judged by a Gemini-based judge across two non-overlapping axes:
 1. **Grammatical Integrity (Telugu Syntax)**: Score 1–4
 2. **Code-Switch Naturalness (Matrix Frame)**: Score 1–4
 
-### Baseline Metrics
+### 1. Casual Chat Evaluation (50 Prompts)
+Evaluated on short, social conversational messages (e.g., *"nenu meeting lo unna. tarvata call chestha"*):
 
-| Metric | Gemma Baseline (`gemma-2b-it`) | Aya Fire Baseline (`tiny-aya-fire`) |
-| :--- | :---: | :---: |
-| **Total Prompts** | 50 | 50 |
-| **Average Grammar Score** | **2.94 / 4.00** | **1.10 / 4.00** |
-| **Average Code-Switch Score** | **2.96 / 4.00** | **1.06 / 4.00** |
-| **Total Collapses (Score 1 or 2)** | **22 / 50 (44.0%)** | **50 / 50 (100.0%)** |
-| **Pre-check Failures (Telugu Script)** | 0 / 50 (0%) | 12 / 50 (24.0%) |
+| Model | Avg. Grammar Score | Avg. Code-Switch Score | Collapses (Score 1 or 2) |
+| :--- | :---: | :---: | :---: |
+| **Baseline Gemma-4-it** | **2.84 / 4.00** | **2.48 / 4.00** | **29 / 50** |
+| **Fine-Tuned Gemma-4-it** | **2.56 / 4.00** | **2.36 / 4.00** | **31 / 50** |
+
+*Note: In the casual set, the fine-tuned model experienced distribution pressure due to the training dataset being exclusively long-form informational content (average 388 words).*
+
+### 2. Informational & Technical Evaluation (20-Prompt Held-Out Set)
+Evaluated on complex technical and informational prompts (e.g., modernizing military equipment, smart grid integration, data structures) using a 20-prompt set sampled from the held-out LIMA test set:
+
+| Model | Avg. Grammar Score | Avg. Code-Switch Score | Collapses (Score 1 or 2) |
+| :--- | :---: | :---: | :---: |
+| **Baseline Gemma-4-it** | **2.55 / 4.00** | **2.30 / 4.00** | **12 / 20** |
+| **Fine-Tuned Gemma-4-it** | **2.65 / 4.00** | **2.30 / 4.00** | **13 / 20** |
+
+#### 🔍 Failure Modes & SFT Limitations on Long-Form Technical Queries
+*   **The "Pure English" Drift**: Under the strict rubric, any pure English sentence violates the matrix language constraint. When explaining highly technical concepts (like ADAS or EV charging grids), both models frequently drifted into pure English sentences (e.g., *"So, it prevents a crash before it happens."*), resulting in low average scores and high collapses.
+*   **Multilingual Prior Leakage (Hindi)**: Base model priors for Indian languages are extremely strong. SFT on a compact 200-sample dataset was not enough to fully suppress Hindi helper words like `hai`, `bahut`, and `aur` on unseen technical prompts.
+*   **Telugu Script Leakage**: The fine-tuned model occasionally outputted words in native Telugu script (e.g., `అనేది` instead of `anedi`) due to vocabulary token association leakage.
+
+#### 💡 Structured Alignment Successes
+Despite low scores, the fine-tuned model successfully eliminated Hindi contamination in conversational technical prompts (e.g. prompt 10, achieving 4/4) and generated highly detailed, multi-part structured explanations matching the training style perfectly.
+
 
 ---
 
 ## 🛠️ Repository Structure
 
-* `train_gemma_lora.py`: PEFT/LoRA fine-tuning script optimized for Gemma-4 architecture.
-* `run_llm_eval.py`: Automated evaluation script utilizing LLM-as-a-Judge with custom rubrics.
-* `eval.md`: Linguistic rubrics and anchoring examples for grading quality.
-* `tenglish_train_data_cleaned.json`: The high-quality training dataset containing **1,019 clean conversational pairs**.
-* `requirements.txt`: Python package requirements.
-* `initeval.py`: Script to generate baseline model outputs.
+*   `train.py`: PEFT/LoRA fine-tuning script optimized for Gemma 4 architectures (handles `Gemma4ClippableLinear` wrappers).
+*   `generate_completions.py`: Evaluation completion generation script (supports `--baseline` and `--informational` modes).
+*   `evaluate_judge.py`: Automated LLM-as-a-Judge script utilizing the Gemini API to score outputs.
+*   `eval_rubrics.md`: Scoring rubrics and anchoring examples for grading quality.
+*   `data/train_sft_lima_200.json`: High-quality training dataset containing **1,010 clean, conversational Telglish informational pairs** with stiff translation replacements applied.
 
 ---
 
-## 🚀 RunPod GPU Fine-Tuning Guide
+## 🚀 How to Run Inference
 
-Follow these instructions to run the fine-tuning on a cloud GPU (e.g., RunPod RTX 3090/4090, which takes **15–30 minutes** and costs **<$0.20** total):
+You can load this model using Hugging Face `transformers` and `peft`. Here is a complete script to generate responses:
 
-### 1. Rent a GPU
-1. Go to [RunPod.io](https://runpod.io).
-2. Rent a GPU pod with at least **24GB VRAM** (RTX 3090, RTX 4090, or A10G).
-3. Choose the standard **PyTorch** template.
+```python
+import torch
+from transformers import AutoModelForCausalLM, AutoTokenizer
+from peft import PeftModel
 
-### 2. Set Up the Terminal & Repository
-Connect to the pod via **Web Terminal** and run:
-```bash
-# Clone the repository
-git clone https://github.com/vamsibhagi/CodeSwitch-Gemma.git
-cd CodeSwitch-Gemma
+model_id = "google/gemma-4-e4b-it"
+adapter_id = "vamsibhagi/CodeSwitch-Gemma"
 
-# Install the dependencies
-pip install -r requirements.txt
+# Load the base model
+model = AutoModelForCausalLM.from_pretrained(
+    model_id,
+    torch_dtype=torch.bfloat16,
+    device_map="auto"
+)
+
+# Load the PEFT adapter
+model = PeftModel.from_pretrained(model, adapter_id)
+tokenizer = AutoTokenizer.from_pretrained(model_id)
+
+# System Prompt for Informational tasks
+sys_prompt = """
+You are a helpful AI assistant.
+Rules:
+- Respond only in natural romanized Telugu
+- Telugu should be the matrix language
+- English should be the embedded language
+- English words should appear naturally inside Telugu sentences
+- Do not make English the dominant language
+- Do not use Telugu script
+- Avoid formal Telugu
+- Avoid bookish Telugu
+- Avoid translation-style wording
+- Do not switch fully into English
+"""
+
+messages = [
+    {"role": "system", "content": sys_prompt},
+    {"role": "user", "content": "Vijayawada lo ICT (Information and Communication Technology) sector abhivruddhi cheyadaniki mukhyamaina avakasalu emiti?"}
+]
+
+input_text = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+inputs = tokenizer(input_text, return_tensors="pt").to(model.device)
+
+with torch.no_grad():
+    outputs = model.generate(
+        **inputs,
+        max_new_tokens=512,
+        do_sample=True,
+        temperature=0.7,
+        top_p=0.9,
+        repetition_penalty=1.1
+    )
+
+response = tokenizer.decode(outputs[0][inputs.input_ids.shape[1]:], skip_special_tokens=True)
+print(response)
 ```
-
-### 3. Start Training
-Set your Hugging Face Token (required to download the gated Gemma-4 base model) and start the training process:
-```bash
-# Set Hugging Face Token
-export HF_TOKEN="your_huggingface_token"
-
-# Run training (3 epochs, batch size 4)
-python train_gemma_lora.py --epochs 3 --batch_size 4
-```
-
-The adapters will automatically be saved to `./gemma_lora_output` once training completes.
 
 ---
 
 ## 🧠 Code & Optimization Details
 
 The training script incorporates several advanced adaptations:
-1. **Dynamic Gemma-4 Targeting**: PEFT does not natively recognize `Gemma4ClippableLinear` wrapper layers. The script scans model modules and appends `.linear` (e.g. `q_proj.linear`) to configure LoRA adapters correctly.
-2. **Unified System Persona**: The dataset is converted dynamically to the conversational `messages` schema containing the identical `SYSTEM_PROMPT` used during evaluation to align training inputs with inference.
-3. **Completion-Only Loss Masking**: The trainer ignores tokens belonging to the system prompt and user query during backpropagation (`completion_only_loss=True`), focusing gradient updates strictly on the assistant's response.
-4. **Stable IT Optimization**: Uses a lower learning rate of `1e-4` with `warmup_ratio=0.05` and `lora_dropout=0.1` to prevent overriding the pre-trained instruction-following behaviors of the base model.
+1.  **Dynamic Gemma-4 Targeting**: Configures LoRA adapters correctly by scanning the model structure and targeting the inner `.linear` layer within the `Gemma4ClippableLinear` wrappers.
+2.  **Completion-Only Loss Masking**: Masks out input prompt tokens from the loss function so that the model updates gradients solely based on the assistant's completions (`completion_only_loss=True`).
+3.  **Low-Rank Adaptations**: Optimized with `lora_r=16`, `lora_alpha=32`, and `lora_dropout=0.1` to prevent overfitting on the 1,000-sample dataset while preserving the underlying instruction-following behavior of Gemma 4.
