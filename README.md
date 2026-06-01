@@ -24,23 +24,13 @@ The model is optimized to use **Telugu as the Matrix Language** (handling gramma
 
 ## 📊 Evaluation & Metrics (LLM-as-a-Judge)
 
-We evaluated the model across two different distributions: **Casual Chat** (WhatsApp-style conversational prompts) and **Informational Queries** (technical and explanatory prompts matching the fine-tuning distribution).
+We evaluated the model on a **20-prompt technical and informational evaluation set** sampled from the held-out LIMA test set (matching the training distribution). 
 
 The evaluation is judged by a Gemini-based judge across two non-overlapping axes:
 1. **Grammatical Integrity (Telugu Syntax)**: Score 1–4
 2. **Code-Switch Naturalness (Matrix Frame)**: Score 1–4
 
-### 1. Casual Chat Evaluation (50 Prompts)
-Evaluated on short, social conversational messages (e.g., *"nenu meeting lo unna. tarvata call chestha"*):
-
-| Model | Avg. Grammar Score | Avg. Code-Switch Score | Collapses (Score 1 or 2) |
-| :--- | :---: | :---: | :---: |
-| **Baseline Gemma-4-it** | **2.84 / 4.00** | **2.48 / 4.00** | **29 / 50** |
-| **Fine-Tuned Gemma-4-it** | **2.56 / 4.00** | **2.36 / 4.00** | **31 / 50** |
-
-*Note: In the casual set, the fine-tuned model experienced distribution pressure due to the training dataset being exclusively long-form informational content (average 388 words).*
-
-### 2. Informational & Technical Evaluation (20-Prompt Held-Out Set)
+### Informational & Technical Evaluation (20-Prompt Held-Out Set)
 Evaluated on complex technical and informational prompts (e.g., modernizing military equipment, smart grid integration, data structures) using a 20-prompt set sampled from the held-out LIMA test set:
 
 | Model | Avg. Grammar Score | Avg. Code-Switch Score | Collapses (Score 1 or 2) |
