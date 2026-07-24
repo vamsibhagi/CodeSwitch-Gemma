@@ -82,6 +82,52 @@
     "type": "object",
     "x-regex": "(\\<\\|channel\\>thought\\n(?P<thinking>.*?)\\<channel\\|\\>)?(?P<tool_calls>\\<\\|tool_call\\>.*\\<tool_call\\|\\>)?(?P<content>(?:(?!\\<turn\\|\\>)(?!\\<\\|tool_response\\>).)+)?(?:\\<turn\\|\\>|\\<\\|tool_response\\>)?"
   },
+  "response_template": {
+    "defaults": {
+      "role": "assistant"
+    },
+    "fields": {
+      "content": {
+        "close": [
+          "<turn|>",
+          "<|tool_response>",
+          "<eos>"
+        ],
+        "content": "text"
+      },
+      "thinking": {
+        "close": "<channel|>",
+        "content": "text",
+        "open": "<|channel>thought\n"
+      },
+      "tool_calls": {
+        "close": "<tool_call|>",
+        "content": "json",
+        "content_args": {
+          "string_delims": [
+            [
+              "<|\"|>",
+              "<|\"|>"
+            ]
+          ],
+          "unquoted_keys": true
+        },
+        "open_pattern": "<\\|tool_call>call:(?P<name>\\w+)",
+        "repeats": true,
+        "transform": {
+          "function": {
+            "arguments": "{content}",
+            "name": "{name}"
+          },
+          "type": "function"
+        }
+      }
+    },
+    "start_anchor": [
+      "<|turn>model\n",
+      "<tool_response|>"
+    ]
+  },
   "soc_token": "<|channel>",
   "sot_token": "<|turn>",
   "stc_token": "<|tool_call>",
