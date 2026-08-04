@@ -6,6 +6,15 @@ import time
 import requests
 from typing import Dict, Any, Optional, Tuple
 
+try:
+    from phoenix.otel import register
+    from opentelemetry import trace
+    register(project_name="codeswitch-eval-judge")
+    tracer = trace.get_tracer("evaluate_judge")
+    phoenix_enabled = True
+except ImportError:
+    phoenix_enabled = False
+
 # Helper function to read simple .env files if present in the workspace
 def load_env_file(filepath: str = ".env"):
     if os.path.exists(filepath):
@@ -28,12 +37,16 @@ load_env_file()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+BASETEN_API_KEY = os.getenv("BASETEN_API_KEY")
 
 def get_judge_provider() -> Tuple[str, str, str]:
     """
     Returns (provider_name, model_name, api_key) based on available environment variables.
     """
-    if GEMINI_API_KEY:
+    if BASETEN_API_KEY:
+        # Default to DeepSeek V4 Pro in Baseten's managed catalog
+        return "baseten", "deepseek-ai/DeepSeek-V4-Pro", BASETEN_API_KEY
+    elif GEMINI_API_KEY:
         # Defaulting to gemini-2.5-flash
         return "gemini", "gemini-2.5-flash", GEMINI_API_KEY
     elif ANTHROPIC_API_KEY:
@@ -42,7 +55,7 @@ def get_judge_provider() -> Tuple[str, str, str]:
         return "openai", "gpt-4o", OPENAI_API_KEY
     else:
         raise ValueError(
-            "Error: No API key found. Please export GEMINI_API_KEY, ANTHROPIC_API_KEY, or OPENAI_API_KEY."
+            "Error: No API key found. Please export BASETEN_API_KEY, GEMINI_API_KEY, ANTHROPIC_API_KEY, or OPENAI_API_KEY."
         )
 
 # Pre-check filter: flag empty responses or native script leakage (Telugu script ranges from \u0c00 to \u0c7f)
@@ -206,6 +219,40 @@ def call_anthropic(model: str, api_key: str, system_prompt: str, user_prompt: st
     except (KeyError, IndexError, json.JSONDecodeError) as e:
         raise RuntimeError(f"Failed to parse Anthropic output: {e}. Raw: {res_data}")
 
+# Calling Baseten Model Catalog API (OpenAI-compatible)
+def call_baseten(model: str, api_key: str, system_prompt: str, user_prompt: str) -> Dict[str, Any]:
+    url = "https://inference.baseten.co/v1/chat/completions"
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {api_key}"
+    }
+    
+    # Standard OpenAI format payload
+    payload = {
+        "model": model,
+        "messages": [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
+        ],
+        "response_format": {
+            "type": "json_object"
+        }
+    }
+    
+    response = requests.post(url, headers=headers, json=payload, timeout=60)
+    response.raise_for_status()
+    res_data = response.json()
+    
+    try:
+        text_content = res_data["choices"][0]["message"]["content"].strip()
+        # Find JSON boundaries in case model outputs text wrap
+        match = re.search(r"\{.*\}", text_content, re.DOTALL)
+        if match:
+            text_content = match.group(0)
+        return json.loads(text_content)
+    except (KeyError, IndexError, json.JSONDecodeError) as e:
+        raise RuntimeError(f"Failed to parse Baseten output: {e}. Raw: {res_data}")
+
 def main():
     print("--- STEP 1: INITIALIZING LLM EVALUATION RUNNER ---")
     
@@ -213,10 +260,12 @@ def main():
     parser = argparse.ArgumentParser(description="LLM Evaluation Judge")
     parser.add_argument("--input", default="outputs/baseline_gemma.json", help="Input file path")
     parser.add_argument("--output", default="reports/baseline_gemma.json", help="Output report file path")
+    parser.add_argument("--model", default=None, help="Force a specific judge model name")
     args = parser.parse_args()
     
     try:
-        provider, model_name, api_key = get_judge_provider()
+        provider, default_model, api_key = get_judge_provider()
+        model_name = args.model if args.model else default_model
         print(f"Detected Provider: {provider.upper()}")
         print(f"Judge Model: {model_name}")
     except ValueError as e:
@@ -282,62 +331,82 @@ CRITICAL JUDGING GUIDELINES:
         print(f"\n[{i}/{len(baseline_data)}] Evaluating prompt: '{prompt}'")
         print(f"Response: '{response}'")
         
-        # Pre-check filter
-        precheck_result = run_pre_check(response)
-        if precheck_result:
-            print(f" -> FLAGGED by pre-check: {precheck_result['flag_reason']}")
-            eval_result = precheck_result
-        else:
-            # Prepare judge payload
-            judge_input = json.dumps({
-                "user_prompt": prompt,
-                "model_response": response
-            }, ensure_ascii=False, indent=2)
+        eval_result = None
+        span = None
+        
+        if phoenix_enabled:
+            span = tracer.start_span("evaluate_prompt")
+            span.set_attribute("input.value", f"Prompt: {prompt}\nResponse: {response}")
+            span.set_attribute("prompt", prompt)
+            span.set_attribute("response", response)
             
-            # API retry logic with exponential backoff
-            retries = 5
-            eval_result = None
-            for attempt in range(retries):
-                try:
-                    if provider == "gemini":
-                        eval_result = call_gemini(model_name, api_key, system_prompt, judge_input)
-                    elif provider == "openai":
-                        eval_result = call_openai(model_name, api_key, system_prompt, judge_input)
-                    elif provider == "anthropic":
-                        eval_result = call_anthropic(model_name, api_key, system_prompt, judge_input)
-                    
-                    # Validate scores are within 1-4 range
-                    g_score = int(eval_result.get("grammatical_integrity_score", 0))
-                    cs_score = int(eval_result.get("codeswitch_naturalness_score", 0))
-                    if not (1 <= g_score <= 4) or not (1 <= cs_score <= 4):
-                        raise ValueError(f"Scores out of bounds: G={g_score}, CS={cs_score}")
-                    
-                    break  # Success
-                except Exception as e:
-                    # Parse status code to display clearer errors
-                    status_msg = str(e)
-                    # Sanitize any API keys from the error message to prevent logs leakage
-                    for key in [api_key, GEMINI_API_KEY, ANTHROPIC_API_KEY, OPENAI_API_KEY]:
-                        if key:
-                            status_msg = status_msg.replace(key, "REDACTED_API_KEY")
-                    print(f"    Attempt {attempt+1} failed: {status_msg}")
-                    if attempt < retries - 1:
-                        sleep_time = (attempt + 1) * 2
-                        print(f"    Waiting {sleep_time} seconds before retrying...")
-                        time.sleep(sleep_time)
-                    else:
-                        print("    All attempts failed. Assigning score 1 as fallback.")
-                        eval_result = {
-                            "grammatical_integrity_analysis": f"Evaluation Failed: {status_msg}",
-                            "grammatical_integrity_score": 1,
-                            "codeswitch_naturalness_analysis": f"Evaluation Failed: {status_msg}",
-                            "codeswitch_naturalness_score": 1,
-                            "api_error": True
-                        }
-            
-            # Print brief summary of judge output
-            print(f" -> Grammar Score: {eval_result['grammatical_integrity_score']}")
-            print(f" -> Code-Switch Score: {eval_result['codeswitch_naturalness_score']}")
+        try:
+            # Pre-check filter
+            precheck_result = run_pre_check(response)
+            if precheck_result:
+                print(f" -> FLAGGED by pre-check: {precheck_result['flag_reason']}")
+                eval_result = precheck_result
+            else:
+                # Prepare judge payload
+                judge_input = json.dumps({
+                    "user_prompt": prompt,
+                    "model_response": response
+                }, ensure_ascii=False, indent=2)
+                
+                # API retry logic with exponential backoff
+                retries = 5
+                for attempt in range(retries):
+                    try:
+                        if provider == "gemini":
+                            eval_result = call_gemini(model_name, api_key, system_prompt, judge_input)
+                        elif provider == "openai":
+                            eval_result = call_openai(model_name, api_key, system_prompt, judge_input)
+                        elif provider == "anthropic":
+                            eval_result = call_anthropic(model_name, api_key, system_prompt, judge_input)
+                        elif provider == "baseten":
+                            eval_result = call_baseten(model_name, api_key, system_prompt, judge_input)
+                        
+                        # Validate scores are within 1-4 range
+                        g_score = int(eval_result.get("grammatical_integrity_score", 0))
+                        cs_score = int(eval_result.get("codeswitch_naturalness_score", 0))
+                        if not (1 <= g_score <= 4) or not (1 <= cs_score <= 4):
+                            raise ValueError(f"Scores out of bounds: G={g_score}, CS={cs_score}")
+                        
+                        break  # Success
+                    except Exception as e:
+                        # Parse status code to display clearer errors
+                        status_msg = str(e)
+                        # Sanitize any API keys from the error message to prevent logs leakage
+                        for key in [api_key, GEMINI_API_KEY, ANTHROPIC_API_KEY, OPENAI_API_KEY, BASETEN_API_KEY]:
+                            if key:
+                                status_msg = status_msg.replace(key, "REDACTED_API_KEY")
+                        print(f"    Attempt {attempt+1} failed: {status_msg}")
+                        if attempt < retries - 1:
+                            sleep_time = (attempt + 1) * 2
+                            print(f"    Waiting {sleep_time} seconds before retrying...")
+                            time.sleep(sleep_time)
+                        else:
+                            print("    All attempts failed. Assigning score 1 as fallback.")
+                            eval_result = {
+                                "grammatical_integrity_analysis": f"Evaluation Failed: {status_msg}",
+                                "grammatical_integrity_score": 1,
+                                "codeswitch_naturalness_analysis": f"Evaluation Failed: {status_msg}",
+                                "codeswitch_naturalness_score": 1,
+                                "api_error": True
+                            }
+                
+                # Print brief summary of judge output
+                print(f" -> Grammar Score: {eval_result['grammatical_integrity_score']}")
+                print(f" -> Code-Switch Score: {eval_result['codeswitch_naturalness_score']}")
+        finally:
+            if span:
+                if eval_result:
+                    span.set_attribute("output.value", json.dumps(eval_result, ensure_ascii=False))
+                    span.set_attribute("evaluation.score.grammatical_integrity", eval_result.get("grammatical_integrity_score"))
+                    span.set_attribute("evaluation.score.codeswitch_naturalness", eval_result.get("codeswitch_naturalness_score"))
+                    span.set_attribute("evaluation.explanation.grammatical_integrity", eval_result.get("grammatical_integrity_analysis"))
+                    span.set_attribute("evaluation.explanation.codeswitch_naturalness", eval_result.get("codeswitch_naturalness_analysis"))
+                span.end()
             
         results.append({
             "id": i,
